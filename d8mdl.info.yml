@@ -1,0 +1,12 @@
+name: d8mdl
+type: theme
+description: Drupal 8 Material Design Lite
+package: Custom
+core: 8.x
+version: 1.0
+libraries:
+  - d8mdl/global-styles
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'

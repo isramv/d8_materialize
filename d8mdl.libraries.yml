@@ -1,0 +1,11 @@
+global-styles:
+  version: 1.0
+  header: true
+  css:
+    theme:
+      css/material.css: {}
+  js:
+    js/material.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
