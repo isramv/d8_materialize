@@ -15,6 +15,12 @@
       <span class="mdl-layout-title">
         <img class="site-logo-image" src="{{ logo }}">
       </span>
+        <div class="mdl-layout-spacer"></div>
+        {% if page.navigation %}
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+            {{ page.navigation }}
+        </nav>
+        {% endif %}
     </div>
   </div>
 <div class="android-drawer mdl-layout__drawer">
