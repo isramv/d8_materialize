@@ -3,7 +3,10 @@ global-styles:
   header: true
   css:
     theme:
+      css/custom-material.css: {}
       css/material.css: {}
+#    layout:
+#      css/custom-material.css {}
   js:
     js/material.js: {}
   dependencies:

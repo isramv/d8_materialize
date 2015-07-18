@@ -8,5 +8,11 @@ libraries:
   - d8mdl/global-styles
 regions:
   header: 'Header'
+  primary: 'Primary'
+  navigation: 'Navigation'
   content: 'Content'
-  footer: 'Footer'
+  footer_top: 'Footer Top'
+  footer_left: 'Footer Left'
+  footer_middle: 'Footer Middle'
+  footer_right: 'Footer Right'
+  footer_bottom: 'Footer Bottom'
