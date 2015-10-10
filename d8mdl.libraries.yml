@@ -7,5 +7,5 @@ global-styles:
   js:
     js/bin/materialize.js: {}
   dependencies:
-#    - core/drupal
+    - core/drupal
     - core/jquery

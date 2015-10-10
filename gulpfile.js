@@ -3,7 +3,6 @@ var gulp = require('gulp'),
     rename = require('gulp-rename');
 var autoprefixer = require('gulp-autoprefixer');
 var sass = require('gulp-sass');
-var browserSync = require('browser-sync');
 
 gulp.task('browser-sync', function() {
   browserSync({
@@ -12,11 +11,6 @@ gulp.task('browser-sync', function() {
     }
   });
 });
-
-gulp.task('bs-reload', function () {
-  browserSync.reload();
-});
-
 
 gulp.task('styles', function(){
   gulp.src(['sass/**/*.scss'])
@@ -28,11 +22,9 @@ gulp.task('styles', function(){
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
     .pipe(gulp.dest('stylesheets/'))
-    .pipe(browserSync.reload({stream:true}))
 });
 
-
-gulp.task('default', ['browser-sync'], function(){
+gulp.task('default', function(){
   gulp.watch("sass/**/*.scss", ['styles']);
   gulp.watch("*.html", ['bs-reload']);
 });
