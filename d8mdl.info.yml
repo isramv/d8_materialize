@@ -8,19 +8,19 @@ version: 1.0
 
 libraries:
   - d8mdl/global-styles
-  - classy/base
-  - core/normalize
+#  - classy/base
+#  - core/normalize
 
 libraries-extend:
-  user/drupal.user:
-    - classy/user
-  core/drupal.dropbutton:
-    - classy/dropbutton
-  core/drupal.dialog:
-    - classy/dialog
+#  user/drupal.user:
+#    - classy/user
+#  core/drupal.dropbutton:
+#    - classy/dropbutton
+#  core/drupal.dialog:
+#    - classy/dialog
 regions:
   header: 'Header'
-  primary: 'Sidebar'
+  sidebar: 'Sidebar'
   navigation: 'Navigation'
   content: 'Content'
-  footer_top: 'Footer'
+  footer: 'Footer'

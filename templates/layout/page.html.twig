@@ -1,29 +1,45 @@
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
-    <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">
-        {% if page.header %} {{ page.header }} {% endif %}
-      </span>
-        <div class="mdl-layout-spacer"></div>
-        {% if page.navigation %}
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
-            {{ page.navigation }}
-        </nav>
-        {% endif %}
+{% if page.header %}
+    <div class="row l-header">
+        <div class="col s12">
+            {{ page.header }}
+        </div>
     </div>
-  </div>
-<div class="android-drawer mdl-layout__drawer">
-    {{ page.primary }}
-</div>
-<div class="android-content mdl-layout__content">
-    {{ kint(page) }}
-    {{ page.content }}
-</div>
-    <footer class="mdl-mega-footer">
-        <div class="mdl-mega-footer--middle-section">
-            {{ page.footer_top }}
+{% endif %}
+{% if page.navigation %}
+    <div class="row l-navigation">
+        <div class="col s12">
+            {{ page.navigation }}
         </div>
-        <div class="mdl-mega-footer--bottom-section">
+    </div>
+{% endif %}
+{% if page.navigation %}
+    <div class="row l-navigation">
+        <div class="col s12">
+            {{ page.navigation }}
         </div>
-     </footer>
-</div>
+    </div>
+{% endif %}
+{% if page.sidebar %}
+    <div class="row l-sidebar">
+        <div class="col s4">
+            {{ page.sidebar }}
+        </div>
+        <div class="col s8 l-content-sidebar">
+            {{ page.content }}
+        </div>
+    </div>
+{% endif %}
+{% if page.content %}
+    <div class="row l-content-full">
+        <div class="col s12">
+            {{ page.content }}
+        </div>
+    </div>
+{% endif %}
+{% if page.footer %}
+    <div class="row l-footer">
+        <div class="col s12">
+            {{ page.footer }}
+        </div>
+    </div>
+{% endif %}
