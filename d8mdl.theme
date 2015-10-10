@@ -25,6 +25,7 @@ function d8mdl_preprocess_html(&$variables) {
 * Implements hook_page_attachments_alter
 */
 function d8mdl_page_attachments_alter(array &$page) {
+//    dsm($page);
     // Disabling browser zoom on mobile devices.
     /*foreach ($page['#attached']['html_head'] as &$meta_arr) {
         if (array_search('viewport', $meta_arr)) {

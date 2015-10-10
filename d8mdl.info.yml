@@ -2,17 +2,25 @@ name: d8mdl
 type: theme
 description: Drupal 8 Material Design Lite
 package: Custom
+base theme: classy
 core: 8.x
 version: 1.0
+
 libraries:
   - d8mdl/global-styles
+  - classy/base
+  - core/normalize
+
+libraries-extend:
+  user/drupal.user:
+    - classy/user
+  core/drupal.dropbutton:
+    - classy/dropbutton
+  core/drupal.dialog:
+    - classy/dialog
 regions:
   header: 'Header'
-  primary: 'Primary'
+  primary: 'Sidebar'
   navigation: 'Navigation'
   content: 'Content'
-  footer_top: 'Footer Top'
-  footer_left: 'Footer Left'
-  footer_middle: 'Footer Middle'
-  footer_right: 'Footer Right'
-  footer_bottom: 'Footer Bottom'
+  footer_top: 'Footer'

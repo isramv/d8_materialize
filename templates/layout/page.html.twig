@@ -1,19 +1,8 @@
-<style>
-#view-source {
-  position: fixed;
-  display: block;
-  right: 0;
-  bottom: 0;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  z-index: 900;
-}
-</style>
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
     <div class="mdl-layout__header-row">
       <span class="mdl-layout-title">
-        <img class="site-logo-image" src="{{ logo }}">
+        {% if page.header %} {{ page.header }} {% endif %}
       </span>
         <div class="mdl-layout-spacer"></div>
         {% if page.navigation %}
@@ -24,12 +13,10 @@
     </div>
   </div>
 <div class="android-drawer mdl-layout__drawer">
-    <span class="mdl-layout-title">
-      <img class="site-logo-image" src="{{ logo }}">
-    </span>
     {{ page.primary }}
 </div>
 <div class="android-content mdl-layout__content">
+    {{ kint(page) }}
     {{ page.content }}
 </div>
     <footer class="mdl-mega-footer">
