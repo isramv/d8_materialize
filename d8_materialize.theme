@@ -11,7 +11,7 @@ use Drupal\node\Entity\Node;
 /**
  * Implements hook_preprocess_HOOK() for HTML document templates.
  */
-function d8mdl_preprocess_html(&$variables) {
+function d8_materialize_preprocess_html(&$variables) {
   /* Add class to html tag */
   //$variables['html_attributes']->addClass('no-js');
 
@@ -24,7 +24,7 @@ function d8mdl_preprocess_html(&$variables) {
 /**
 * Implements hook_page_attachments_alter
 */
-function d8mdl_page_attachments_alter(array &$page) {
+function d8_materialize_page_attachments_alter(array &$page) {
 //    dsm($page);
     // Disabling browser zoom on mobile devices.
     /*foreach ($page['#attached']['html_head'] as &$meta_arr) {
@@ -49,25 +49,25 @@ function d8mdl_page_attachments_alter(array &$page) {
 /**
 * Implements hook_preprocess_page() for PAGE document templates.
 */
-function d8mdl_preprocess_page(&$variables) {
+function d8_materialize_preprocess_page(&$variables) {
 
 }
 
-function d8mdl_preprocess(&$variables, $hook) {
+function d8_materialize_preprocess(&$variables, $hook) {
 
 }
 
 /**
 * Implements hook_theme_suggestions_page_alter().
 */
-function d8mdl_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+function d8_materialize_theme_suggestions_page_alter(array &$suggestions, array $variables) {
 
 }
 
 /**
 * Implements hook_theme_suggestions_node_alter().
 */
-function d8mdl_theme_suggestions_node_alter(array &$suggestions, array $variables) {
+function d8_materialize_theme_suggestions_node_alter(array &$suggestions, array $variables) {
     /*$node = $variables['elements']['#node'];
 
     if ($variables['elements']['#view_mode'] == "full") {
@@ -78,14 +78,14 @@ function d8mdl_theme_suggestions_node_alter(array &$suggestions, array $variable
 /**
 * Implements hook_preprocess_HOOK() for Block document templates.
 */
-function d8mdl_preprocess_block(&$variables) {
+function d8_materialize_preprocess_block(&$variables) {
 
 }
 
 /**
 * Implements hook_theme_suggestions_field_alter().
 */
-function d8mdl_theme_suggestions_field_alter(array &$suggestions, array $variables) {
+function d8_materialize_theme_suggestions_field_alter(array &$suggestions, array $variables) {
     /*$element = $variables['element'];
 
     $suggestions[] = 'field__' . $element['#view_mode'];
@@ -95,7 +95,7 @@ function d8mdl_theme_suggestions_field_alter(array &$suggestions, array $variabl
 /**
 * Implements hook_theme_suggestions_field_alter().
 */
-function d8mdl_theme_suggestions_fieldset_alter(array &$suggestions, array $variables) {
+function d8_materialize_theme_suggestions_fieldset_alter(array &$suggestions, array $variables) {
     /*$element = $variables['element'];
     if (isset($element['#attributes']['class']) && in_array('form-composite', $element['#attributes']['class'])) {
     $suggestions[] = 'fieldset__form_composite';
@@ -105,7 +105,7 @@ function d8mdl_theme_suggestions_fieldset_alter(array &$suggestions, array $vari
 /**
 * Implements hook_preprocess_node().
 */
-function d8mdl_preprocess_node(&$variables) {
+function d8_materialize_preprocess_node(&$variables) {
     // Default to turning off byline/submitted.
     //$variables['display_submitted'] = FALSE;
 }
@@ -113,28 +113,28 @@ function d8mdl_preprocess_node(&$variables) {
 /**
 * Implements hook_theme_suggestions_views_view_alter().
 */
-function d8mdl_theme_suggestions_views_view_alter(array &$suggestions, array $variables) {
+function d8_materialize_theme_suggestions_views_view_alter(array &$suggestions, array $variables) {
 
 }
 
 /**
 * Implements hook_preprocess_form().
 */
-function d8mdl_preprocess_form(&$variables) {
+function d8_materialize_preprocess_form(&$variables) {
     //$variables['attributes']['novalidate'] = 'novalidate';
 }
 
 /**
 * Implements hook_preprocess_select().
 */
-function d8mdl_preprocess_select(&$variables) {
+function d8_materialize_preprocess_select(&$variables) {
     //$variables['attributes']['class'][] = 'select-chosen';
 }
 
 /**
 * Implements hook_preprocess_field().
 */
-function d8mdl_preprocess_field(&$variables, $hook) {
+function d8_materialize_preprocess_field(&$variables, $hook) {
     /*switch ($variables['element']['#field_name']) {
     }*/
 }
@@ -150,13 +150,13 @@ function d8mdl_preprocess_details(&$variables) {
 /**
 * Implements hook_theme_suggestions_details_alter().
 */
-function d8mdl_theme_suggestions_details_alter(array &$suggestions, array $variables) {
+function d8_materialize_theme_suggestions_details_alter(array &$suggestions, array $variables) {
 
 }
 
 /**
 * Implements hook_preprocess_menu_local_task().
 */
-function d8mdl_preprocess_menu_local_task(&$variables) {
+function d8_materialize_preprocess_menu_local_task(&$variables) {
     //$variables['element']['#link']['url']->setOption('attributes', array('class'=>'rounded'));
 }
