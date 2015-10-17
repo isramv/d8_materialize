@@ -1,6 +1,6 @@
 name: d8mdl
 type: theme
-description: Drupal 8 Material Design Lite
+description: Drupal 8 Materialize
 package: Custom
 base theme: classy
 core: 8.x
