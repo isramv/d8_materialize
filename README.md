@@ -1,3 +1,5 @@
-# d8_materialize
+# Drupal 8 Materialize theme.
 
-##Sandbox theme for Drupal 8 // Using Materializecss
+## Implementation of materializecss.com into Drupal 8
+
+
