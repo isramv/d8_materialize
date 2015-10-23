@@ -1,28 +1,30 @@
-{% if page.header %}
-    <div class="row l-header">
-        <div class="col s12">
-            {{ page.header }}
+<div class="container">
+    {% if page.header %}
+        <div class="row l-header">
+            <div class="col s12">
+                {{ page.header }}
+            </div>
         </div>
-    </div>
-{% endif %}
-{% if page.navigation %}
-    <div class="row l-navigation">
-        <div class="col s12">
-            {{ page.navigation }}
+    {% endif %}
+    {% if page.navigation %}
+        <div class="row l-navigation">
+            <div class="col s12">
+                {{ page.navigation }}
+            </div>
         </div>
-    </div>
-{% endif %}
-{% if page.content %}
-    <div class="row l-content-full">
-        <div class="col s12">
-            {{ page.content }}
+    {% endif %}
+    {% if page.content %}
+        <div class="row l-content-full">
+            <div class="col s12">
+                {{ page.content }}
+            </div>
         </div>
-    </div>
-{% endif %}
-{% if page.footer %}
-    <div class="row l-footer">
-        <div class="col s12">
-            {{ page.footer }}
+    {% endif %}
+    {% if page.footer %}
+        <div class="row l-footer">
+            <div class="col s12">
+                {{ page.footer }}
+            </div>
         </div>
-    </div>
-{% endif %}
+    {% endif %}
+</div>

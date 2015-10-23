@@ -1,0 +1,86 @@
+{#
+/**
+ * @file
+ * Theme override to display a menu.
+ *
+ * Available variables:
+ * - menu_name: The machine name of the menu.
+ * - items: A nested list of menu items. Each menu item contains:
+ *   - attributes: HTML attributes for the menu item.
+ *   - below: The menu item child items.
+ *   - title: The menu link title.
+ *   - url: The menu link url, instance of \Drupal\Core\Url
+ *   - localized_options: Menu link localized options.
+ *   - is_expanded: TRUE if the link has visible children within the current
+ *     menu tree.
+ *   - is_collapsed: TRUE if the link has children within the current menu tree
+ *     that are not currently visible.
+ *   - in_active_trail: TRUE if the link is in the active trail.
+ */
+#}
+{# defining the macro #}
+{% macro rendli(menuItem) %}
+    <li><a href="{{ menuItem.url }}">{{ menuItem.title }}</a></li>
+{% endmacro %}
+
+<a href="#" data-activates="{{ menu_name }}" class="button-collapse"><i class="material-icons">menu</i></a>
+<ul id="nav-mobile" class="left hide-on-med-and-down">
+    {% for item in items %}
+        {% import _self as menu %}
+        {{  menu.rendli(item) }}
+    {% endfor %}
+</ul>
+<ul class="side-nav" id="{{ menu_name }}">
+    {% for item in items %}
+        {% import _self as menu %}
+        {{  menu.rendli(item) }}
+    {% endfor %}
+</ul>
+
+
+{#{% import _self as menus %}#}
+{#
+  We call a macro which calls itself to render the full tree.
+  @see http://twig.sensiolabs.org/doc/tags/macro.html
+#}
+
+
+
+{#{{ menus.menu_links(items, attributes, 0) }}#}
+
+
+
+{# macro menu_links(items, attributes, menu_level) #}
+  {#{% import _self as menus %}#}
+  {#{% if items %}#}
+    {#{% if menu_level == 0 %}#}
+{#<ul{{ attributes.addClass('menu') }}>#}
+    {#{% else %}#}
+    {#<ul class="menu">#}
+        {#{% endif %}#}
+        {#{% for item in items %}#}
+            {#{%#}
+            {#set classes = [#}
+            {#'menu-item',#}
+            {#item.is_expanded ? 'menu-item--expanded',#}
+            {#item.is_collapsed ? 'menu-item--collapsed',#}
+            {#item.in_active_trail ? 'menu-item--active-trail',#}
+            {#]#}
+            {#%}#}
+            {#<li{{ item.attributes.addClass(classes) }}>#}
+                {#{{ link(item.title, item.url) }}#}
+                {#{% if item.below %}#}
+                    {#{{ menus.menu_links(item.below, attributes, menu_level + 1) }}#}
+                {#{% endif %}#}
+            {#</li>#}
+        {#{% endfor %}#}
+    {#</ul>#}
+    {#{% endif %}#}
+    {#{% endmacro %}#}
+
+
+{#<ul id="nav-mobile" class="left hide-on-med-and-down">#}
+    {#<li><a href="sass.html">Sass</a></li>#}
+    {#<li><a href="badges.html">Components</a></li>#}
+    {#<li><a href="collapsible.html">JavaScript</a></li>#}
+{#</ul>#}

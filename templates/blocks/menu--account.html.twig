@@ -1,0 +1,6 @@
+<ul id="account-menu" class="dropdown-content">
+    {% for item in items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+</ul>
+<a class="btn dropdown-button" href="#!" data-activates="account-menu">Account<i class="mdi-navigation-arrow-drop-down right"></i></a>

@@ -7,7 +7,7 @@ core: 8.x
 version: 1.0
 
 libraries:
-  - d8mdl/global-styles
+  - d8_materialize/global-styles
 #  - classy/base
 #  - core/normalize
 
@@ -18,6 +18,14 @@ libraries-extend:
 #    - classy/dropbutton
 #  core/drupal.dialog:
 #    - classy/dialog
+
+stylesheets-remove:
+  - core/assets/vendor/jquery.ui/themes/base/core.css
+  - core/assets/vendor/jquery.ui/themes/base/button.css
+  - core/assets/vendor/jquery.ui/themes/base/resizable.css
+  - core/assets/vendor/jquery.ui/themes/base/dialog.css
+  - core/assets/vendor/normalize-css/normalize.css
+
 regions:
   header: 'Header'
   sidebar: 'Sidebar'

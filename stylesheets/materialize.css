@@ -8093,3 +8093,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   line-height: inherit;
   color: #fff;
   background-color: inherit; }
+
+.mdi-navigation-menu:before {
+  margin: 0 20px; }
