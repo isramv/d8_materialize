@@ -5,7 +5,7 @@ global-styles:
     theme:
       stylesheets/materialize.css: {}
   js:
-    js/bin/materialize.min.js: { scope: Footer }
+    js/bin/materialize.js: { scope: Footer }
     js/d8_materialize/custom.js: { scope: Footer }
   dependencies:
     - core/jquery.once

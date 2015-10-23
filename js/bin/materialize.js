@@ -1144,7 +1144,9 @@ $(document).ready(function(){
         $index = 0;
       }
 
-      $content = $($active[0].hash);
+      if($active[0]) {
+          $content = $($active[0].hash);
+      }
 
       // append indicator then set indicator width to tab width
       $this.append('<div class="indicator"></div>');
