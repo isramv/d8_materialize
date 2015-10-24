@@ -1,3 +1,25 @@
 .mdi-navigation-menu:before {
   margin: 0 20px;
 }
+
+.search-block-form #edit-submit {
+  display: none;
+}
+
+#block-d8-materialize-account-menu {
+  position: absolute;
+  top: 50px;
+  right: 25px;
+}
+
+nav.breadcrumb,
+nav.tabs {
+  color: #000;
+  background-color: inherit;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  a {
+    color: #000;
+  }
+}

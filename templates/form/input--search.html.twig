@@ -10,23 +10,7 @@
  * @see template_preprocess_input()
  */
 #}
-{{ kint(attributes) }}
-{#<div class="input-field">#}
-    {#<input{{ attributes }} />{{ children }}#}
-{#</div>#}
-{{ kint(attributes) }}
-{#{% set attributes.type = 'text' %}#}
-{#<div class="input-field col s6">#}
-    {#<input id="icon_prefix" type="text" class="validate">#}
-    {#<label for="icon_prefix">Search</label>#}
-{#</div>#}
-
-<div class="input-field col s6">
-    <input id="{{ attributes.id }}"
-           data-drupal-selector="{{ attributes.data-drupal-selector }}"
-           value="{{ attributes.value }}"
-           size="{{ attributes.size }}"
-           maxlength="{{ attributes.maxlength }}"
-           type="text"  class="validate">
-    <label for="{{ attributes.id }}">Search</label>
+<div class="input-field">
+    <i class="mdi-action-search prefix"></i>
+    <input{{ attributes }} />{{ children }}
 </div>

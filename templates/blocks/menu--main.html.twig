@@ -22,17 +22,15 @@
 {% macro rendli(menuItem) %}
     <li><a href="{{ menuItem.url }}">{{ menuItem.title }}</a></li>
 {% endmacro %}
-
+{% import _self as menu %}
 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 <ul id="nav-mobile" class="left hide-on-med-and-down">
     {% for item in items %}
-        {% import _self as menu %}
         {{  menu.rendli(item) }}
     {% endfor %}
 </ul>
 <ul class="side-nav" id="mobile-demo">
     {% for item in items %}
-        {% import _self as menu %}
         {{  menu.rendli(item) }}
     {% endfor %}
 </ul>
