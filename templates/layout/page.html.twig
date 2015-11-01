@@ -1,12 +1,17 @@
 <nav class="top-nav">
     <div class="container">
-        {% if page.header %}
-            <div class="row l-header">
-                <div class="col s12">
-                    {{ page.header }}
-                </div>
+        <div class="row l-header">
+            {% if page.header_left %}
+            <div class="col s6">
+                {{ page.header_left }}
             </div>
-        {% endif %}
+            {% endif %}
+            {% if page.header_right %}
+            <div class="col s6">
+                {{ page.header_right }}
+            </div>
+            {% endif %}
+        </div>
         {% if page.navigation %}
             <div class="row l-navigation">
                 <div class="col s12">

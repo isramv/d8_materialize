@@ -8070,6 +8070,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .mdi-navigation-menu:before {
   margin: 0 20px; }
 
+.search-block-form {
+  overflow: hidden; }
+  .search-block-form input.form-search {
+    width: calc(100% - 16em);
+    float: left; }
+  .search-block-form input.form-submit {
+    width: 12em;
+    float: right;
+    margin-top: .5em; }
+
 nav.breadcrumb, nav.tabs {
   color: #000;
   background-color: inherit;
@@ -8098,3 +8108,15 @@ nav.menu--main {
 
 li.menu-item.level-1 {
   float: initial; }
+
+.row.l-header {
+  margin-bottom: 0; }
+
+.block-system-branding-block {
+  margin-top: 20px; }
+
+.site-name {
+  line-height: initial; }
+
+footer.page-footer .menu--footer a {
+  color: #FFF; }

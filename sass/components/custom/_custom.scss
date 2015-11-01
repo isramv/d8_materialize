@@ -2,8 +2,17 @@
   margin: 0 20px;
 }
 
-.search-block-form #edit-submit {
-  //display: none;
+.search-block-form {
+  overflow: hidden;
+  input.form-search {
+    width: calc(100% - 16em);
+    float: left;
+  }
+  input.form-submit {
+    width: 12em;
+    float: right;
+    margin-top: .5em;
+  }
 }
 
 #block-d8-materialize-account-menu {
@@ -52,4 +61,26 @@ nav.menu--main {
 // Toolbar menu fix.
 li.menu-item.level-1 {
   float: initial;
+}
+
+// Row l-header
+.row.l-header {
+    margin-bottom: 0;
+}
+
+// Branding Block
+.block-system-branding-block {
+  margin-top: 20px;
+}
+.site-name {
+  line-height: initial;
+}
+
+// Footer
+footer.page-footer {
+  .menu--footer {
+    a {
+      color: #FFF;
+    }
+  }
 }

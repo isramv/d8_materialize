@@ -24,12 +24,15 @@ stylesheets-remove:
   - core/assets/vendor/jquery.ui/themes/base/button.css
   - core/assets/vendor/jquery.ui/themes/base/resizable.css
   - core/assets/vendor/jquery.ui/themes/base/dialog.css
+  - core/modules/system/css/components/container-inline.module.css
   - core/modules/editor/css/editor.css
   - '@classy/css/components/tabs.css'
+  - '@classy/css/components/form.css'
 #  - core/assets/vendor/normalize-css/normalize.css
 
 regions:
-  header: 'Header'
+  header_left: 'Header Left'
+  header_right: 'Header Right'
   sidebar: 'Sidebar'
   navigation: 'Navigation'
   content: 'Content'
