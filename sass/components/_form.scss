@@ -135,7 +135,7 @@ textarea.materialize-textarea {
   }
   label.active {
     font-size: $label-font-size;
-    @include transform(translateY(-140%));
+    @include transform(translateY(-170%));
   }
 
   // Prefix Icons

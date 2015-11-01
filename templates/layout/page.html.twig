@@ -21,14 +21,16 @@
         {% endif %}
     </div>
 </nav>
-<div class="container">
-    {% if page.content %}
-        <div class="row l-content-full">
-            <div class="col s12">
-                {{ page.content }}
+<div class="main-content">
+    <div class="container">
+        {% if page.content %}
+            <div class="row l-content-full">
+                <div class="col s12">
+                    {{ page.content }}
+                </div>
             </div>
-        </div>
-    {% endif %}
+        {% endif %}
+    </div>
 </div>
 <footer class="page-footer">
     <div class="container">

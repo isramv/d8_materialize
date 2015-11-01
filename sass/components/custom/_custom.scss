@@ -1,5 +1,5 @@
 .mdi-navigation-menu:before {
-  margin: 0 20px;
+  
 }
 
 .search-block-form {
@@ -16,9 +16,7 @@
 }
 
 #block-d8-materialize-account-menu {
-  //position: absolute;
-  //top: 50px;
-  //right: 25px;
+  text-align: right;
 }
 
 nav.breadcrumb,
@@ -33,8 +31,29 @@ nav.tabs {
     color: #000;
   }
 }
-ul.tabs {
+
+nav.breadcrumb {
+  line-height: initial;
+  height: initial;
+  margin: 20px 0 0 0;
+  padding-bottom: 0;
+  a {
+    color: #9E9E9E;
+  }
+}
+// Tabs.
+.tabs {
   height: inherit;
+  li.tab.active {
+    a {
+      background: $secondary-color;
+      color: #fff;
+    }  
+  }
+  border-bottom: 2px solid $secondary-color;
+}
+.indicator {
+  display: none;
 }
 
 .row.l-navigation {
@@ -71,9 +90,11 @@ li.menu-item.level-1 {
 // Branding Block
 .block-system-branding-block {
   margin-top: 20px;
+  margin-bottom: 5px;
 }
 .site-name {
   line-height: initial;
+  font-size: 2em;
 }
 
 // Footer
@@ -82,5 +103,18 @@ footer.page-footer {
     a {
       color: #FFF;
     }
+  }
+}
+
+// Forms
+.description {
+  margin-bottom: 30px;
+  color: color("pink", "lighten-3");
+}
+
+.input-field {
+  margin-top: 3rem;
+  label {
+    left: 0;
   }
 }
