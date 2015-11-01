@@ -1,18 +1,22 @@
+<nav class="top-nav">
+    <div class="container">
+        {% if page.header %}
+            <div class="row l-header">
+                <div class="col s12">
+                    {{ page.header }}
+                </div>
+            </div>
+        {% endif %}
+        {% if page.navigation %}
+            <div class="row l-navigation">
+                <div class="col s12">
+                    {{ page.navigation }}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</nav>
 <div class="container">
-    {% if page.header %}
-        <div class="row l-header">
-            <div class="col s12">
-                {{ page.header }}
-            </div>
-        </div>
-    {% endif %}
-    {% if page.navigation %}
-        <div class="row l-navigation">
-            <div class="col s12">
-                {{ page.navigation }}
-            </div>
-        </div>
-    {% endif %}
     {% if page.content %}
         <div class="row l-content-full">
             <div class="col s12">
@@ -20,11 +24,31 @@
             </div>
         </div>
     {% endif %}
-    {% if page.footer %}
-        <div class="row l-footer">
-            <div class="col s12">
-                {{ page.footer }}
+</div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                {% if page.footer_left %}
+                    {{ page.footer_left }}
+                {% endif %}
+            </div>
+            <div class="col l6 s12">
+                {% if page.footer_right %}
+                    {{ page.footer_right }}
+                {% endif %}
             </div>
         </div>
-    {% endif %}
-</div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            {% if page.footer_bottom %}
+                <div class="row l-footer">
+                    <div class="col s12">
+                        {{ page.footer_bottom }}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</footer>

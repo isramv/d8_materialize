@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
+    postcss = require('gulp-postcss'),
     plumber = require('gulp-plumber'),
-    rename = require('gulp-rename');
+    rename = require('gulp-rename'),
     shell = require('gulp-shell');
 var autoprefixer = require('gulp-autoprefixer');
 var sass = require('gulp-sass');
@@ -13,7 +14,7 @@ gulp.task('browser-sync', function() {
   });
 });
 
-gulp.task('styles', function(){
+gulp.task('styles', function() {
   gulp.src(['sass/**/*.scss'])
     .pipe(plumber({
       errorHandler: function (error) {
@@ -33,4 +34,3 @@ gulp.task('default', function(){
   gulp.watch("sass/**/*.scss", ['styles','shelltest']);
   gulp.watch("*.html", ['bs-reload']);
 });
-

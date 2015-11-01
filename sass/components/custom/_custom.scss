@@ -3,13 +3,13 @@
 }
 
 .search-block-form #edit-submit {
-  display: none;
+  //display: none;
 }
 
 #block-d8-materialize-account-menu {
-  position: absolute;
-  top: 50px;
-  right: 25px;
+  //position: absolute;
+  //top: 50px;
+  //right: 25px;
 }
 
 nav.breadcrumb,
@@ -19,7 +19,37 @@ nav.tabs {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  height: inherit;
   a {
     color: #000;
   }
+}
+ul.tabs {
+  height: inherit;
+}
+
+.row.l-navigation {
+  margin-bottom: 0;
+}
+.node__submitted {
+  margin: 20px 0;
+}
+
+.top-nav {
+  height: auto;
+}
+
+nav.menu--main {
+  box-shadow: none;
+}
+
+// tool-bar menu
+.toolbar-lining {
+  nav ul li {
+    float: initial;
+  }
+}
+// Toolbar menu fix.
+li.menu-item.level-1 {
+  float: initial;
 }
