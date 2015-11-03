@@ -8108,9 +8108,9 @@ nav.breadcrumb {
 
 .tabs {
   height: inherit;
-  border-bottom: 2px solid #f48fb1; }
+  border-bottom: 2px solid #4db6ac; }
   .tabs li.tab.active a {
-    background: #f48fb1;
+    background: #4db6ac;
     color: #fff; }
 
 .indicator {
@@ -8150,7 +8150,7 @@ footer.page-footer .menu--footer a {
 
 .description {
   margin-bottom: 30px;
-  color: #f48fb1; }
+  color: #4db6ac; }
 
 .input-field {
   margin-top: 3rem; }

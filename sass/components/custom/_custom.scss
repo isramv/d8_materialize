@@ -1,3 +1,4 @@
+$custom-color: color("teal", "lighten-2");
 .mdi-navigation-menu:before {
   
 }
@@ -61,11 +62,11 @@ nav.breadcrumb {
   height: inherit;
   li.tab.active {
     a {
-      background: color("pink", "lighten-3");
+      background: $custom-color;
       color: #fff;
     }  
   }
-  border-bottom: 2px solid color("pink", "lighten-3");
+  border-bottom: 2px solid $custom-color;
 }
 .indicator {
   display: none;
@@ -124,7 +125,7 @@ footer.page-footer {
 // Forms
 .description {
   margin-bottom: 30px;
-  color: color("pink", "lighten-3");
+  color: $custom-color;
 }
 
 .input-field {
@@ -145,4 +146,5 @@ footer.page-footer {
     display: none;
   }
 }
+
 
