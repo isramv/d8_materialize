@@ -46,11 +46,11 @@ nav.breadcrumb {
   height: inherit;
   li.tab.active {
     a {
-      background: $secondary-color;
+      background: color("pink", "lighten-3");
       color: #fff;
     }  
   }
-  border-bottom: 2px solid $secondary-color;
+  border-bottom: 2px solid color("pink", "lighten-3");
 }
 .indicator {
   display: none;
@@ -116,5 +116,17 @@ footer.page-footer {
   margin-top: 3rem;
   label {
     left: 0;
+  }
+}
+
+.card-panel {
+  .input-field {
+    margin-top: 0;
+  }
+}
+
+.field--type-image {
+  label {
+    display: none;
   }
 }

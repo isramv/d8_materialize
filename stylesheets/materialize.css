@@ -8098,9 +8098,9 @@ nav.breadcrumb {
 
 .tabs {
   height: inherit;
-  border-bottom: 2px solid #26a69a; }
+  border-bottom: 2px solid #f48fb1; }
   .tabs li.tab.active a {
-    background: #26a69a;
+    background: #f48fb1;
     color: #fff; }
 
 .indicator {
@@ -8146,3 +8146,9 @@ footer.page-footer .menu--footer a {
   margin-top: 3rem; }
   .input-field label {
     left: 0; }
+
+.card-panel .input-field {
+  margin-top: 0; }
+
+.field--type-image label {
+  display: none; }

@@ -1,0 +1,45 @@
+{#
+/**
+ * @file
+ * Theme override for an 'input' #type form element.
+ *
+ * Available variables:
+ * - attributes: A list of HTML attributes for the input element.
+ * - children: Optional additional rendered elements.
+ *
+ * @see template_preprocess_input()
+ */
+#}
+{#{{ kint(attributes) }}#}
+{#<input{{ attributes }} />{{ children }}#}
+
+{#<input data-drupal-selector="edit-user-picture-0-upload"#}
+       {#type="file"#}
+       {#id="edit-user-picture-0-upload"#}
+       {#name="files[user_picture_0]"#}
+       {#size="22"#}
+       {#class="js-form-file form-file">#}
+{%  set classes = [
+            'file-path',
+            'validate',
+            'js-form-file',
+            'form-file'
+        ]
+%}
+<div class="file-field input-field">
+    <div class="btn">
+        <span>File</span>
+        <input type="{{ attributes.type }}">
+    </div>
+    <div class="file-path-wrapper">
+        <input class="{{ attributes.addClass(classes) }}"
+               type="text"
+               id="{{ attributes.id }}"
+               name="{{ attributes.name }}"
+               size="{{ attributes.size }}"
+               placeholder="Upload one or more files" {{ attributes.data-drupal-selector }}>
+    </div>
+</div>
+{#{{ children }}#}
+
+

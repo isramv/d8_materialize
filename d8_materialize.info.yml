@@ -28,6 +28,7 @@ stylesheets-remove:
   - core/modules/editor/css/editor.css
   - '@classy/css/components/tabs.css'
   - '@classy/css/components/form.css'
+  - '@classy/css/components/details.css'
 #  - core/assets/vendor/normalize-css/normalize.css
 
 regions:
