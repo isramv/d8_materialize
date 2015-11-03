@@ -8067,15 +8067,25 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   color: #fff;
   background-color: inherit; }
 
-.search-block-form {
+#search-block-form .input-field {
+  margin-top: 1em; }
+
+.search-form, .search-block-form {
   overflow: hidden; }
-  .search-block-form input.form-search {
-    width: calc(100% - 16em);
+  .search-form input.form-search, .search-block-form input.form-search {
+    width: calc(100% - 13em);
     float: left; }
-  .search-block-form input.form-submit {
-    width: 12em;
+  .search-form label, .search-block-form label {
+    display: none; }
+  .search-form input.form-submit, .search-block-form input.form-submit {
+    width: 8em;
     float: right;
     margin-top: .5em; }
+
+.search-help-link {
+  float: left;
+  height: 30px;
+  clear: both; }
 
 #block-d8-materialize-account-menu {
   text-align: right; }
