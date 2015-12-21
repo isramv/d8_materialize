@@ -5,10 +5,6 @@ $custom-color: color("teal", "lighten-2");
   
 }
 
-h1.page-title {
-  font-size: 2.5em;
-}
-
 .main-content {
   background: $color-main-content;
 }
@@ -159,10 +155,27 @@ footer.page-footer {
 }
 //Views row default
 .views-row {
-  @extend .card;
-  margin-bottom: 4em;
-  padding: 3em;
+  padding-bottom: 4em;
   h2 {
     margin-top: 0;
   }
+}
+.region-content {
+  margin-bottom: 4em;
+  padding: 3em;
+  padding-top: 0;
+  @extend .card;
+}
+
+.node__links {
+  a {
+    @extend .btn;
+  }
+}
+//waves-effect waves-light btn
+.field__label {
+  margin: 1em 0;
+}
+.field__items {
+  margin: 1em 0;
 }
