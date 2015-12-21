@@ -7,17 +7,9 @@ core: 8.x
 version: 1.0
 
 libraries:
-  - d8_materialize/global-styles
-#  - classy/base
-#  - core/normalize
-
-libraries-extend:
-#  user/drupal.user:
-#    - classy/user
-#  core/drupal.dropbutton:
-#    - classy/dropbutton
-#  core/drupal.dialog:
-#    - classy/dialog
+  - d8_materialize/velocity
+  - d8_materialize/materialize
+  - d8_materialize/d8_materialize_custom
 
 stylesheets-remove:
   - core/assets/vendor/jquery.ui/themes/base/core.css
@@ -29,7 +21,6 @@ stylesheets-remove:
   - '@classy/css/components/tabs.css'
   - '@classy/css/components/form.css'
   - '@classy/css/components/details.css'
-#  - core/assets/vendor/normalize-css/normalize.css
 
 regions:
   header_left: 'Header Left'

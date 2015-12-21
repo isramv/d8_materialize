@@ -1,11 +1,27 @@
-global-styles:
+materialize:
   version: 1.0
   header: true
   css:
     theme:
-      stylesheets/materialize.css: {}
+      stylesheets/materialize.css: { scope: Footer }
   js:
-    js/bin/materialize.js: { scope: Footer }
+    js/bin/materialize.js: {}
+  dependencies:
+    - core/jquery
+
+d8_materialize_custom:
+  version: 1.0
+  header: true
+  js:
     js/d8_materialize/custom.js: { scope: Footer }
   dependencies:
+    - core/jquery
     - core/jquery.once
+    - core/drupal
+    - d8_materialize/velocity
+
+velocity:
+  version: 1.0
+  header: true
+  js:
+    js/velocity.min.js: { scope: Footer }
