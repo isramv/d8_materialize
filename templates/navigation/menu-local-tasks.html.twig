@@ -17,14 +17,10 @@
     <div class="row">
         <h2 class="visually-hidden">{{ 'Primary tabs'|t }}</h2>
         <div class="col s12">
-            <ul class="tabs">
+            <ul id="local-tasks" class="dropdown-content">
                 {{ primary }}
             </ul>
+            <a class="btn dropdown-button" href="#!" data-activates="local-tasks">{{ "Actions" |t }}<i class="mdi-navigation-arrow-drop-down right"></i></a>
         </div>
     </div>
-    {#<ul class="tabs primary">{{ primary }}</ul>#}
 {% endif %}
-{#{% if secondary %}#}
-    {#<h2 class="visually-hidden">{{ 'Secondary tabs'|t }}</h2>#}
-    {#<ul class="tabs secondary">{{ secondary }}</ul>#}
-{#{% endif %}#}

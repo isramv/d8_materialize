@@ -14,10 +14,10 @@
  * @see template_preprocess_details()
  */
 #}
-{% set classes = [
-        'card-panel'
-    ]
-%}
+{#{% set classes = [#}
+        {#'card-panel'#}
+    {#]#}
+{#%}#}
 <details{{ attributes.addClass(classes) }}>
     {%- if title -%}
         <summary{{ summary_attributes }}>{{ title }}</summary>

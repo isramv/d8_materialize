@@ -1,12 +1,24 @@
+
+$color-main-content: #fafafa;
+
 $custom-color: color("teal", "lighten-2");
 .mdi-navigation-menu:before {
   
 }
 
 #search-block-form {
+  margin-top: 1.5em;
   .input-field {
     margin-top: 1em;
   }
+}
+
+h1.page-title {
+  font-size: 2.5em;
+}
+
+.main-content {
+  background: $color-main-content;
 }
 
 .search-form,
@@ -147,4 +159,9 @@ footer.page-footer {
   }
 }
 
-
+.o-hidden {
+  overflow: hidden;
+}
+.search-help-link {
+  width: 100%;
+}

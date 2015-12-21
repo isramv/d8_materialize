@@ -8033,8 +8033,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   color: #fff;
   background-color: inherit; }
 
-#search-block-form .input-field {
-  margin-top: 1em; }
+#search-block-form {
+  margin-top: 1.5em; }
+  #search-block-form .input-field {
+    margin-top: 1em; }
+
+h1.page-title {
+  font-size: 2.5em; }
+
+.main-content {
+  background: #fafafa; }
 
 .search-form, .search-block-form {
   overflow: hidden; }
@@ -8128,3 +8136,9 @@ footer.page-footer .menu--footer a {
 
 .field--type-image label {
   display: none; }
+
+.o-hidden {
+  overflow: hidden; }
+
+.search-help-link {
+  width: 100%; }
