@@ -1,16 +1,8 @@
-
-$color-main-content: #fafafa;
+$color-main-content: #f3f3f3;
 
 $custom-color: color("teal", "lighten-2");
 .mdi-navigation-menu:before {
   
-}
-
-#search-block-form {
-  margin-top: 1.5em;
-  .input-field {
-    margin-top: 1em;
-  }
 }
 
 h1.page-title {
@@ -21,6 +13,14 @@ h1.page-title {
   background: $color-main-content;
 }
 
+// Search form.
+
+#search-block-form {
+  margin-top: 1.5em;
+  .input-field {
+    margin-top: 1em;
+  }
+}
 .search-form,
 .search-block-form {
   overflow: hidden;
@@ -43,10 +43,12 @@ h1.page-title {
   clear: both;
 }
 
+// Account menu styles.
 #block-d8-materialize-account-menu {
   text-align: right;
 }
 
+// Breadcrumbs
 nav.breadcrumb,
 nav.tabs {
   color: #000;
@@ -69,30 +71,16 @@ nav.breadcrumb {
     color: #9E9E9E;
   }
 }
-// Tabs.
-.tabs {
-  height: inherit;
-  li.tab.active {
-    a {
-      background: $custom-color;
-      color: #fff;
-    }  
-  }
-  border-bottom: 2px solid $custom-color;
-}
-.indicator {
-  display: none;
-}
 
+// Navigation.
+.top-nav {
+  height: auto;
+}
 .row.l-navigation {
   margin-bottom: 0;
 }
 .node__submitted {
   margin: 20px 0;
-}
-
-.top-nav {
-  height: auto;
 }
 
 nav.menu--main {
@@ -119,10 +107,6 @@ li.menu-item.level-1 {
 .block-system-branding-block {
   margin-top: 20px;
   margin-bottom: 5px;
-}
-.site-name {
-  line-height: initial;
-  font-size: 2em;
 }
 
 // Footer
@@ -161,7 +145,24 @@ footer.page-footer {
 
 .o-hidden {
   overflow: hidden;
+  padding-bottom: 1em;
+
 }
 .search-help-link {
   width: 100%;
+}
+
+// Site name.
+.site-name {
+  line-height: initial;
+  font-size: 2em;
+}
+//Views row default
+.views-row {
+  @extend .card;
+  margin-bottom: 4em;
+  padding: 3em;
+  h2 {
+    margin-top: 0;
+  }
 }
