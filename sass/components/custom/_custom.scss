@@ -1,8 +1,40 @@
 $color-main-content: #f3f3f3;
-
 $custom-color: color("teal", "lighten-2");
-.mdi-navigation-menu:before {
-  
+
+// Sticky footer.
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.main-content {
+  flex: 1;
+}
+
+//Account Dropdown.
+@media #{$small-and-down} {
+  .btn.dropdown-button {
+    padding: 0 1rem;
+    i.right {
+      margin-left: 0;
+    }
+  }
+}
+
+//Image widget.
+.image-widget {
+  margin-bottom: 15px;
+}
+
+//Form wrapper.
+details.form-wrapper {
+  .input-field {
+    margin-top: 15px;
+  }
+  label {
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
 }
 
 .main-content {
@@ -10,7 +42,6 @@ $custom-color: color("teal", "lighten-2");
 }
 
 // Search form.
-
 #search-block-form {
   margin-top: 1.5em;
   .input-field {
@@ -119,30 +150,25 @@ footer.page-footer {
   margin-bottom: 30px;
   color: $custom-color;
 }
-
 .input-field {
   margin-top: 3rem;
   label {
     left: 0;
   }
 }
-
 .card-panel {
   .input-field {
     margin-top: 0;
   }
 }
-
 .field--type-image {
   label {
     display: none;
   }
 }
-
 .o-hidden {
   overflow: hidden;
   padding-bottom: 1em;
-
 }
 .search-help-link {
   width: 100%;
@@ -161,7 +187,8 @@ footer.page-footer {
   }
 }
 .region-content {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
+  margin-top: 2em;
   padding: 3em;
   padding-top: 0;
   @extend .card;
@@ -172,6 +199,7 @@ footer.page-footer {
     @extend .btn;
   }
 }
+
 //waves-effect waves-light btn
 .field__label {
   margin: 1em 0;
