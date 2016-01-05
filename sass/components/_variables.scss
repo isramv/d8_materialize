@@ -1,12 +1,12 @@
 /*** Colors ***/
-$primary-color: color("blue-grey", "darken-1") !default;
+$primary-color: color("blue-grey", "darken-2") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("light-green", "lighten-1") !default;
+$secondary-color: color("orange", "lighten-1") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
-$link-color: color("light-blue", "darken-1") !default;
+$link-color: color("light-blue", "darken-4") !default;
 
 /*** Badges ***/
 $badge-bg-color: $secondary-color !default;
@@ -45,11 +45,11 @@ $icons-font-path: "../font/material-design-icons/" !default;
 
 /*** Forms ***/
 // Text Inputs + Textarea
-$input-border-color: color("green", "darken-4") !default;
+$input-border-color: color("orange", "darken-4") !default;
 $input-bg-color: #fff !default;
 $input-error-color: $error-color !default;
 $input-success-color: $success-color !default;
-$input-focus-color: color("green", "lighten-2") !default;
+$input-focus-color: color("orange", "lighten-2") !default;
 $label-font-size: .8rem !default;
 $input-disabled-color: rgba(0,0,0, .26) !default;
 $input-disabled-solid-color: #BDBDBD !default;
