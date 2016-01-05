@@ -102,6 +102,9 @@ nav.breadcrumb {
 // Navigation.
 .top-nav {
   height: auto;
+  .row {
+    padding-bottom: 0;
+  }
 }
 .row.l-navigation {
   margin-bottom: 0;

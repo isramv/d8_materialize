@@ -8110,6 +8110,8 @@ nav.breadcrumb {
 
 .top-nav {
   height: auto; }
+  .top-nav .row {
+    padding-bottom: 0; }
 
 .row.l-navigation {
   margin-bottom: 0; }
