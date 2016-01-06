@@ -1,0 +1,14 @@
+@import "../../components/color";
+$settings-color: color("grey", "darken-1");
+
+body.darktheme {
+  blockquote {
+    background: $settings-color;
+  }
+  .pagination li.active,
+  nav,
+  .side-nav.fixed .collapsible-body li.active {
+    background-color: $settings-color;
+  }
+}
+

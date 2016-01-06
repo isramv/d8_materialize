@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bartik theme.
+
+d8_materialize.settings:
+  type: theme_settings
+  label: 'D8 materialize settings'

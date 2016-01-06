@@ -18,6 +18,7 @@ function d8_materialize_preprocess_html(&$variables) {
   // Don't display the site name twice on the front page (and potentially others)
   /*if (isset($variables['head_title_array']['title']) && isset($variables['head_title_array']['name']) && ($variables['head_title_array']['title'] == $variables['head_title_array']['name'])) {
     $variables['head_title'] = $variables['head_title_array']['name'];
+
   }*/
 }
 
