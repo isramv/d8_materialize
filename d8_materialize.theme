@@ -14,6 +14,8 @@ use Drupal\node\Entity\Node;
 function d8_materialize_preprocess_html(&$variables) {
 
   $variables['primary_color'] = "primary-".theme_get_setting('primary_color')."-".theme_get_setting('primary_color_intensity');
+  $variables['secondary_color'] = "secondary-".theme_get_setting('secondary_color')."-".theme_get_setting('secondary_color_intensity');
+  $variables['form_color'] = "form-".theme_get_setting('form_color')."-".theme_get_setting('form_color_intensity');
   /* Add class to html tag */
   //$variables['html_attributes']->addClass('no-js');
 
