@@ -22,7 +22,6 @@ function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $f
         'brown' => 'brown',
         'blue-grey' => 'blue-grey',
         'grey' => 'grey',
-        'shades' => 'shades',
     );
     $intensity = array(
         "lighten-5" => "lighten-5",
@@ -36,13 +35,13 @@ function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $f
         "darken-3" => "darken-3",
         "darken-4" => "darken-4",
     );
-    $form['d8_settings'] = array(
+    $form['primary'] = array(
         '#type' => 'details',
         '#title' => \Drupal::translation()->translate('Primary color schema selector'),
         '#wight' => -10,
         '#open' => TRUE,
     );
-    $form['d8_settings']['primary_color'] = array(
+    $form['primary']['primary_color'] = array(
         '#type' => 'select',
         '#title' => t('Primary color selector'),
         '#default_value' => theme_get_setting('primary_color'),
@@ -50,7 +49,7 @@ function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $f
         '#options' => $colors,
         '#weight' => -10,
     );
-    $form['d8_settings']['primary_color_intensity'] = array(
+    $form['primary']['primary_color_intensity'] = array(
         '#type' => 'select',
         '#title' => t('Primary color intensity selector'),
         '#default_value' => theme_get_setting('primary_color_intensity'),
@@ -58,7 +57,13 @@ function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $f
         '#options' => $intensity,
         '#weight' => -10,
     );
-    $form['d8_settings']['secondary_color'] = array(
+    $form['secondary'] = array(
+        '#type' => 'details',
+        '#title' => \Drupal::translation()->translate('Secondary color schema selector'),
+        '#wight' => -10,
+        '#open' => TRUE,
+    );
+    $form['secondary']['secondary_color'] = array(
         '#type' => 'select',
         '#title' => t('Secondary color selector'),
         '#default_value' => theme_get_setting('secondary_color'),
@@ -66,11 +71,33 @@ function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $f
         '#options' => $colors,
         '#weight' => -10,
     );
-    $form['d8_settings']['secondary_color_intensity'] = array(
+    $form['secondary']['secondary_color_intensity'] = array(
         '#type' => 'select',
         '#title' => t('Secondary color intensity selector'),
         '#default_value' => theme_get_setting('secondary_color_intensity'),
         '#description' => t('Select the intensity of the secondary color'),
+        '#options' => $intensity,
+        '#weight' => -10,
+    );
+    $form['form_color'] = array(
+        '#type' => 'details',
+        '#title' => \Drupal::translation()->translate('Form color schema selector'),
+        '#wight' => -10,
+        '#open' => TRUE,
+    );
+    $form['form_color']['form_color'] = array(
+        '#type' => 'select',
+        '#title' => t('Form color selector'),
+        '#default_value' => theme_get_setting('form_color'),
+        '#description' => t('Please select the form elements color'),
+        '#options' => $colors,
+        '#weight' => -10,
+    );
+    $form['form_color']['form_color_intensity'] = array(
+        '#type' => 'select',
+        '#title' => t('Form color intensity selector'),
+        '#default_value' => theme_get_setting('form_color_intensity'),
+        '#description' => t('Select the intensity of the form elements color'),
         '#options' => $intensity,
         '#weight' => -10,
     );
