@@ -12,6 +12,8 @@ use Drupal\node\Entity\Node;
  * Implements hook_preprocess_HOOK() for HTML document templates.
  */
 function d8_materialize_preprocess_html(&$variables) {
+
+  $variables['primary_color'] = "primary-".theme_get_setting('primary_color')."-".theme_get_setting('primary_color_intensity');
   /* Add class to html tag */
   //$variables['html_attributes']->addClass('no-js');
 
