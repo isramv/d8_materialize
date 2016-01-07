@@ -1,0 +1,20 @@
+uuid: 9899662e-1626-4ba6-9401-1abafdb0e196
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8_materialize
+id: d8_materialize_powered
+theme: d8_materialize
+region: footer_bottom
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

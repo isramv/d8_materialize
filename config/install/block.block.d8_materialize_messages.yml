@@ -1,0 +1,20 @@
+uuid: 8b7e8f74-9364-461b-8600-a59d5df3a664
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8_materialize
+id: d8_materialize_messages
+theme: d8_materialize
+region: header_left
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
