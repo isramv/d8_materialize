@@ -1,0 +1,18 @@
+uuid: 3e852efe-aa5e-4dc0-a714-2032c4b6e53e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - d8_materialize
+id: d8_materialize_local_actions
+theme: d8_materialize
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

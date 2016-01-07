@@ -1,0 +1,20 @@
+uuid: 067461ef-6f54-453d-bc06-6f5f38d8a93f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - d8_materialize
+id: d8_materialize_help
+theme: d8_materialize
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 9e20d695-2501-4665-af00-0cea8160bd93
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - d8_materialize
+id: d8_materialize_main_menu
+theme: d8_materialize
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

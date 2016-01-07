@@ -1,0 +1,20 @@
+uuid: 65adeb59-0751-415a-af55-85a5e9edd60e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8_materialize
+id: d8_materialize_content
+theme: d8_materialize
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

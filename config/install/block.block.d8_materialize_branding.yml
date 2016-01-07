@@ -1,0 +1,23 @@
+uuid: 7f420b5d-7832-4c5a-aa29-412ded57252a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8_materialize
+id: d8_materialize_branding
+theme: d8_materialize
+region: header_left
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
