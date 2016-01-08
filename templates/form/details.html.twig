@@ -14,28 +14,25 @@
  * @see template_preprocess_details()
  */
 #}
-{#{% set classes = [#}
-        {#'card-panel'#}
-    {#]#}
-{#%}#}
+
 <details{{ attributes.addClass(classes) }}>
-    {%- if title -%}
-        <summary{{ summary_attributes }}>{{ title }}</summary>
+  {%- if title -%}
+    <summary{{ summary_attributes }}>{{ title }}</summary>
+  {%- endif -%}
+  <div class="details-wrapper">
+    {% if errors %}
+      <div class="form-item--error-message">
+        <strong>{{ errors }}</strong>
+      </div>
+    {% endif %}
+    {%- if description -%}
+      <div class="details-description">{{ description }}</div>
     {%- endif -%}
-    <div class="details-wrapper">
-        {% if errors %}
-            <div class="form-item--error-message">
-                <strong>{{ errors }}</strong>
-            </div>
-        {% endif %}
-        {%- if description -%}
-            <div class="details-description">{{ description }}</div>
-        {%- endif -%}
-        {%- if children -%}
-            {{ children }}
-        {%- endif -%}
-        {%- if value -%}
-            {{ value }}
-        {%- endif -%}
-    </div>
+    {%- if children -%}
+      {{ children }}
+    {%- endif -%}
+    {%- if value -%}
+      {{ value }}
+    {%- endif -%}
+  </div>
 </details>

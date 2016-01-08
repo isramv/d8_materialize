@@ -32,24 +32,22 @@
  * http://www.w3.org/TR/WCAG-TECHS/H42.html for more information.
  */
 #}
-{%
-set classes = [
+{% set classes = [
 'block',
 'block-menu',
 'navigation',
 'menu--' ~ derivative_plugin_id|clean_class,
-]
-%}
+] %}
 <nav {{ attributes.addClass(classes) }}>
-    {% if not configuration.label_display %}
-        {% set title_attributes = title_attributes.addClass('visually-hidden') %}
-    {% endif %}
-    {{ title_prefix }}
-    <h2{{ title_attributes.setAttribute('id', heading_id) }}>{{ configuration.label }}</h2>
-    {{ title_suffix }}
-    <div class="nav-wrapper">
-        {% block content %}
-            {{ content }}
-        {% endblock %}
-    </div>
+  {% if not configuration.label_display %}
+    {% set title_attributes = title_attributes.addClass('visually-hidden') %}
+  {% endif %}
+  {{ title_prefix }}
+  <h2{{ title_attributes.setAttribute('id', heading_id) }}>{{ configuration.label }}</h2>
+  {{ title_suffix }}
+  <div class="nav-wrapper">
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+  </div>
 </nav>
