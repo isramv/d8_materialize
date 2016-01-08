@@ -3,9 +3,9 @@ materialize:
   header: true
   css:
     theme:
-      stylesheets/materialize.css: { scope: Footer }
+      vendor/materialize/css/materialize.min.css: {}
   js:
-    js/bin/materialize.js: {}
+    vendor/js/materialize.js: {}
   dependencies:
     - core/jquery
 
