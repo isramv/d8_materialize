@@ -2,7 +2,7 @@
   "name": "d8_materialize",
   "version": "1.0.0",
   "description": "Used to install gulp-sass",
-  "main": "gulp.js",
+  "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
