@@ -1676,9 +1676,9 @@ body.secondary-materialize-red-lighten-5 .switch label input[type=checkbox]:chec
 body.secondary-materialize-red-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(253, 234, 235, 0.1); }
 
-body.form-materialize-red-lighten-5 .btn, body.form-materialize-red-lighten-5 .node__links a, .node__links body.form-materialize-red-lighten-5 a {
+body.form-materialize-red-lighten-5 .btn {
   background-color: #fdeaeb; }
-  body.form-materialize-red-lighten-5 .btn:hover, body.form-materialize-red-lighten-5 .node__links a:hover, .node__links body.form-materialize-red-lighten-5 a:hover {
+  body.form-materialize-red-lighten-5 .btn:hover {
     background-color: white; }
 
 body.form-materialize-red-lighten-5 .btn-floating {
@@ -1752,9 +1752,9 @@ body.secondary-materialize-red-lighten-4 .switch label input[type=checkbox]:chec
 body.secondary-materialize-red-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(248, 193, 195, 0.1); }
 
-body.form-materialize-red-lighten-4 .btn, body.form-materialize-red-lighten-4 .node__links a, .node__links body.form-materialize-red-lighten-4 a {
+body.form-materialize-red-lighten-4 .btn {
   background-color: #f8c1c3; }
-  body.form-materialize-red-lighten-4 .btn:hover, body.form-materialize-red-lighten-4 .node__links a:hover, .node__links body.form-materialize-red-lighten-4 a:hover {
+  body.form-materialize-red-lighten-4 .btn:hover {
     background-color: #fbd8d9; }
 
 body.form-materialize-red-lighten-4 .btn-floating {
@@ -1828,9 +1828,9 @@ body.secondary-materialize-red-lighten-3 .switch label input[type=checkbox]:chec
 body.secondary-materialize-red-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(243, 152, 155, 0.1); }
 
-body.form-materialize-red-lighten-3 .btn, body.form-materialize-red-lighten-3 .node__links a, .node__links body.form-materialize-red-lighten-3 a {
+body.form-materialize-red-lighten-3 .btn {
   background-color: #f3989b; }
-  body.form-materialize-red-lighten-3 .btn:hover, body.form-materialize-red-lighten-3 .node__links a:hover, .node__links body.form-materialize-red-lighten-3 a:hover {
+  body.form-materialize-red-lighten-3 .btn:hover {
     background-color: #f6afb1; }
 
 body.form-materialize-red-lighten-3 .btn-floating {
@@ -1904,9 +1904,9 @@ body.secondary-materialize-red-lighten-2 .switch label input[type=checkbox]:chec
 body.secondary-materialize-red-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(238, 110, 115, 0.1); }
 
-body.form-materialize-red-lighten-2 .btn, body.form-materialize-red-lighten-2 .node__links a, .node__links body.form-materialize-red-lighten-2 a {
+body.form-materialize-red-lighten-2 .btn {
   background-color: #ee6e73; }
-  body.form-materialize-red-lighten-2 .btn:hover, body.form-materialize-red-lighten-2 .node__links a:hover, .node__links body.form-materialize-red-lighten-2 a:hover {
+  body.form-materialize-red-lighten-2 .btn:hover {
     background-color: #f18589; }
 
 body.form-materialize-red-lighten-2 .btn-floating {
@@ -1980,9 +1980,9 @@ body.secondary-materialize-red-lighten-1 .switch label input[type=checkbox]:chec
 body.secondary-materialize-red-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(234, 69, 75, 0.1); }
 
-body.form-materialize-red-lighten-1 .btn, body.form-materialize-red-lighten-1 .node__links a, .node__links body.form-materialize-red-lighten-1 a {
+body.form-materialize-red-lighten-1 .btn {
   background-color: #ea454b; }
-  body.form-materialize-red-lighten-1 .btn:hover, body.form-materialize-red-lighten-1 .node__links a:hover, .node__links body.form-materialize-red-lighten-1 a:hover {
+  body.form-materialize-red-lighten-1 .btn:hover {
     background-color: #ed5c61; }
 
 body.form-materialize-red-lighten-1 .btn-floating {
@@ -2056,9 +2056,9 @@ body.secondary-materialize-red-base .switch label input[type=checkbox]:checked +
 body.secondary-materialize-red-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(229, 28, 35, 0.1); }
 
-body.form-materialize-red-base .btn, body.form-materialize-red-base .node__links a, .node__links body.form-materialize-red-base a {
+body.form-materialize-red-base .btn {
   background-color: #e51c23; }
-  body.form-materialize-red-base .btn:hover, body.form-materialize-red-base .node__links a:hover, .node__links body.form-materialize-red-base a:hover {
+  body.form-materialize-red-base .btn:hover {
     background-color: #e83339; }
 
 body.form-materialize-red-base .btn-floating {
@@ -2132,9 +2132,9 @@ body.secondary-materialize-red-darken-1 .switch label input[type=checkbox]:check
 body.secondary-materialize-red-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(208, 24, 30, 0.1); }
 
-body.form-materialize-red-darken-1 .btn, body.form-materialize-red-darken-1 .node__links a, .node__links body.form-materialize-red-darken-1 a {
+body.form-materialize-red-darken-1 .btn {
   background-color: #d0181e; }
-  body.form-materialize-red-darken-1 .btn:hover, body.form-materialize-red-darken-1 .node__links a:hover, .node__links body.form-materialize-red-darken-1 a:hover {
+  body.form-materialize-red-darken-1 .btn:hover {
     background-color: #e51d23; }
 
 body.form-materialize-red-darken-1 .btn-floating {
@@ -2208,9 +2208,9 @@ body.secondary-materialize-red-darken-2 .switch label input[type=checkbox]:check
 body.secondary-materialize-red-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(185, 21, 27, 0.1); }
 
-body.form-materialize-red-darken-2 .btn, body.form-materialize-red-darken-2 .node__links a, .node__links body.form-materialize-red-darken-2 a {
+body.form-materialize-red-darken-2 .btn {
   background-color: #b9151b; }
-  body.form-materialize-red-darken-2 .btn:hover, body.form-materialize-red-darken-2 .node__links a:hover, .node__links body.form-materialize-red-darken-2 a:hover {
+  body.form-materialize-red-darken-2 .btn:hover {
     background-color: #d0181e; }
 
 body.form-materialize-red-darken-2 .btn-floating {
@@ -2284,9 +2284,9 @@ body.secondary-materialize-red-darken-3 .switch label input[type=checkbox]:check
 body.secondary-materialize-red-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(162, 19, 24, 0.1); }
 
-body.form-materialize-red-darken-3 .btn, body.form-materialize-red-darken-3 .node__links a, .node__links body.form-materialize-red-darken-3 a {
+body.form-materialize-red-darken-3 .btn {
   background-color: #a21318; }
-  body.form-materialize-red-darken-3 .btn:hover, body.form-materialize-red-darken-3 .node__links a:hover, .node__links body.form-materialize-red-darken-3 a:hover {
+  body.form-materialize-red-darken-3 .btn:hover {
     background-color: #b9161b; }
 
 body.form-materialize-red-darken-3 .btn-floating {
@@ -2360,9 +2360,9 @@ body.secondary-materialize-red-darken-4 .switch label input[type=checkbox]:check
 body.secondary-materialize-red-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(139, 16, 20, 0.1); }
 
-body.form-materialize-red-darken-4 .btn, body.form-materialize-red-darken-4 .node__links a, .node__links body.form-materialize-red-darken-4 a {
+body.form-materialize-red-darken-4 .btn {
   background-color: #8b1014; }
-  body.form-materialize-red-darken-4 .btn:hover, body.form-materialize-red-darken-4 .node__links a:hover, .node__links body.form-materialize-red-darken-4 a:hover {
+  body.form-materialize-red-darken-4 .btn:hover {
     background-color: #a21317; }
 
 body.form-materialize-red-darken-4 .btn-floating {
@@ -2436,9 +2436,9 @@ body.secondary-red-lighten-5 .switch label input[type=checkbox]:checked + .lever
 body.secondary-red-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 235, 238, 0.1); }
 
-body.form-red-lighten-5 .btn, body.form-red-lighten-5 .node__links a, .node__links body.form-red-lighten-5 a {
+body.form-red-lighten-5 .btn {
   background-color: #FFEBEE; }
-  body.form-red-lighten-5 .btn:hover, body.form-red-lighten-5 .node__links a:hover, .node__links body.form-red-lighten-5 a:hover {
+  body.form-red-lighten-5 .btn:hover {
     background-color: white; }
 
 body.form-red-lighten-5 .btn-floating {
@@ -2512,9 +2512,9 @@ body.secondary-red-lighten-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-red-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 205, 210, 0.1); }
 
-body.form-red-lighten-4 .btn, body.form-red-lighten-4 .node__links a, .node__links body.form-red-lighten-4 a {
+body.form-red-lighten-4 .btn {
   background-color: #FFCDD2; }
-  body.form-red-lighten-4 .btn:hover, body.form-red-lighten-4 .node__links a:hover, .node__links body.form-red-lighten-4 a:hover {
+  body.form-red-lighten-4 .btn:hover {
     background-color: #ffe7e9; }
 
 body.form-red-lighten-4 .btn-floating {
@@ -2588,9 +2588,9 @@ body.secondary-red-lighten-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-red-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(239, 154, 154, 0.1); }
 
-body.form-red-lighten-3 .btn, body.form-red-lighten-3 .node__links a, .node__links body.form-red-lighten-3 a {
+body.form-red-lighten-3 .btn {
   background-color: #EF9A9A; }
-  body.form-red-lighten-3 .btn:hover, body.form-red-lighten-3 .node__links a:hover, .node__links body.form-red-lighten-3 a:hover {
+  body.form-red-lighten-3 .btn:hover {
     background-color: #f2b0b0; }
 
 body.form-red-lighten-3 .btn-floating {
@@ -2664,9 +2664,9 @@ body.secondary-red-lighten-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-red-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(229, 115, 115, 0.1); }
 
-body.form-red-lighten-2 .btn, body.form-red-lighten-2 .node__links a, .node__links body.form-red-lighten-2 a {
+body.form-red-lighten-2 .btn {
   background-color: #E57373; }
-  body.form-red-lighten-2 .btn:hover, body.form-red-lighten-2 .node__links a:hover, .node__links body.form-red-lighten-2 a:hover {
+  body.form-red-lighten-2 .btn:hover {
     background-color: #e98989; }
 
 body.form-red-lighten-2 .btn-floating {
@@ -2740,9 +2740,9 @@ body.secondary-red-lighten-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-red-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(239, 83, 80, 0.1); }
 
-body.form-red-lighten-1 .btn, body.form-red-lighten-1 .node__links a, .node__links body.form-red-lighten-1 a {
+body.form-red-lighten-1 .btn {
   background-color: #EF5350; }
-  body.form-red-lighten-1 .btn:hover, body.form-red-lighten-1 .node__links a:hover, .node__links body.form-red-lighten-1 a:hover {
+  body.form-red-lighten-1 .btn:hover {
     background-color: #f16a67; }
 
 body.form-red-lighten-1 .btn-floating {
@@ -2816,9 +2816,9 @@ body.secondary-red-base .switch label input[type=checkbox]:checked + .lever:afte
 body.secondary-red-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(244, 67, 54, 0.1); }
 
-body.form-red-base .btn, body.form-red-base .node__links a, .node__links body.form-red-base a {
+body.form-red-base .btn {
   background-color: #F44336; }
-  body.form-red-base .btn:hover, body.form-red-base .node__links a:hover, .node__links body.form-red-base a:hover {
+  body.form-red-base .btn:hover {
     background-color: #f55a4e; }
 
 body.form-red-base .btn-floating {
@@ -2892,9 +2892,9 @@ body.secondary-red-darken-1 .switch label input[type=checkbox]:checked + .lever:
 body.secondary-red-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(229, 57, 53, 0.1); }
 
-body.form-red-darken-1 .btn, body.form-red-darken-1 .node__links a, .node__links body.form-red-darken-1 a {
+body.form-red-darken-1 .btn {
   background-color: #E53935; }
-  body.form-red-darken-1 .btn:hover, body.form-red-darken-1 .node__links a:hover, .node__links body.form-red-darken-1 a:hover {
+  body.form-red-darken-1 .btn:hover {
     background-color: #e84f4c; }
 
 body.form-red-darken-1 .btn-floating {
@@ -2968,9 +2968,9 @@ body.secondary-red-darken-2 .switch label input[type=checkbox]:checked + .lever:
 body.secondary-red-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(211, 47, 47, 0.1); }
 
-body.form-red-darken-2 .btn, body.form-red-darken-2 .node__links a, .node__links body.form-red-darken-2 a {
+body.form-red-darken-2 .btn {
   background-color: #D32F2F; }
-  body.form-red-darken-2 .btn:hover, body.form-red-darken-2 .node__links a:hover, .node__links body.form-red-darken-2 a:hover {
+  body.form-red-darken-2 .btn:hover {
     background-color: #d74444; }
 
 body.form-red-darken-2 .btn-floating {
@@ -3044,9 +3044,9 @@ body.secondary-red-darken-3 .switch label input[type=checkbox]:checked + .lever:
 body.secondary-red-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(198, 40, 40, 0.1); }
 
-body.form-red-darken-3 .btn, body.form-red-darken-3 .node__links a, .node__links body.form-red-darken-3 a {
+body.form-red-darken-3 .btn {
   background-color: #C62828; }
-  body.form-red-darken-3 .btn:hover, body.form-red-darken-3 .node__links a:hover, .node__links body.form-red-darken-3 a:hover {
+  body.form-red-darken-3 .btn:hover {
     background-color: #d63232; }
 
 body.form-red-darken-3 .btn-floating {
@@ -3120,9 +3120,9 @@ body.secondary-red-darken-4 .switch label input[type=checkbox]:checked + .lever:
 body.secondary-red-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(183, 28, 28, 0.1); }
 
-body.form-red-darken-4 .btn, body.form-red-darken-4 .node__links a, .node__links body.form-red-darken-4 a {
+body.form-red-darken-4 .btn {
   background-color: #B71C1C; }
-  body.form-red-darken-4 .btn:hover, body.form-red-darken-4 .node__links a:hover, .node__links body.form-red-darken-4 a:hover {
+  body.form-red-darken-4 .btn:hover {
     background-color: #cd1f1f; }
 
 body.form-red-darken-4 .btn-floating {
@@ -3196,9 +3196,9 @@ body.secondary-red-accent-1 .switch label input[type=checkbox]:checked + .lever:
 body.secondary-red-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 138, 128, 0.1); }
 
-body.form-red-accent-1 .btn, body.form-red-accent-1 .node__links a, .node__links body.form-red-accent-1 a {
+body.form-red-accent-1 .btn {
   background-color: #FF8A80; }
-  body.form-red-accent-1 .btn:hover, body.form-red-accent-1 .node__links a:hover, .node__links body.form-red-accent-1 a:hover {
+  body.form-red-accent-1 .btn:hover {
     background-color: #ffa19a; }
 
 body.form-red-accent-1 .btn-floating {
@@ -3272,9 +3272,9 @@ body.secondary-red-accent-2 .switch label input[type=checkbox]:checked + .lever:
 body.secondary-red-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 82, 82, 0.1); }
 
-body.form-red-accent-2 .btn, body.form-red-accent-2 .node__links a, .node__links body.form-red-accent-2 a {
+body.form-red-accent-2 .btn {
   background-color: #FF5252; }
-  body.form-red-accent-2 .btn:hover, body.form-red-accent-2 .node__links a:hover, .node__links body.form-red-accent-2 a:hover {
+  body.form-red-accent-2 .btn:hover {
     background-color: #ff6c6c; }
 
 body.form-red-accent-2 .btn-floating {
@@ -3348,9 +3348,9 @@ body.secondary-red-accent-3 .switch label input[type=checkbox]:checked + .lever:
 body.secondary-red-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 23, 68, 0.1); }
 
-body.form-red-accent-3 .btn, body.form-red-accent-3 .node__links a, .node__links body.form-red-accent-3 a {
+body.form-red-accent-3 .btn {
   background-color: #FF1744; }
-  body.form-red-accent-3 .btn:hover, body.form-red-accent-3 .node__links a:hover, .node__links body.form-red-accent-3 a:hover {
+  body.form-red-accent-3 .btn:hover {
     background-color: #ff3159; }
 
 body.form-red-accent-3 .btn-floating {
@@ -3424,9 +3424,9 @@ body.secondary-red-accent-4 .switch label input[type=checkbox]:checked + .lever:
 body.secondary-red-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(213, 0, 0, 0.1); }
 
-body.form-red-accent-4 .btn, body.form-red-accent-4 .node__links a, .node__links body.form-red-accent-4 a {
+body.form-red-accent-4 .btn {
   background-color: #D50000; }
-  body.form-red-accent-4 .btn:hover, body.form-red-accent-4 .node__links a:hover, .node__links body.form-red-accent-4 a:hover {
+  body.form-red-accent-4 .btn:hover {
     background-color: #ef0000; }
 
 body.form-red-accent-4 .btn-floating {
@@ -3500,9 +3500,9 @@ body.secondary-pink-lighten-5 .switch label input[type=checkbox]:checked + .leve
 body.secondary-pink-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(252, 228, 236, 0.1); }
 
-body.form-pink-lighten-5 .btn, body.form-pink-lighten-5 .node__links a, .node__links body.form-pink-lighten-5 a {
+body.form-pink-lighten-5 .btn {
   background-color: #fce4ec; }
-  body.form-pink-lighten-5 .btn:hover, body.form-pink-lighten-5 .node__links a:hover, .node__links body.form-pink-lighten-5 a:hover {
+  body.form-pink-lighten-5 .btn:hover {
     background-color: #fffbfc; }
 
 body.form-pink-lighten-5 .btn-floating {
@@ -3576,9 +3576,9 @@ body.secondary-pink-lighten-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-pink-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(248, 187, 208, 0.1); }
 
-body.form-pink-lighten-4 .btn, body.form-pink-lighten-4 .node__links a, .node__links body.form-pink-lighten-4 a {
+body.form-pink-lighten-4 .btn {
   background-color: #f8bbd0; }
-  body.form-pink-lighten-4 .btn:hover, body.form-pink-lighten-4 .node__links a:hover, .node__links body.form-pink-lighten-4 a:hover {
+  body.form-pink-lighten-4 .btn:hover {
     background-color: #fad2e0; }
 
 body.form-pink-lighten-4 .btn-floating {
@@ -3652,9 +3652,9 @@ body.secondary-pink-lighten-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-pink-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(244, 143, 177, 0.1); }
 
-body.form-pink-lighten-3 .btn, body.form-pink-lighten-3 .node__links a, .node__links body.form-pink-lighten-3 a {
+body.form-pink-lighten-3 .btn {
   background-color: #f48fb1; }
-  body.form-pink-lighten-3 .btn:hover, body.form-pink-lighten-3 .node__links a:hover, .node__links body.form-pink-lighten-3 a:hover {
+  body.form-pink-lighten-3 .btn:hover {
     background-color: #f6a6c1; }
 
 body.form-pink-lighten-3 .btn-floating {
@@ -3728,9 +3728,9 @@ body.secondary-pink-lighten-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-pink-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(240, 98, 146, 0.1); }
 
-body.form-pink-lighten-2 .btn, body.form-pink-lighten-2 .node__links a, .node__links body.form-pink-lighten-2 a {
+body.form-pink-lighten-2 .btn {
   background-color: #f06292; }
-  body.form-pink-lighten-2 .btn:hover, body.form-pink-lighten-2 .node__links a:hover, .node__links body.form-pink-lighten-2 a:hover {
+  body.form-pink-lighten-2 .btn:hover {
     background-color: #f279a2; }
 
 body.form-pink-lighten-2 .btn-floating {
@@ -3804,9 +3804,9 @@ body.secondary-pink-lighten-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-pink-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(236, 64, 122, 0.1); }
 
-body.form-pink-lighten-1 .btn, body.form-pink-lighten-1 .node__links a, .node__links body.form-pink-lighten-1 a {
+body.form-pink-lighten-1 .btn {
   background-color: #ec407a; }
-  body.form-pink-lighten-1 .btn:hover, body.form-pink-lighten-1 .node__links a:hover, .node__links body.form-pink-lighten-1 a:hover {
+  body.form-pink-lighten-1 .btn:hover {
     background-color: #ee578a; }
 
 body.form-pink-lighten-1 .btn-floating {
@@ -3880,9 +3880,9 @@ body.secondary-pink-base .switch label input[type=checkbox]:checked + .lever:aft
 body.secondary-pink-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(233, 30, 99, 0.1); }
 
-body.form-pink-base .btn, body.form-pink-base .node__links a, .node__links body.form-pink-base a {
+body.form-pink-base .btn {
   background-color: #e91e63; }
-  body.form-pink-base .btn:hover, body.form-pink-base .node__links a:hover, .node__links body.form-pink-base a:hover {
+  body.form-pink-base .btn:hover {
     background-color: #eb3573; }
 
 body.form-pink-base .btn-floating {
@@ -3956,9 +3956,9 @@ body.secondary-pink-darken-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-pink-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(216, 27, 96, 0.1); }
 
-body.form-pink-darken-1 .btn, body.form-pink-darken-1 .node__links a, .node__links body.form-pink-darken-1 a {
+body.form-pink-darken-1 .btn {
   background-color: #d81b60; }
-  body.form-pink-darken-1 .btn:hover, body.form-pink-darken-1 .node__links a:hover, .node__links body.form-pink-darken-1 a:hover {
+  body.form-pink-darken-1 .btn:hover {
     background-color: #e4286d; }
 
 body.form-pink-darken-1 .btn-floating {
@@ -4032,9 +4032,9 @@ body.secondary-pink-darken-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-pink-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(194, 24, 91, 0.1); }
 
-body.form-pink-darken-2 .btn, body.form-pink-darken-2 .node__links a, .node__links body.form-pink-darken-2 a {
+body.form-pink-darken-2 .btn {
   background-color: #c2185b; }
-  body.form-pink-darken-2 .btn:hover, body.form-pink-darken-2 .node__links a:hover, .node__links body.form-pink-darken-2 a:hover {
+  body.form-pink-darken-2 .btn:hover {
     background-color: #d91b66; }
 
 body.form-pink-darken-2 .btn-floating {
@@ -4108,9 +4108,9 @@ body.secondary-pink-darken-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-pink-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(173, 20, 87, 0.1); }
 
-body.form-pink-darken-3 .btn, body.form-pink-darken-3 .node__links a, .node__links body.form-pink-darken-3 a {
+body.form-pink-darken-3 .btn {
   background-color: #ad1457; }
-  body.form-pink-darken-3 .btn:hover, body.form-pink-darken-3 .node__links a:hover, .node__links body.form-pink-darken-3 a:hover {
+  body.form-pink-darken-3 .btn:hover {
     background-color: #c41762; }
 
 body.form-pink-darken-3 .btn-floating {
@@ -4184,9 +4184,9 @@ body.secondary-pink-darken-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-pink-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(136, 14, 79, 0.1); }
 
-body.form-pink-darken-4 .btn, body.form-pink-darken-4 .node__links a, .node__links body.form-pink-darken-4 a {
+body.form-pink-darken-4 .btn {
   background-color: #880e4f; }
-  body.form-pink-darken-4 .btn:hover, body.form-pink-darken-4 .node__links a:hover, .node__links body.form-pink-darken-4 a:hover {
+  body.form-pink-darken-4 .btn:hover {
     background-color: #9f105c; }
 
 body.form-pink-darken-4 .btn-floating {
@@ -4260,9 +4260,9 @@ body.secondary-pink-accent-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-pink-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 128, 171, 0.1); }
 
-body.form-pink-accent-1 .btn, body.form-pink-accent-1 .node__links a, .node__links body.form-pink-accent-1 a {
+body.form-pink-accent-1 .btn {
   background-color: #ff80ab; }
-  body.form-pink-accent-1 .btn:hover, body.form-pink-accent-1 .node__links a:hover, .node__links body.form-pink-accent-1 a:hover {
+  body.form-pink-accent-1 .btn:hover {
     background-color: #ff9abc; }
 
 body.form-pink-accent-1 .btn-floating {
@@ -4336,9 +4336,9 @@ body.secondary-pink-accent-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-pink-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 64, 129, 0.1); }
 
-body.form-pink-accent-2 .btn, body.form-pink-accent-2 .node__links a, .node__links body.form-pink-accent-2 a {
+body.form-pink-accent-2 .btn {
   background-color: #ff4081; }
-  body.form-pink-accent-2 .btn:hover, body.form-pink-accent-2 .node__links a:hover, .node__links body.form-pink-accent-2 a:hover {
+  body.form-pink-accent-2 .btn:hover {
     background-color: #ff5a92; }
 
 body.form-pink-accent-2 .btn-floating {
@@ -4412,9 +4412,9 @@ body.secondary-pink-accent-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-pink-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(245, 0, 87, 0.1); }
 
-body.form-pink-accent-3 .btn, body.form-pink-accent-3 .node__links a, .node__links body.form-pink-accent-3 a {
+body.form-pink-accent-3 .btn {
   background-color: #f50057; }
-  body.form-pink-accent-3 .btn:hover, body.form-pink-accent-3 .node__links a:hover, .node__links body.form-pink-accent-3 a:hover {
+  body.form-pink-accent-3 .btn:hover {
     background-color: #ff1065; }
 
 body.form-pink-accent-3 .btn-floating {
@@ -4488,9 +4488,9 @@ body.secondary-pink-accent-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-pink-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(197, 17, 98, 0.1); }
 
-body.form-pink-accent-4 .btn, body.form-pink-accent-4 .node__links a, .node__links body.form-pink-accent-4 a {
+body.form-pink-accent-4 .btn {
   background-color: #c51162; }
-  body.form-pink-accent-4 .btn:hover, body.form-pink-accent-4 .node__links a:hover, .node__links body.form-pink-accent-4 a:hover {
+  body.form-pink-accent-4 .btn:hover {
     background-color: #dc136e; }
 
 body.form-pink-accent-4 .btn-floating {
@@ -4564,9 +4564,9 @@ body.secondary-purple-lighten-5 .switch label input[type=checkbox]:checked + .le
 body.secondary-purple-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(243, 229, 245, 0.1); }
 
-body.form-purple-lighten-5 .btn, body.form-purple-lighten-5 .node__links a, .node__links body.form-purple-lighten-5 a {
+body.form-purple-lighten-5 .btn {
   background-color: #f3e5f5; }
-  body.form-purple-lighten-5 .btn:hover, body.form-purple-lighten-5 .node__links a:hover, .node__links body.form-purple-lighten-5 a:hover {
+  body.form-purple-lighten-5 .btn:hover {
     background-color: #fcf7fc; }
 
 body.form-purple-lighten-5 .btn-floating {
@@ -4640,9 +4640,9 @@ body.secondary-purple-lighten-4 .switch label input[type=checkbox]:checked + .le
 body.secondary-purple-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(225, 190, 231, 0.1); }
 
-body.form-purple-lighten-4 .btn, body.form-purple-lighten-4 .node__links a, .node__links body.form-purple-lighten-4 a {
+body.form-purple-lighten-4 .btn {
   background-color: #e1bee7; }
-  body.form-purple-lighten-4 .btn:hover, body.form-purple-lighten-4 .node__links a:hover, .node__links body.form-purple-lighten-4 a:hover {
+  body.form-purple-lighten-4 .btn:hover {
     background-color: #ead1ee; }
 
 body.form-purple-lighten-4 .btn-floating {
@@ -4716,9 +4716,9 @@ body.secondary-purple-lighten-3 .switch label input[type=checkbox]:checked + .le
 body.secondary-purple-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(206, 147, 216, 0.1); }
 
-body.form-purple-lighten-3 .btn, body.form-purple-lighten-3 .node__links a, .node__links body.form-purple-lighten-3 a {
+body.form-purple-lighten-3 .btn {
   background-color: #ce93d8; }
-  body.form-purple-lighten-3 .btn:hover, body.form-purple-lighten-3 .node__links a:hover, .node__links body.form-purple-lighten-3 a:hover {
+  body.form-purple-lighten-3 .btn:hover {
     background-color: #d7a6df; }
 
 body.form-purple-lighten-3 .btn-floating {
@@ -4792,9 +4792,9 @@ body.secondary-purple-lighten-2 .switch label input[type=checkbox]:checked + .le
 body.secondary-purple-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(186, 104, 200, 0.1); }
 
-body.form-purple-lighten-2 .btn, body.form-purple-lighten-2 .node__links a, .node__links body.form-purple-lighten-2 a {
+body.form-purple-lighten-2 .btn {
   background-color: #ba68c8; }
-  body.form-purple-lighten-2 .btn:hover, body.form-purple-lighten-2 .node__links a:hover, .node__links body.form-purple-lighten-2 a:hover {
+  body.form-purple-lighten-2 .btn:hover {
     background-color: #c37bcf; }
 
 body.form-purple-lighten-2 .btn-floating {
@@ -4868,9 +4868,9 @@ body.secondary-purple-lighten-1 .switch label input[type=checkbox]:checked + .le
 body.secondary-purple-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(171, 71, 188, 0.1); }
 
-body.form-purple-lighten-1 .btn, body.form-purple-lighten-1 .node__links a, .node__links body.form-purple-lighten-1 a {
+body.form-purple-lighten-1 .btn {
   background-color: #ab47bc; }
-  body.form-purple-lighten-1 .btn:hover, body.form-purple-lighten-1 .node__links a:hover, .node__links body.form-purple-lighten-1 a:hover {
+  body.form-purple-lighten-1 .btn:hover {
     background-color: #b45ac3; }
 
 body.form-purple-lighten-1 .btn-floating {
@@ -4944,9 +4944,9 @@ body.secondary-purple-base .switch label input[type=checkbox]:checked + .lever:a
 body.secondary-purple-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(156, 39, 176, 0.1); }
 
-body.form-purple-base .btn, body.form-purple-base .node__links a, .node__links body.form-purple-base a {
+body.form-purple-base .btn {
   background-color: #9c27b0; }
-  body.form-purple-base .btn:hover, body.form-purple-base .node__links a:hover, .node__links body.form-purple-base a:hover {
+  body.form-purple-base .btn:hover {
     background-color: #af2cc5; }
 
 body.form-purple-base .btn-floating {
@@ -5020,9 +5020,9 @@ body.secondary-purple-darken-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-purple-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(142, 36, 170, 0.1); }
 
-body.form-purple-darken-1 .btn, body.form-purple-darken-1 .node__links a, .node__links body.form-purple-darken-1 a {
+body.form-purple-darken-1 .btn {
   background-color: #8e24aa; }
-  body.form-purple-darken-1 .btn:hover, body.form-purple-darken-1 .node__links a:hover, .node__links body.form-purple-darken-1 a:hover {
+  body.form-purple-darken-1 .btn:hover {
     background-color: #a028bf; }
 
 body.form-purple-darken-1 .btn-floating {
@@ -5096,9 +5096,9 @@ body.secondary-purple-darken-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-purple-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(123, 31, 162, 0.1); }
 
-body.form-purple-darken-2 .btn, body.form-purple-darken-2 .node__links a, .node__links body.form-purple-darken-2 a {
+body.form-purple-darken-2 .btn {
   background-color: #7b1fa2; }
-  body.form-purple-darken-2 .btn:hover, body.form-purple-darken-2 .node__links a:hover, .node__links body.form-purple-darken-2 a:hover {
+  body.form-purple-darken-2 .btn:hover {
     background-color: #8b23b7; }
 
 body.form-purple-darken-2 .btn-floating {
@@ -5172,9 +5172,9 @@ body.secondary-purple-darken-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-purple-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(106, 27, 154, 0.1); }
 
-body.form-purple-darken-3 .btn, body.form-purple-darken-3 .node__links a, .node__links body.form-purple-darken-3 a {
+body.form-purple-darken-3 .btn {
   background-color: #6a1b9a; }
-  body.form-purple-darken-3 .btn:hover, body.form-purple-darken-3 .node__links a:hover, .node__links body.form-purple-darken-3 a:hover {
+  body.form-purple-darken-3 .btn:hover {
     background-color: #791fb0; }
 
 body.form-purple-darken-3 .btn-floating {
@@ -5248,9 +5248,9 @@ body.secondary-purple-darken-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-purple-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(74, 20, 140, 0.1); }
 
-body.form-purple-darken-4 .btn, body.form-purple-darken-4 .node__links a, .node__links body.form-purple-darken-4 a {
+body.form-purple-darken-4 .btn {
   background-color: #4a148c; }
-  body.form-purple-darken-4 .btn:hover, body.form-purple-darken-4 .node__links a:hover, .node__links body.form-purple-darken-4 a:hover {
+  body.form-purple-darken-4 .btn:hover {
     background-color: #5617a2; }
 
 body.form-purple-darken-4 .btn-floating {
@@ -5324,9 +5324,9 @@ body.secondary-purple-accent-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-purple-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(234, 128, 252, 0.1); }
 
-body.form-purple-accent-1 .btn, body.form-purple-accent-1 .node__links a, .node__links body.form-purple-accent-1 a {
+body.form-purple-accent-1 .btn {
   background-color: #ea80fc; }
-  body.form-purple-accent-1 .btn:hover, body.form-purple-accent-1 .node__links a:hover, .node__links body.form-purple-accent-1 a:hover {
+  body.form-purple-accent-1 .btn:hover {
     background-color: #ee99fd; }
 
 body.form-purple-accent-1 .btn-floating {
@@ -5400,9 +5400,9 @@ body.secondary-purple-accent-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-purple-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(224, 64, 251, 0.1); }
 
-body.form-purple-accent-2 .btn, body.form-purple-accent-2 .node__links a, .node__links body.form-purple-accent-2 a {
+body.form-purple-accent-2 .btn {
   background-color: #e040fb; }
-  body.form-purple-accent-2 .btn:hover, body.form-purple-accent-2 .node__links a:hover, .node__links body.form-purple-accent-2 a:hover {
+  body.form-purple-accent-2 .btn:hover {
     background-color: #e459fc; }
 
 body.form-purple-accent-2 .btn-floating {
@@ -5476,9 +5476,9 @@ body.secondary-purple-accent-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-purple-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(213, 0, 249, 0.1); }
 
-body.form-purple-accent-3 .btn, body.form-purple-accent-3 .node__links a, .node__links body.form-purple-accent-3 a {
+body.form-purple-accent-3 .btn {
   background-color: #d500f9; }
-  body.form-purple-accent-3 .btn:hover, body.form-purple-accent-3 .node__links a:hover, .node__links body.form-purple-accent-3 a:hover {
+  body.form-purple-accent-3 .btn:hover {
     background-color: #dd14ff; }
 
 body.form-purple-accent-3 .btn-floating {
@@ -5552,9 +5552,9 @@ body.secondary-purple-accent-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-purple-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(170, 0, 255, 0.1); }
 
-body.form-purple-accent-4 .btn, body.form-purple-accent-4 .node__links a, .node__links body.form-purple-accent-4 a {
+body.form-purple-accent-4 .btn {
   background-color: #aa00ff; }
-  body.form-purple-accent-4 .btn:hover, body.form-purple-accent-4 .node__links a:hover, .node__links body.form-purple-accent-4 a:hover {
+  body.form-purple-accent-4 .btn:hover {
     background-color: #b31aff; }
 
 body.form-purple-accent-4 .btn-floating {
@@ -5628,9 +5628,9 @@ body.secondary-deep-purple-lighten-5 .switch label input[type=checkbox]:checked 
 body.secondary-deep-purple-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(237, 231, 246, 0.1); }
 
-body.form-deep-purple-lighten-5 .btn, body.form-deep-purple-lighten-5 .node__links a, .node__links body.form-deep-purple-lighten-5 a {
+body.form-deep-purple-lighten-5 .btn {
   background-color: #ede7f6; }
-  body.form-deep-purple-lighten-5 .btn:hover, body.form-deep-purple-lighten-5 .node__links a:hover, .node__links body.form-deep-purple-lighten-5 a:hover {
+  body.form-deep-purple-lighten-5 .btn:hover {
     background-color: #fbfafd; }
 
 body.form-deep-purple-lighten-5 .btn-floating {
@@ -5704,9 +5704,9 @@ body.secondary-deep-purple-lighten-4 .switch label input[type=checkbox]:checked 
 body.secondary-deep-purple-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(209, 196, 233, 0.1); }
 
-body.form-deep-purple-lighten-4 .btn, body.form-deep-purple-lighten-4 .node__links a, .node__links body.form-deep-purple-lighten-4 a {
+body.form-deep-purple-lighten-4 .btn {
   background-color: #d1c4e9; }
-  body.form-deep-purple-lighten-4 .btn:hover, body.form-deep-purple-lighten-4 .node__links a:hover, .node__links body.form-deep-purple-lighten-4 a:hover {
+  body.form-deep-purple-lighten-4 .btn:hover {
     background-color: #dfd7f0; }
 
 body.form-deep-purple-lighten-4 .btn-floating {
@@ -5780,9 +5780,9 @@ body.secondary-deep-purple-lighten-3 .switch label input[type=checkbox]:checked 
 body.secondary-deep-purple-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(179, 157, 219, 0.1); }
 
-body.form-deep-purple-lighten-3 .btn, body.form-deep-purple-lighten-3 .node__links a, .node__links body.form-deep-purple-lighten-3 a {
+body.form-deep-purple-lighten-3 .btn {
   background-color: #b39ddb; }
-  body.form-deep-purple-lighten-3 .btn:hover, body.form-deep-purple-lighten-3 .node__links a:hover, .node__links body.form-deep-purple-lighten-3 a:hover {
+  body.form-deep-purple-lighten-3 .btn:hover {
     background-color: #c1b0e2; }
 
 body.form-deep-purple-lighten-3 .btn-floating {
@@ -5856,9 +5856,9 @@ body.secondary-deep-purple-lighten-2 .switch label input[type=checkbox]:checked 
 body.secondary-deep-purple-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(149, 117, 205, 0.1); }
 
-body.form-deep-purple-lighten-2 .btn, body.form-deep-purple-lighten-2 .node__links a, .node__links body.form-deep-purple-lighten-2 a {
+body.form-deep-purple-lighten-2 .btn {
   background-color: #9575cd; }
-  body.form-deep-purple-lighten-2 .btn:hover, body.form-deep-purple-lighten-2 .node__links a:hover, .node__links body.form-deep-purple-lighten-2 a:hover {
+  body.form-deep-purple-lighten-2 .btn:hover {
     background-color: #a388d4; }
 
 body.form-deep-purple-lighten-2 .btn-floating {
@@ -5932,9 +5932,9 @@ body.secondary-deep-purple-lighten-1 .switch label input[type=checkbox]:checked 
 body.secondary-deep-purple-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(126, 87, 194, 0.1); }
 
-body.form-deep-purple-lighten-1 .btn, body.form-deep-purple-lighten-1 .node__links a, .node__links body.form-deep-purple-lighten-1 a {
+body.form-deep-purple-lighten-1 .btn {
   background-color: #7e57c2; }
-  body.form-deep-purple-lighten-1 .btn:hover, body.form-deep-purple-lighten-1 .node__links a:hover, .node__links body.form-deep-purple-lighten-1 a:hover {
+  body.form-deep-purple-lighten-1 .btn:hover {
     background-color: #8c6ac9; }
 
 body.form-deep-purple-lighten-1 .btn-floating {
@@ -6008,9 +6008,9 @@ body.secondary-deep-purple-base .switch label input[type=checkbox]:checked + .le
 body.secondary-deep-purple-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(103, 58, 183, 0.1); }
 
-body.form-deep-purple-base .btn, body.form-deep-purple-base .node__links a, .node__links body.form-deep-purple-base a {
+body.form-deep-purple-base .btn {
   background-color: #673ab7; }
-  body.form-deep-purple-base .btn:hover, body.form-deep-purple-base .node__links a:hover, .node__links body.form-deep-purple-base a:hover {
+  body.form-deep-purple-base .btn:hover {
     background-color: #7446c4; }
 
 body.form-deep-purple-base .btn-floating {
@@ -6084,9 +6084,9 @@ body.secondary-deep-purple-darken-1 .switch label input[type=checkbox]:checked +
 body.secondary-deep-purple-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(94, 53, 177, 0.1); }
 
-body.form-deep-purple-darken-1 .btn, body.form-deep-purple-darken-1 .node__links a, .node__links body.form-deep-purple-darken-1 a {
+body.form-deep-purple-darken-1 .btn {
   background-color: #5e35b1; }
-  body.form-deep-purple-darken-1 .btn:hover, body.form-deep-purple-darken-1 .node__links a:hover, .node__links body.form-deep-purple-darken-1 a:hover {
+  body.form-deep-purple-darken-1 .btn:hover {
     background-color: #693bc4; }
 
 body.form-deep-purple-darken-1 .btn-floating {
@@ -6160,9 +6160,9 @@ body.secondary-deep-purple-darken-2 .switch label input[type=checkbox]:checked +
 body.secondary-deep-purple-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(81, 45, 168, 0.1); }
 
-body.form-deep-purple-darken-2 .btn, body.form-deep-purple-darken-2 .node__links a, .node__links body.form-deep-purple-darken-2 a {
+body.form-deep-purple-darken-2 .btn {
   background-color: #512da8; }
-  body.form-deep-purple-darken-2 .btn:hover, body.form-deep-purple-darken-2 .node__links a:hover, .node__links body.form-deep-purple-darken-2 a:hover {
+  body.form-deep-purple-darken-2 .btn:hover {
     background-color: #5b32bc; }
 
 body.form-deep-purple-darken-2 .btn-floating {
@@ -6236,9 +6236,9 @@ body.secondary-deep-purple-darken-3 .switch label input[type=checkbox]:checked +
 body.secondary-deep-purple-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(69, 39, 160, 0.1); }
 
-body.form-deep-purple-darken-3 .btn, body.form-deep-purple-darken-3 .node__links a, .node__links body.form-deep-purple-darken-3 a {
+body.form-deep-purple-darken-3 .btn {
   background-color: #4527a0; }
-  body.form-deep-purple-darken-3 .btn:hover, body.form-deep-purple-darken-3 .node__links a:hover, .node__links body.form-deep-purple-darken-3 a:hover {
+  body.form-deep-purple-darken-3 .btn:hover {
     background-color: #4e2cb5; }
 
 body.form-deep-purple-darken-3 .btn-floating {
@@ -6312,9 +6312,9 @@ body.secondary-deep-purple-darken-4 .switch label input[type=checkbox]:checked +
 body.secondary-deep-purple-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(49, 27, 146, 0.1); }
 
-body.form-deep-purple-darken-4 .btn, body.form-deep-purple-darken-4 .node__links a, .node__links body.form-deep-purple-darken-4 a {
+body.form-deep-purple-darken-4 .btn {
   background-color: #311b92; }
-  body.form-deep-purple-darken-4 .btn:hover, body.form-deep-purple-darken-4 .node__links a:hover, .node__links body.form-deep-purple-darken-4 a:hover {
+  body.form-deep-purple-darken-4 .btn:hover {
     background-color: #381fa8; }
 
 body.form-deep-purple-darken-4 .btn-floating {
@@ -6388,9 +6388,9 @@ body.secondary-deep-purple-accent-1 .switch label input[type=checkbox]:checked +
 body.secondary-deep-purple-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(179, 136, 255, 0.1); }
 
-body.form-deep-purple-accent-1 .btn, body.form-deep-purple-accent-1 .node__links a, .node__links body.form-deep-purple-accent-1 a {
+body.form-deep-purple-accent-1 .btn {
   background-color: #b388ff; }
-  body.form-deep-purple-accent-1 .btn:hover, body.form-deep-purple-accent-1 .node__links a:hover, .node__links body.form-deep-purple-accent-1 a:hover {
+  body.form-deep-purple-accent-1 .btn:hover {
     background-color: #c3a2ff; }
 
 body.form-deep-purple-accent-1 .btn-floating {
@@ -6464,9 +6464,9 @@ body.secondary-deep-purple-accent-2 .switch label input[type=checkbox]:checked +
 body.secondary-deep-purple-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(124, 77, 255, 0.1); }
 
-body.form-deep-purple-accent-2 .btn, body.form-deep-purple-accent-2 .node__links a, .node__links body.form-deep-purple-accent-2 a {
+body.form-deep-purple-accent-2 .btn {
   background-color: #7c4dff; }
-  body.form-deep-purple-accent-2 .btn:hover, body.form-deep-purple-accent-2 .node__links a:hover, .node__links body.form-deep-purple-accent-2 a:hover {
+  body.form-deep-purple-accent-2 .btn:hover {
     background-color: #8f67ff; }
 
 body.form-deep-purple-accent-2 .btn-floating {
@@ -6540,9 +6540,9 @@ body.secondary-deep-purple-accent-3 .switch label input[type=checkbox]:checked +
 body.secondary-deep-purple-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(101, 31, 255, 0.1); }
 
-body.form-deep-purple-accent-3 .btn, body.form-deep-purple-accent-3 .node__links a, .node__links body.form-deep-purple-accent-3 a {
+body.form-deep-purple-accent-3 .btn {
   background-color: #651fff; }
-  body.form-deep-purple-accent-3 .btn:hover, body.form-deep-purple-accent-3 .node__links a:hover, .node__links body.form-deep-purple-accent-3 a:hover {
+  body.form-deep-purple-accent-3 .btn:hover {
     background-color: #7739ff; }
 
 body.form-deep-purple-accent-3 .btn-floating {
@@ -6616,9 +6616,9 @@ body.secondary-deep-purple-accent-4 .switch label input[type=checkbox]:checked +
 body.secondary-deep-purple-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(98, 0, 234, 0.1); }
 
-body.form-deep-purple-accent-4 .btn, body.form-deep-purple-accent-4 .node__links a, .node__links body.form-deep-purple-accent-4 a {
+body.form-deep-purple-accent-4 .btn {
   background-color: #6200ea; }
-  body.form-deep-purple-accent-4 .btn:hover, body.form-deep-purple-accent-4 .node__links a:hover, .node__links body.form-deep-purple-accent-4 a:hover {
+  body.form-deep-purple-accent-4 .btn:hover {
     background-color: #6d05ff; }
 
 body.form-deep-purple-accent-4 .btn-floating {
@@ -6692,9 +6692,9 @@ body.secondary-indigo-lighten-5 .switch label input[type=checkbox]:checked + .le
 body.secondary-indigo-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(232, 234, 246, 0.1); }
 
-body.form-indigo-lighten-5 .btn, body.form-indigo-lighten-5 .node__links a, .node__links body.form-indigo-lighten-5 a {
+body.form-indigo-lighten-5 .btn {
   background-color: #e8eaf6; }
-  body.form-indigo-lighten-5 .btn:hover, body.form-indigo-lighten-5 .node__links a:hover, .node__links body.form-indigo-lighten-5 a:hover {
+  body.form-indigo-lighten-5 .btn:hover {
     background-color: #fafbfd; }
 
 body.form-indigo-lighten-5 .btn-floating {
@@ -6768,9 +6768,9 @@ body.secondary-indigo-lighten-4 .switch label input[type=checkbox]:checked + .le
 body.secondary-indigo-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(197, 202, 233, 0.1); }
 
-body.form-indigo-lighten-4 .btn, body.form-indigo-lighten-4 .node__links a, .node__links body.form-indigo-lighten-4 a {
+body.form-indigo-lighten-4 .btn {
   background-color: #c5cae9; }
-  body.form-indigo-lighten-4 .btn:hover, body.form-indigo-lighten-4 .node__links a:hover, .node__links body.form-indigo-lighten-4 a:hover {
+  body.form-indigo-lighten-4 .btn:hover {
     background-color: #d7dbf0; }
 
 body.form-indigo-lighten-4 .btn-floating {
@@ -6844,9 +6844,9 @@ body.secondary-indigo-lighten-3 .switch label input[type=checkbox]:checked + .le
 body.secondary-indigo-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(159, 168, 218, 0.1); }
 
-body.form-indigo-lighten-3 .btn, body.form-indigo-lighten-3 .node__links a, .node__links body.form-indigo-lighten-3 a {
+body.form-indigo-lighten-3 .btn {
   background-color: #9fa8da; }
-  body.form-indigo-lighten-3 .btn:hover, body.form-indigo-lighten-3 .node__links a:hover, .node__links body.form-indigo-lighten-3 a:hover {
+  body.form-indigo-lighten-3 .btn:hover {
     background-color: #b1b9e1; }
 
 body.form-indigo-lighten-3 .btn-floating {
@@ -6920,9 +6920,9 @@ body.secondary-indigo-lighten-2 .switch label input[type=checkbox]:checked + .le
 body.secondary-indigo-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(121, 134, 203, 0.1); }
 
-body.form-indigo-lighten-2 .btn, body.form-indigo-lighten-2 .node__links a, .node__links body.form-indigo-lighten-2 a {
+body.form-indigo-lighten-2 .btn {
   background-color: #7986cb; }
-  body.form-indigo-lighten-2 .btn:hover, body.form-indigo-lighten-2 .node__links a:hover, .node__links body.form-indigo-lighten-2 a:hover {
+  body.form-indigo-lighten-2 .btn:hover {
     background-color: #8b97d2; }
 
 body.form-indigo-lighten-2 .btn-floating {
@@ -6996,9 +6996,9 @@ body.secondary-indigo-lighten-1 .switch label input[type=checkbox]:checked + .le
 body.secondary-indigo-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(92, 107, 192, 0.1); }
 
-body.form-indigo-lighten-1 .btn, body.form-indigo-lighten-1 .node__links a, .node__links body.form-indigo-lighten-1 a {
+body.form-indigo-lighten-1 .btn {
   background-color: #5c6bc0; }
-  body.form-indigo-lighten-1 .btn:hover, body.form-indigo-lighten-1 .node__links a:hover, .node__links body.form-indigo-lighten-1 a:hover {
+  body.form-indigo-lighten-1 .btn:hover {
     background-color: #6e7cc7; }
 
 body.form-indigo-lighten-1 .btn-floating {
@@ -7072,9 +7072,9 @@ body.secondary-indigo-base .switch label input[type=checkbox]:checked + .lever:a
 body.secondary-indigo-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(63, 81, 181, 0.1); }
 
-body.form-indigo-base .btn, body.form-indigo-base .node__links a, .node__links body.form-indigo-base a {
+body.form-indigo-base .btn {
   background-color: #3f51b5; }
-  body.form-indigo-base .btn:hover, body.form-indigo-base .node__links a:hover, .node__links body.form-indigo-base a:hover {
+  body.form-indigo-base .btn:hover {
     background-color: #4d5ec1; }
 
 body.form-indigo-base .btn-floating {
@@ -7148,9 +7148,9 @@ body.secondary-indigo-darken-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-indigo-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(57, 73, 171, 0.1); }
 
-body.form-indigo-darken-1 .btn, body.form-indigo-darken-1 .node__links a, .node__links body.form-indigo-darken-1 a {
+body.form-indigo-darken-1 .btn {
   background-color: #3949ab; }
-  body.form-indigo-darken-1 .btn:hover, body.form-indigo-darken-1 .node__links a:hover, .node__links body.form-indigo-darken-1 a:hover {
+  body.form-indigo-darken-1 .btn:hover {
     background-color: #3f51be; }
 
 body.form-indigo-darken-1 .btn-floating {
@@ -7224,9 +7224,9 @@ body.secondary-indigo-darken-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-indigo-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(48, 63, 159, 0.1); }
 
-body.form-indigo-darken-2 .btn, body.form-indigo-darken-2 .node__links a, .node__links body.form-indigo-darken-2 a {
+body.form-indigo-darken-2 .btn {
   background-color: #303f9f; }
-  body.form-indigo-darken-2 .btn:hover, body.form-indigo-darken-2 .node__links a:hover, .node__links body.form-indigo-darken-2 a:hover {
+  body.form-indigo-darken-2 .btn:hover {
     background-color: #3647b3; }
 
 body.form-indigo-darken-2 .btn-floating {
@@ -7300,9 +7300,9 @@ body.secondary-indigo-darken-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-indigo-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(40, 53, 147, 0.1); }
 
-body.form-indigo-darken-3 .btn, body.form-indigo-darken-3 .node__links a, .node__links body.form-indigo-darken-3 a {
+body.form-indigo-darken-3 .btn {
   background-color: #283593; }
-  body.form-indigo-darken-3 .btn:hover, body.form-indigo-darken-3 .node__links a:hover, .node__links body.form-indigo-darken-3 a:hover {
+  body.form-indigo-darken-3 .btn:hover {
     background-color: #2d3ca7; }
 
 body.form-indigo-darken-3 .btn-floating {
@@ -7376,9 +7376,9 @@ body.secondary-indigo-darken-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-indigo-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(26, 35, 126, 0.1); }
 
-body.form-indigo-darken-4 .btn, body.form-indigo-darken-4 .node__links a, .node__links body.form-indigo-darken-4 a {
+body.form-indigo-darken-4 .btn {
   background-color: #1a237e; }
-  body.form-indigo-darken-4 .btn:hover, body.form-indigo-darken-4 .node__links a:hover, .node__links body.form-indigo-darken-4 a:hover {
+  body.form-indigo-darken-4 .btn:hover {
     background-color: #1e2993; }
 
 body.form-indigo-darken-4 .btn-floating {
@@ -7452,9 +7452,9 @@ body.secondary-indigo-accent-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-indigo-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(140, 158, 255, 0.1); }
 
-body.form-indigo-accent-1 .btn, body.form-indigo-accent-1 .node__links a, .node__links body.form-indigo-accent-1 a {
+body.form-indigo-accent-1 .btn {
   background-color: #8c9eff; }
-  body.form-indigo-accent-1 .btn:hover, body.form-indigo-accent-1 .node__links a:hover, .node__links body.form-indigo-accent-1 a:hover {
+  body.form-indigo-accent-1 .btn:hover {
     background-color: #a6b4ff; }
 
 body.form-indigo-accent-1 .btn-floating {
@@ -7528,9 +7528,9 @@ body.secondary-indigo-accent-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-indigo-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(83, 109, 254, 0.1); }
 
-body.form-indigo-accent-2 .btn, body.form-indigo-accent-2 .node__links a, .node__links body.form-indigo-accent-2 a {
+body.form-indigo-accent-2 .btn {
   background-color: #536dfe; }
-  body.form-indigo-accent-2 .btn:hover, body.form-indigo-accent-2 .node__links a:hover, .node__links body.form-indigo-accent-2 a:hover {
+  body.form-indigo-accent-2 .btn:hover {
     background-color: #6c83fe; }
 
 body.form-indigo-accent-2 .btn-floating {
@@ -7604,9 +7604,9 @@ body.secondary-indigo-accent-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-indigo-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(61, 90, 254, 0.1); }
 
-body.form-indigo-accent-3 .btn, body.form-indigo-accent-3 .node__links a, .node__links body.form-indigo-accent-3 a {
+body.form-indigo-accent-3 .btn {
   background-color: #3d5afe; }
-  body.form-indigo-accent-3 .btn:hover, body.form-indigo-accent-3 .node__links a:hover, .node__links body.form-indigo-accent-3 a:hover {
+  body.form-indigo-accent-3 .btn:hover {
     background-color: #5670fe; }
 
 body.form-indigo-accent-3 .btn-floating {
@@ -7680,9 +7680,9 @@ body.secondary-indigo-accent-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-indigo-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(48, 79, 254, 0.1); }
 
-body.form-indigo-accent-4 .btn, body.form-indigo-accent-4 .node__links a, .node__links body.form-indigo-accent-4 a {
+body.form-indigo-accent-4 .btn {
   background-color: #304ffe; }
-  body.form-indigo-accent-4 .btn:hover, body.form-indigo-accent-4 .node__links a:hover, .node__links body.form-indigo-accent-4 a:hover {
+  body.form-indigo-accent-4 .btn:hover {
     background-color: #4965fe; }
 
 body.form-indigo-accent-4 .btn-floating {
@@ -7756,9 +7756,9 @@ body.secondary-blue-lighten-5 .switch label input[type=checkbox]:checked + .leve
 body.secondary-blue-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(227, 242, 253, 0.1); }
 
-body.form-blue-lighten-5 .btn, body.form-blue-lighten-5 .node__links a, .node__links body.form-blue-lighten-5 a {
+body.form-blue-lighten-5 .btn {
   background-color: #E3F2FD; }
-  body.form-blue-lighten-5 .btn:hover, body.form-blue-lighten-5 .node__links a:hover, .node__links body.form-blue-lighten-5 a:hover {
+  body.form-blue-lighten-5 .btn:hover {
     background-color: #fbfdff; }
 
 body.form-blue-lighten-5 .btn-floating {
@@ -7832,9 +7832,9 @@ body.secondary-blue-lighten-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-blue-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(187, 222, 251, 0.1); }
 
-body.form-blue-lighten-4 .btn, body.form-blue-lighten-4 .node__links a, .node__links body.form-blue-lighten-4 a {
+body.form-blue-lighten-4 .btn {
   background-color: #BBDEFB; }
-  body.form-blue-lighten-4 .btn:hover, body.form-blue-lighten-4 .node__links a:hover, .node__links body.form-blue-lighten-4 a:hover {
+  body.form-blue-lighten-4 .btn:hover {
     background-color: #d3eafc; }
 
 body.form-blue-lighten-4 .btn-floating {
@@ -7908,9 +7908,9 @@ body.secondary-blue-lighten-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-blue-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(144, 202, 249, 0.1); }
 
-body.form-blue-lighten-3 .btn, body.form-blue-lighten-3 .node__links a, .node__links body.form-blue-lighten-3 a {
+body.form-blue-lighten-3 .btn {
   background-color: #90CAF9; }
-  body.form-blue-lighten-3 .btn:hover, body.form-blue-lighten-3 .node__links a:hover, .node__links body.form-blue-lighten-3 a:hover {
+  body.form-blue-lighten-3 .btn:hover {
     background-color: #a8d6fa; }
 
 body.form-blue-lighten-3 .btn-floating {
@@ -7984,9 +7984,9 @@ body.secondary-blue-lighten-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-blue-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(100, 181, 246, 0.1); }
 
-body.form-blue-lighten-2 .btn, body.form-blue-lighten-2 .node__links a, .node__links body.form-blue-lighten-2 a {
+body.form-blue-lighten-2 .btn {
   background-color: #64B5F6; }
-  body.form-blue-lighten-2 .btn:hover, body.form-blue-lighten-2 .node__links a:hover, .node__links body.form-blue-lighten-2 a:hover {
+  body.form-blue-lighten-2 .btn:hover {
     background-color: #7cc1f7; }
 
 body.form-blue-lighten-2 .btn-floating {
@@ -8060,9 +8060,9 @@ body.secondary-blue-lighten-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-blue-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(66, 165, 245, 0.1); }
 
-body.form-blue-lighten-1 .btn, body.form-blue-lighten-1 .node__links a, .node__links body.form-blue-lighten-1 a {
+body.form-blue-lighten-1 .btn {
   background-color: #42A5F5; }
-  body.form-blue-lighten-1 .btn:hover, body.form-blue-lighten-1 .node__links a:hover, .node__links body.form-blue-lighten-1 a:hover {
+  body.form-blue-lighten-1 .btn:hover {
     background-color: #5ab1f6; }
 
 body.form-blue-lighten-1 .btn-floating {
@@ -8136,9 +8136,9 @@ body.secondary-blue-base .switch label input[type=checkbox]:checked + .lever:aft
 body.secondary-blue-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(33, 150, 243, 0.1); }
 
-body.form-blue-base .btn, body.form-blue-base .node__links a, .node__links body.form-blue-base a {
+body.form-blue-base .btn {
   background-color: #2196F3; }
-  body.form-blue-base .btn:hover, body.form-blue-base .node__links a:hover, .node__links body.form-blue-base a:hover {
+  body.form-blue-base .btn:hover {
     background-color: #39a1f4; }
 
 body.form-blue-base .btn-floating {
@@ -8212,9 +8212,9 @@ body.secondary-blue-darken-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-blue-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(30, 136, 229, 0.1); }
 
-body.form-blue-darken-1 .btn, body.form-blue-darken-1 .node__links a, .node__links body.form-blue-darken-1 a {
+body.form-blue-darken-1 .btn {
   background-color: #1E88E5; }
-  body.form-blue-darken-1 .btn:hover, body.form-blue-darken-1 .node__links a:hover, .node__links body.form-blue-darken-1 a:hover {
+  body.form-blue-darken-1 .btn:hover {
     background-color: #3594e8; }
 
 body.form-blue-darken-1 .btn-floating {
@@ -8288,9 +8288,9 @@ body.secondary-blue-darken-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-blue-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(25, 118, 210, 0.1); }
 
-body.form-blue-darken-2 .btn, body.form-blue-darken-2 .node__links a, .node__links body.form-blue-darken-2 a {
+body.form-blue-darken-2 .btn {
   background-color: #1976D2; }
-  body.form-blue-darken-2 .btn:hover, body.form-blue-darken-2 .node__links a:hover, .node__links body.form-blue-darken-2 a:hover {
+  body.form-blue-darken-2 .btn:hover {
     background-color: #2083e4; }
 
 body.form-blue-darken-2 .btn-floating {
@@ -8364,9 +8364,9 @@ body.secondary-blue-darken-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-blue-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(21, 101, 192, 0.1); }
 
-body.form-blue-darken-3 .btn, body.form-blue-darken-3 .node__links a, .node__links body.form-blue-darken-3 a {
+body.form-blue-darken-3 .btn {
   background-color: #1565C0; }
-  body.form-blue-darken-3 .btn:hover, body.form-blue-darken-3 .node__links a:hover, .node__links body.form-blue-darken-3 a:hover {
+  body.form-blue-darken-3 .btn:hover {
     background-color: #1871d7; }
 
 body.form-blue-darken-3 .btn-floating {
@@ -8440,9 +8440,9 @@ body.secondary-blue-darken-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-blue-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(13, 71, 161, 0.1); }
 
-body.form-blue-darken-4 .btn, body.form-blue-darken-4 .node__links a, .node__links body.form-blue-darken-4 a {
+body.form-blue-darken-4 .btn {
   background-color: #0D47A1; }
-  body.form-blue-darken-4 .btn:hover, body.form-blue-darken-4 .node__links a:hover, .node__links body.form-blue-darken-4 a:hover {
+  body.form-blue-darken-4 .btn:hover {
     background-color: #0f51b9; }
 
 body.form-blue-darken-4 .btn-floating {
@@ -8516,9 +8516,9 @@ body.secondary-blue-accent-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-blue-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(130, 177, 255, 0.1); }
 
-body.form-blue-accent-1 .btn, body.form-blue-accent-1 .node__links a, .node__links body.form-blue-accent-1 a {
+body.form-blue-accent-1 .btn {
   background-color: #82B1FF; }
-  body.form-blue-accent-1 .btn:hover, body.form-blue-accent-1 .node__links a:hover, .node__links body.form-blue-accent-1 a:hover {
+  body.form-blue-accent-1 .btn:hover {
     background-color: #9cc1ff; }
 
 body.form-blue-accent-1 .btn-floating {
@@ -8592,9 +8592,9 @@ body.secondary-blue-accent-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-blue-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(68, 138, 255, 0.1); }
 
-body.form-blue-accent-2 .btn, body.form-blue-accent-2 .node__links a, .node__links body.form-blue-accent-2 a {
+body.form-blue-accent-2 .btn {
   background-color: #448AFF; }
-  body.form-blue-accent-2 .btn:hover, body.form-blue-accent-2 .node__links a:hover, .node__links body.form-blue-accent-2 a:hover {
+  body.form-blue-accent-2 .btn:hover {
     background-color: #5e9aff; }
 
 body.form-blue-accent-2 .btn-floating {
@@ -8668,9 +8668,9 @@ body.secondary-blue-accent-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-blue-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(41, 121, 255, 0.1); }
 
-body.form-blue-accent-3 .btn, body.form-blue-accent-3 .node__links a, .node__links body.form-blue-accent-3 a {
+body.form-blue-accent-3 .btn {
   background-color: #2979FF; }
-  body.form-blue-accent-3 .btn:hover, body.form-blue-accent-3 .node__links a:hover, .node__links body.form-blue-accent-3 a:hover {
+  body.form-blue-accent-3 .btn:hover {
     background-color: #4389ff; }
 
 body.form-blue-accent-3 .btn-floating {
@@ -8744,9 +8744,9 @@ body.secondary-blue-accent-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-blue-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(41, 98, 255, 0.1); }
 
-body.form-blue-accent-4 .btn, body.form-blue-accent-4 .node__links a, .node__links body.form-blue-accent-4 a {
+body.form-blue-accent-4 .btn {
   background-color: #2962FF; }
-  body.form-blue-accent-4 .btn:hover, body.form-blue-accent-4 .node__links a:hover, .node__links body.form-blue-accent-4 a:hover {
+  body.form-blue-accent-4 .btn:hover {
     background-color: #4375ff; }
 
 body.form-blue-accent-4 .btn-floating {
@@ -8820,9 +8820,9 @@ body.secondary-light-blue-lighten-5 .switch label input[type=checkbox]:checked +
 body.secondary-light-blue-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(225, 245, 254, 0.1); }
 
-body.form-light-blue-lighten-5 .btn, body.form-light-blue-lighten-5 .node__links a, .node__links body.form-light-blue-lighten-5 a {
+body.form-light-blue-lighten-5 .btn {
   background-color: #e1f5fe; }
-  body.form-light-blue-lighten-5 .btn:hover, body.form-light-blue-lighten-5 .node__links a:hover, .node__links body.form-light-blue-lighten-5 a:hover {
+  body.form-light-blue-lighten-5 .btn:hover {
     background-color: #fafdff; }
 
 body.form-light-blue-lighten-5 .btn-floating {
@@ -8896,9 +8896,9 @@ body.secondary-light-blue-lighten-4 .switch label input[type=checkbox]:checked +
 body.secondary-light-blue-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(179, 229, 252, 0.1); }
 
-body.form-light-blue-lighten-4 .btn, body.form-light-blue-lighten-4 .node__links a, .node__links body.form-light-blue-lighten-4 a {
+body.form-light-blue-lighten-4 .btn {
   background-color: #b3e5fc; }
-  body.form-light-blue-lighten-4 .btn:hover, body.form-light-blue-lighten-4 .node__links a:hover, .node__links body.form-light-blue-lighten-4 a:hover {
+  body.form-light-blue-lighten-4 .btn:hover {
     background-color: #ccedfd; }
 
 body.form-light-blue-lighten-4 .btn-floating {
@@ -8972,9 +8972,9 @@ body.secondary-light-blue-lighten-3 .switch label input[type=checkbox]:checked +
 body.secondary-light-blue-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(129, 212, 250, 0.1); }
 
-body.form-light-blue-lighten-3 .btn, body.form-light-blue-lighten-3 .node__links a, .node__links body.form-light-blue-lighten-3 a {
+body.form-light-blue-lighten-3 .btn {
   background-color: #81d4fa; }
-  body.form-light-blue-lighten-3 .btn:hover, body.form-light-blue-lighten-3 .node__links a:hover, .node__links body.form-light-blue-lighten-3 a:hover {
+  body.form-light-blue-lighten-3 .btn:hover {
     background-color: #9adcfb; }
 
 body.form-light-blue-lighten-3 .btn-floating {
@@ -9048,9 +9048,9 @@ body.secondary-light-blue-lighten-2 .switch label input[type=checkbox]:checked +
 body.secondary-light-blue-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(79, 195, 247, 0.1); }
 
-body.form-light-blue-lighten-2 .btn, body.form-light-blue-lighten-2 .node__links a, .node__links body.form-light-blue-lighten-2 a {
+body.form-light-blue-lighten-2 .btn {
   background-color: #4fc3f7; }
-  body.form-light-blue-lighten-2 .btn:hover, body.form-light-blue-lighten-2 .node__links a:hover, .node__links body.form-light-blue-lighten-2 a:hover {
+  body.form-light-blue-lighten-2 .btn:hover {
     background-color: #67cbf8; }
 
 body.form-light-blue-lighten-2 .btn-floating {
@@ -9124,9 +9124,9 @@ body.secondary-light-blue-lighten-1 .switch label input[type=checkbox]:checked +
 body.secondary-light-blue-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(41, 182, 246, 0.1); }
 
-body.form-light-blue-lighten-1 .btn, body.form-light-blue-lighten-1 .node__links a, .node__links body.form-light-blue-lighten-1 a {
+body.form-light-blue-lighten-1 .btn {
   background-color: #29b6f6; }
-  body.form-light-blue-lighten-1 .btn:hover, body.form-light-blue-lighten-1 .node__links a:hover, .node__links body.form-light-blue-lighten-1 a:hover {
+  body.form-light-blue-lighten-1 .btn:hover {
     background-color: #41bef7; }
 
 body.form-light-blue-lighten-1 .btn-floating {
@@ -9200,9 +9200,9 @@ body.secondary-light-blue-base .switch label input[type=checkbox]:checked + .lev
 body.secondary-light-blue-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(3, 169, 244, 0.1); }
 
-body.form-light-blue-base .btn, body.form-light-blue-base .node__links a, .node__links body.form-light-blue-base a {
+body.form-light-blue-base .btn {
   background-color: #03a9f4; }
-  body.form-light-blue-base .btn:hover, body.form-light-blue-base .node__links a:hover, .node__links body.form-light-blue-base a:hover {
+  body.form-light-blue-base .btn:hover {
     background-color: #14b4fc; }
 
 body.form-light-blue-base .btn-floating {
@@ -9276,9 +9276,9 @@ body.secondary-light-blue-darken-1 .switch label input[type=checkbox]:checked + 
 body.secondary-light-blue-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(3, 155, 229, 0.1); }
 
-body.form-light-blue-darken-1 .btn, body.form-light-blue-darken-1 .node__links a, .node__links body.form-light-blue-darken-1 a {
+body.form-light-blue-darken-1 .btn {
   background-color: #039be5; }
-  body.form-light-blue-darken-1 .btn:hover, body.form-light-blue-darken-1 .node__links a:hover, .node__links body.form-light-blue-darken-1 a:hover {
+  body.form-light-blue-darken-1 .btn:hover {
     background-color: #06abfc; }
 
 body.form-light-blue-darken-1 .btn-floating {
@@ -9352,9 +9352,9 @@ body.secondary-light-blue-darken-2 .switch label input[type=checkbox]:checked + 
 body.secondary-light-blue-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(2, 136, 209, 0.1); }
 
-body.form-light-blue-darken-2 .btn, body.form-light-blue-darken-2 .node__links a, .node__links body.form-light-blue-darken-2 a {
+body.form-light-blue-darken-2 .btn {
   background-color: #0288d1; }
-  body.form-light-blue-darken-2 .btn:hover, body.form-light-blue-darken-2 .node__links a:hover, .node__links body.form-light-blue-darken-2 a:hover {
+  body.form-light-blue-darken-2 .btn:hover {
     background-color: #0298ea; }
 
 body.form-light-blue-darken-2 .btn-floating {
@@ -9428,9 +9428,9 @@ body.secondary-light-blue-darken-3 .switch label input[type=checkbox]:checked + 
 body.secondary-light-blue-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(2, 119, 189, 0.1); }
 
-body.form-light-blue-darken-3 .btn, body.form-light-blue-darken-3 .node__links a, .node__links body.form-light-blue-darken-3 a {
+body.form-light-blue-darken-3 .btn {
   background-color: #0277bd; }
-  body.form-light-blue-darken-3 .btn:hover, body.form-light-blue-darken-3 .node__links a:hover, .node__links body.form-light-blue-darken-3 a:hover {
+  body.form-light-blue-darken-3 .btn:hover {
     background-color: #0287d6; }
 
 body.form-light-blue-darken-3 .btn-floating {
@@ -9504,9 +9504,9 @@ body.secondary-light-blue-darken-4 .switch label input[type=checkbox]:checked + 
 body.secondary-light-blue-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(1, 87, 155, 0.1); }
 
-body.form-light-blue-darken-4 .btn, body.form-light-blue-darken-4 .node__links a, .node__links body.form-light-blue-darken-4 a {
+body.form-light-blue-darken-4 .btn {
   background-color: #01579b; }
-  body.form-light-blue-darken-4 .btn:hover, body.form-light-blue-darken-4 .node__links a:hover, .node__links body.form-light-blue-darken-4 a:hover {
+  body.form-light-blue-darken-4 .btn:hover {
     background-color: #0165b4; }
 
 body.form-light-blue-darken-4 .btn-floating {
@@ -9580,9 +9580,9 @@ body.secondary-light-blue-accent-1 .switch label input[type=checkbox]:checked + 
 body.secondary-light-blue-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(128, 216, 255, 0.1); }
 
-body.form-light-blue-accent-1 .btn, body.form-light-blue-accent-1 .node__links a, .node__links body.form-light-blue-accent-1 a {
+body.form-light-blue-accent-1 .btn {
   background-color: #80d8ff; }
-  body.form-light-blue-accent-1 .btn:hover, body.form-light-blue-accent-1 .node__links a:hover, .node__links body.form-light-blue-accent-1 a:hover {
+  body.form-light-blue-accent-1 .btn:hover {
     background-color: #9ae0ff; }
 
 body.form-light-blue-accent-1 .btn-floating {
@@ -9656,9 +9656,9 @@ body.secondary-light-blue-accent-2 .switch label input[type=checkbox]:checked + 
 body.secondary-light-blue-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(64, 196, 255, 0.1); }
 
-body.form-light-blue-accent-2 .btn, body.form-light-blue-accent-2 .node__links a, .node__links body.form-light-blue-accent-2 a {
+body.form-light-blue-accent-2 .btn {
   background-color: #40c4ff; }
-  body.form-light-blue-accent-2 .btn:hover, body.form-light-blue-accent-2 .node__links a:hover, .node__links body.form-light-blue-accent-2 a:hover {
+  body.form-light-blue-accent-2 .btn:hover {
     background-color: #5accff; }
 
 body.form-light-blue-accent-2 .btn-floating {
@@ -9732,9 +9732,9 @@ body.secondary-light-blue-accent-3 .switch label input[type=checkbox]:checked + 
 body.secondary-light-blue-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 176, 255, 0.1); }
 
-body.form-light-blue-accent-3 .btn, body.form-light-blue-accent-3 .node__links a, .node__links body.form-light-blue-accent-3 a {
+body.form-light-blue-accent-3 .btn {
   background-color: #00b0ff; }
-  body.form-light-blue-accent-3 .btn:hover, body.form-light-blue-accent-3 .node__links a:hover, .node__links body.form-light-blue-accent-3 a:hover {
+  body.form-light-blue-accent-3 .btn:hover {
     background-color: #1ab8ff; }
 
 body.form-light-blue-accent-3 .btn-floating {
@@ -9808,9 +9808,9 @@ body.secondary-light-blue-accent-4 .switch label input[type=checkbox]:checked + 
 body.secondary-light-blue-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 145, 234, 0.1); }
 
-body.form-light-blue-accent-4 .btn, body.form-light-blue-accent-4 .node__links a, .node__links body.form-light-blue-accent-4 a {
+body.form-light-blue-accent-4 .btn {
   background-color: #0091ea; }
-  body.form-light-blue-accent-4 .btn:hover, body.form-light-blue-accent-4 .node__links a:hover, .node__links body.form-light-blue-accent-4 a:hover {
+  body.form-light-blue-accent-4 .btn:hover {
     background-color: #05a0ff; }
 
 body.form-light-blue-accent-4 .btn-floating {
@@ -9884,9 +9884,9 @@ body.secondary-cyan-lighten-5 .switch label input[type=checkbox]:checked + .leve
 body.secondary-cyan-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(224, 247, 250, 0.1); }
 
-body.form-cyan-lighten-5 .btn, body.form-cyan-lighten-5 .node__links a, .node__links body.form-cyan-lighten-5 a {
+body.form-cyan-lighten-5 .btn {
   background-color: #e0f7fa; }
-  body.form-cyan-lighten-5 .btn:hover, body.form-cyan-lighten-5 .node__links a:hover, .node__links body.form-cyan-lighten-5 a:hover {
+  body.form-cyan-lighten-5 .btn:hover {
     background-color: #f6fdfe; }
 
 body.form-cyan-lighten-5 .btn-floating {
@@ -9960,9 +9960,9 @@ body.secondary-cyan-lighten-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-cyan-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(178, 235, 242, 0.1); }
 
-body.form-cyan-lighten-4 .btn, body.form-cyan-lighten-4 .node__links a, .node__links body.form-cyan-lighten-4 a {
+body.form-cyan-lighten-4 .btn {
   background-color: #b2ebf2; }
-  body.form-cyan-lighten-4 .btn:hover, body.form-cyan-lighten-4 .node__links a:hover, .node__links body.form-cyan-lighten-4 a:hover {
+  body.form-cyan-lighten-4 .btn:hover {
     background-color: #c8f1f6; }
 
 body.form-cyan-lighten-4 .btn-floating {
@@ -10036,9 +10036,9 @@ body.secondary-cyan-lighten-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-cyan-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(128, 222, 234, 0.1); }
 
-body.form-cyan-lighten-3 .btn, body.form-cyan-lighten-3 .node__links a, .node__links body.form-cyan-lighten-3 a {
+body.form-cyan-lighten-3 .btn {
   background-color: #80deea; }
-  body.form-cyan-lighten-3 .btn:hover, body.form-cyan-lighten-3 .node__links a:hover, .node__links body.form-cyan-lighten-3 a:hover {
+  body.form-cyan-lighten-3 .btn:hover {
     background-color: #96e4ee; }
 
 body.form-cyan-lighten-3 .btn-floating {
@@ -10112,9 +10112,9 @@ body.secondary-cyan-lighten-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-cyan-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(77, 208, 225, 0.1); }
 
-body.form-cyan-lighten-2 .btn, body.form-cyan-lighten-2 .node__links a, .node__links body.form-cyan-lighten-2 a {
+body.form-cyan-lighten-2 .btn {
   background-color: #4dd0e1; }
-  body.form-cyan-lighten-2 .btn:hover, body.form-cyan-lighten-2 .node__links a:hover, .node__links body.form-cyan-lighten-2 a:hover {
+  body.form-cyan-lighten-2 .btn:hover {
     background-color: #63d6e5; }
 
 body.form-cyan-lighten-2 .btn-floating {
@@ -10188,9 +10188,9 @@ body.secondary-cyan-lighten-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-cyan-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(38, 198, 218, 0.1); }
 
-body.form-cyan-lighten-1 .btn, body.form-cyan-lighten-1 .node__links a, .node__links body.form-cyan-lighten-1 a {
+body.form-cyan-lighten-1 .btn {
   background-color: #26c6da; }
-  body.form-cyan-lighten-1 .btn:hover, body.form-cyan-lighten-1 .node__links a:hover, .node__links body.form-cyan-lighten-1 a:hover {
+  body.form-cyan-lighten-1 .btn:hover {
     background-color: #3cccde; }
 
 body.form-cyan-lighten-1 .btn-floating {
@@ -10264,9 +10264,9 @@ body.secondary-cyan-base .switch label input[type=checkbox]:checked + .lever:aft
 body.secondary-cyan-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 188, 212, 0.1); }
 
-body.form-cyan-base .btn, body.form-cyan-base .node__links a, .node__links body.form-cyan-base a {
+body.form-cyan-base .btn {
   background-color: #00bcd4; }
-  body.form-cyan-base .btn:hover, body.form-cyan-base .node__links a:hover, .node__links body.form-cyan-base a:hover {
+  body.form-cyan-base .btn:hover {
     background-color: #00d3ee; }
 
 body.form-cyan-base .btn-floating {
@@ -10340,9 +10340,9 @@ body.secondary-cyan-darken-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-cyan-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 172, 193, 0.1); }
 
-body.form-cyan-darken-1 .btn, body.form-cyan-darken-1 .node__links a, .node__links body.form-cyan-darken-1 a {
+body.form-cyan-darken-1 .btn {
   background-color: #00acc1; }
-  body.form-cyan-darken-1 .btn:hover, body.form-cyan-darken-1 .node__links a:hover, .node__links body.form-cyan-darken-1 a:hover {
+  body.form-cyan-darken-1 .btn:hover {
     background-color: #00c3db; }
 
 body.form-cyan-darken-1 .btn-floating {
@@ -10416,9 +10416,9 @@ body.secondary-cyan-darken-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-cyan-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 151, 167, 0.1); }
 
-body.form-cyan-darken-2 .btn, body.form-cyan-darken-2 .node__links a, .node__links body.form-cyan-darken-2 a {
+body.form-cyan-darken-2 .btn {
   background-color: #0097a7; }
-  body.form-cyan-darken-2 .btn:hover, body.form-cyan-darken-2 .node__links a:hover, .node__links body.form-cyan-darken-2 a:hover {
+  body.form-cyan-darken-2 .btn:hover {
     background-color: #00aec1; }
 
 body.form-cyan-darken-2 .btn-floating {
@@ -10492,9 +10492,9 @@ body.secondary-cyan-darken-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-cyan-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 131, 143, 0.1); }
 
-body.form-cyan-darken-3 .btn, body.form-cyan-darken-3 .node__links a, .node__links body.form-cyan-darken-3 a {
+body.form-cyan-darken-3 .btn {
   background-color: #00838f; }
-  body.form-cyan-darken-3 .btn:hover, body.form-cyan-darken-3 .node__links a:hover, .node__links body.form-cyan-darken-3 a:hover {
+  body.form-cyan-darken-3 .btn:hover {
     background-color: #009aa9; }
 
 body.form-cyan-darken-3 .btn-floating {
@@ -10568,9 +10568,9 @@ body.secondary-cyan-darken-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-cyan-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 96, 100, 0.1); }
 
-body.form-cyan-darken-4 .btn, body.form-cyan-darken-4 .node__links a, .node__links body.form-cyan-darken-4 a {
+body.form-cyan-darken-4 .btn {
   background-color: #006064; }
-  body.form-cyan-darken-4 .btn:hover, body.form-cyan-darken-4 .node__links a:hover, .node__links body.form-cyan-darken-4 a:hover {
+  body.form-cyan-darken-4 .btn:hover {
     background-color: #00787e; }
 
 body.form-cyan-darken-4 .btn-floating {
@@ -10644,9 +10644,9 @@ body.secondary-cyan-accent-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-cyan-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(132, 255, 255, 0.1); }
 
-body.form-cyan-accent-1 .btn, body.form-cyan-accent-1 .node__links a, .node__links body.form-cyan-accent-1 a {
+body.form-cyan-accent-1 .btn {
   background-color: #84ffff; }
-  body.form-cyan-accent-1 .btn:hover, body.form-cyan-accent-1 .node__links a:hover, .node__links body.form-cyan-accent-1 a:hover {
+  body.form-cyan-accent-1 .btn:hover {
     background-color: #9effff; }
 
 body.form-cyan-accent-1 .btn-floating {
@@ -10720,9 +10720,9 @@ body.secondary-cyan-accent-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-cyan-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(24, 255, 255, 0.1); }
 
-body.form-cyan-accent-2 .btn, body.form-cyan-accent-2 .node__links a, .node__links body.form-cyan-accent-2 a {
+body.form-cyan-accent-2 .btn {
   background-color: #18ffff; }
-  body.form-cyan-accent-2 .btn:hover, body.form-cyan-accent-2 .node__links a:hover, .node__links body.form-cyan-accent-2 a:hover {
+  body.form-cyan-accent-2 .btn:hover {
     background-color: #32ffff; }
 
 body.form-cyan-accent-2 .btn-floating {
@@ -10796,9 +10796,9 @@ body.secondary-cyan-accent-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-cyan-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 229, 255, 0.1); }
 
-body.form-cyan-accent-3 .btn, body.form-cyan-accent-3 .node__links a, .node__links body.form-cyan-accent-3 a {
+body.form-cyan-accent-3 .btn {
   background-color: #00e5ff; }
-  body.form-cyan-accent-3 .btn:hover, body.form-cyan-accent-3 .node__links a:hover, .node__links body.form-cyan-accent-3 a:hover {
+  body.form-cyan-accent-3 .btn:hover {
     background-color: #1ae8ff; }
 
 body.form-cyan-accent-3 .btn-floating {
@@ -10872,9 +10872,9 @@ body.secondary-cyan-accent-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-cyan-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 184, 212, 0.1); }
 
-body.form-cyan-accent-4 .btn, body.form-cyan-accent-4 .node__links a, .node__links body.form-cyan-accent-4 a {
+body.form-cyan-accent-4 .btn {
   background-color: #00b8d4; }
-  body.form-cyan-accent-4 .btn:hover, body.form-cyan-accent-4 .node__links a:hover, .node__links body.form-cyan-accent-4 a:hover {
+  body.form-cyan-accent-4 .btn:hover {
     background-color: #00ceee; }
 
 body.form-cyan-accent-4 .btn-floating {
@@ -10948,9 +10948,9 @@ body.secondary-teal-lighten-5 .switch label input[type=checkbox]:checked + .leve
 body.secondary-teal-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(224, 242, 241, 0.1); }
 
-body.form-teal-lighten-5 .btn, body.form-teal-lighten-5 .node__links a, .node__links body.form-teal-lighten-5 a {
+body.form-teal-lighten-5 .btn {
   background-color: #e0f2f1; }
-  body.form-teal-lighten-5 .btn:hover, body.form-teal-lighten-5 .node__links a:hover, .node__links body.form-teal-lighten-5 a:hover {
+  body.form-teal-lighten-5 .btn:hover {
     background-color: #f2faf9; }
 
 body.form-teal-lighten-5 .btn-floating {
@@ -11024,9 +11024,9 @@ body.secondary-teal-lighten-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-teal-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(178, 223, 219, 0.1); }
 
-body.form-teal-lighten-4 .btn, body.form-teal-lighten-4 .node__links a, .node__links body.form-teal-lighten-4 a {
+body.form-teal-lighten-4 .btn {
   background-color: #b2dfdb; }
-  body.form-teal-lighten-4 .btn:hover, body.form-teal-lighten-4 .node__links a:hover, .node__links body.form-teal-lighten-4 a:hover {
+  body.form-teal-lighten-4 .btn:hover {
     background-color: #c4e6e3; }
 
 body.form-teal-lighten-4 .btn-floating {
@@ -11100,9 +11100,9 @@ body.secondary-teal-lighten-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-teal-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(128, 203, 196, 0.1); }
 
-body.form-teal-lighten-3 .btn, body.form-teal-lighten-3 .node__links a, .node__links body.form-teal-lighten-3 a {
+body.form-teal-lighten-3 .btn {
   background-color: #80cbc4; }
-  body.form-teal-lighten-3 .btn:hover, body.form-teal-lighten-3 .node__links a:hover, .node__links body.form-teal-lighten-3 a:hover {
+  body.form-teal-lighten-3 .btn:hover {
     background-color: #92d2cc; }
 
 body.form-teal-lighten-3 .btn-floating {
@@ -11176,9 +11176,9 @@ body.secondary-teal-lighten-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-teal-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(77, 182, 172, 0.1); }
 
-body.form-teal-lighten-2 .btn, body.form-teal-lighten-2 .node__links a, .node__links body.form-teal-lighten-2 a {
+body.form-teal-lighten-2 .btn {
   background-color: #4db6ac; }
-  body.form-teal-lighten-2 .btn:hover, body.form-teal-lighten-2 .node__links a:hover, .node__links body.form-teal-lighten-2 a:hover {
+  body.form-teal-lighten-2 .btn:hover {
     background-color: #5fbdb4; }
 
 body.form-teal-lighten-2 .btn-floating {
@@ -11252,9 +11252,9 @@ body.secondary-teal-lighten-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-teal-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(38, 166, 154, 0.1); }
 
-body.form-teal-lighten-1 .btn, body.form-teal-lighten-1 .node__links a, .node__links body.form-teal-lighten-1 a {
+body.form-teal-lighten-1 .btn {
   background-color: #26a69a; }
-  body.form-teal-lighten-1 .btn:hover, body.form-teal-lighten-1 .node__links a:hover, .node__links body.form-teal-lighten-1 a:hover {
+  body.form-teal-lighten-1 .btn:hover {
     background-color: #2bbbad; }
 
 body.form-teal-lighten-1 .btn-floating {
@@ -11328,9 +11328,9 @@ body.secondary-teal-base .switch label input[type=checkbox]:checked + .lever:aft
 body.secondary-teal-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 150, 136, 0.1); }
 
-body.form-teal-base .btn, body.form-teal-base .node__links a, .node__links body.form-teal-base a {
+body.form-teal-base .btn {
   background-color: #009688; }
-  body.form-teal-base .btn:hover, body.form-teal-base .node__links a:hover, .node__links body.form-teal-base a:hover {
+  body.form-teal-base .btn:hover {
     background-color: #00b09f; }
 
 body.form-teal-base .btn-floating {
@@ -11404,9 +11404,9 @@ body.secondary-teal-darken-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-teal-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 137, 123, 0.1); }
 
-body.form-teal-darken-1 .btn, body.form-teal-darken-1 .node__links a, .node__links body.form-teal-darken-1 a {
+body.form-teal-darken-1 .btn {
   background-color: #00897b; }
-  body.form-teal-darken-1 .btn:hover, body.form-teal-darken-1 .node__links a:hover, .node__links body.form-teal-darken-1 a:hover {
+  body.form-teal-darken-1 .btn:hover {
     background-color: #00a392; }
 
 body.form-teal-darken-1 .btn-floating {
@@ -11480,9 +11480,9 @@ body.secondary-teal-darken-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-teal-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 121, 107, 0.1); }
 
-body.form-teal-darken-2 .btn, body.form-teal-darken-2 .node__links a, .node__links body.form-teal-darken-2 a {
+body.form-teal-darken-2 .btn {
   background-color: #00796b; }
-  body.form-teal-darken-2 .btn:hover, body.form-teal-darken-2 .node__links a:hover, .node__links body.form-teal-darken-2 a:hover {
+  body.form-teal-darken-2 .btn:hover {
     background-color: #009382; }
 
 body.form-teal-darken-2 .btn-floating {
@@ -11556,9 +11556,9 @@ body.secondary-teal-darken-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-teal-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 105, 92, 0.1); }
 
-body.form-teal-darken-3 .btn, body.form-teal-darken-3 .node__links a, .node__links body.form-teal-darken-3 a {
+body.form-teal-darken-3 .btn {
   background-color: #00695c; }
-  body.form-teal-darken-3 .btn:hover, body.form-teal-darken-3 .node__links a:hover, .node__links body.form-teal-darken-3 a:hover {
+  body.form-teal-darken-3 .btn:hover {
     background-color: #008372; }
 
 body.form-teal-darken-3 .btn-floating {
@@ -11632,9 +11632,9 @@ body.secondary-teal-darken-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-teal-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 77, 64, 0.1); }
 
-body.form-teal-darken-4 .btn, body.form-teal-darken-4 .node__links a, .node__links body.form-teal-darken-4 a {
+body.form-teal-darken-4 .btn {
   background-color: #004d40; }
-  body.form-teal-darken-4 .btn:hover, body.form-teal-darken-4 .node__links a:hover, .node__links body.form-teal-darken-4 a:hover {
+  body.form-teal-darken-4 .btn:hover {
     background-color: #006755; }
 
 body.form-teal-darken-4 .btn-floating {
@@ -11708,9 +11708,9 @@ body.secondary-teal-accent-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-teal-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(167, 255, 235, 0.1); }
 
-body.form-teal-accent-1 .btn, body.form-teal-accent-1 .node__links a, .node__links body.form-teal-accent-1 a {
+body.form-teal-accent-1 .btn {
   background-color: #a7ffeb; }
-  body.form-teal-accent-1 .btn:hover, body.form-teal-accent-1 .node__links a:hover, .node__links body.form-teal-accent-1 a:hover {
+  body.form-teal-accent-1 .btn:hover {
     background-color: #c1fff1; }
 
 body.form-teal-accent-1 .btn-floating {
@@ -11784,9 +11784,9 @@ body.secondary-teal-accent-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-teal-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(100, 255, 218, 0.1); }
 
-body.form-teal-accent-2 .btn, body.form-teal-accent-2 .node__links a, .node__links body.form-teal-accent-2 a {
+body.form-teal-accent-2 .btn {
   background-color: #64ffda; }
-  body.form-teal-accent-2 .btn:hover, body.form-teal-accent-2 .node__links a:hover, .node__links body.form-teal-accent-2 a:hover {
+  body.form-teal-accent-2 .btn:hover {
     background-color: #7effe0; }
 
 body.form-teal-accent-2 .btn-floating {
@@ -11860,9 +11860,9 @@ body.secondary-teal-accent-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-teal-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(29, 233, 182, 0.1); }
 
-body.form-teal-accent-3 .btn, body.form-teal-accent-3 .node__links a, .node__links body.form-teal-accent-3 a {
+body.form-teal-accent-3 .btn {
   background-color: #1de9b6; }
-  body.form-teal-accent-3 .btn:hover, body.form-teal-accent-3 .node__links a:hover, .node__links body.form-teal-accent-3 a:hover {
+  body.form-teal-accent-3 .btn:hover {
     background-color: #34ebbe; }
 
 body.form-teal-accent-3 .btn-floating {
@@ -11936,9 +11936,9 @@ body.secondary-teal-accent-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-teal-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 191, 165, 0.1); }
 
-body.form-teal-accent-4 .btn, body.form-teal-accent-4 .node__links a, .node__links body.form-teal-accent-4 a {
+body.form-teal-accent-4 .btn {
   background-color: #00bfa5; }
-  body.form-teal-accent-4 .btn:hover, body.form-teal-accent-4 .node__links a:hover, .node__links body.form-teal-accent-4 a:hover {
+  body.form-teal-accent-4 .btn:hover {
     background-color: #00d9bb; }
 
 body.form-teal-accent-4 .btn-floating {
@@ -12012,9 +12012,9 @@ body.secondary-green-lighten-5 .switch label input[type=checkbox]:checked + .lev
 body.secondary-green-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(232, 245, 233, 0.1); }
 
-body.form-green-lighten-5 .btn, body.form-green-lighten-5 .node__links a, .node__links body.form-green-lighten-5 a {
+body.form-green-lighten-5 .btn {
   background-color: #E8F5E9; }
-  body.form-green-lighten-5 .btn:hover, body.form-green-lighten-5 .node__links a:hover, .node__links body.form-green-lighten-5 a:hover {
+  body.form-green-lighten-5 .btn:hover {
     background-color: #fafdfa; }
 
 body.form-green-lighten-5 .btn-floating {
@@ -12088,9 +12088,9 @@ body.secondary-green-lighten-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-green-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(200, 230, 201, 0.1); }
 
-body.form-green-lighten-4 .btn, body.form-green-lighten-4 .node__links a, .node__links body.form-green-lighten-4 a {
+body.form-green-lighten-4 .btn {
   background-color: #C8E6C9; }
-  body.form-green-lighten-4 .btn:hover, body.form-green-lighten-4 .node__links a:hover, .node__links body.form-green-lighten-4 a:hover {
+  body.form-green-lighten-4 .btn:hover {
     background-color: #daeeda; }
 
 body.form-green-lighten-4 .btn-floating {
@@ -12164,9 +12164,9 @@ body.secondary-green-lighten-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-green-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(165, 214, 167, 0.1); }
 
-body.form-green-lighten-3 .btn, body.form-green-lighten-3 .node__links a, .node__links body.form-green-lighten-3 a {
+body.form-green-lighten-3 .btn {
   background-color: #A5D6A7; }
-  body.form-green-lighten-3 .btn:hover, body.form-green-lighten-3 .node__links a:hover, .node__links body.form-green-lighten-3 a:hover {
+  body.form-green-lighten-3 .btn:hover {
     background-color: #b7deb8; }
 
 body.form-green-lighten-3 .btn-floating {
@@ -12240,9 +12240,9 @@ body.secondary-green-lighten-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-green-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(129, 199, 132, 0.1); }
 
-body.form-green-lighten-2 .btn, body.form-green-lighten-2 .node__links a, .node__links body.form-green-lighten-2 a {
+body.form-green-lighten-2 .btn {
   background-color: #81C784; }
-  body.form-green-lighten-2 .btn:hover, body.form-green-lighten-2 .node__links a:hover, .node__links body.form-green-lighten-2 a:hover {
+  body.form-green-lighten-2 .btn:hover {
     background-color: #93cf95; }
 
 body.form-green-lighten-2 .btn-floating {
@@ -12316,9 +12316,9 @@ body.secondary-green-lighten-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-green-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(102, 187, 106, 0.1); }
 
-body.form-green-lighten-1 .btn, body.form-green-lighten-1 .node__links a, .node__links body.form-green-lighten-1 a {
+body.form-green-lighten-1 .btn {
   background-color: #66BB6A; }
-  body.form-green-lighten-1 .btn:hover, body.form-green-lighten-1 .node__links a:hover, .node__links body.form-green-lighten-1 a:hover {
+  body.form-green-lighten-1 .btn:hover {
     background-color: #78c37b; }
 
 body.form-green-lighten-1 .btn-floating {
@@ -12392,9 +12392,9 @@ body.secondary-green-base .switch label input[type=checkbox]:checked + .lever:af
 body.secondary-green-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(76, 175, 80, 0.1); }
 
-body.form-green-base .btn, body.form-green-base .node__links a, .node__links body.form-green-base a {
+body.form-green-base .btn {
   background-color: #4CAF50; }
-  body.form-green-base .btn:hover, body.form-green-base .node__links a:hover, .node__links body.form-green-base a:hover {
+  body.form-green-base .btn:hover {
     background-color: #5cb860; }
 
 body.form-green-base .btn-floating {
@@ -12468,9 +12468,9 @@ body.secondary-green-darken-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-green-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(67, 160, 71, 0.1); }
 
-body.form-green-darken-1 .btn, body.form-green-darken-1 .node__links a, .node__links body.form-green-darken-1 a {
+body.form-green-darken-1 .btn {
   background-color: #43A047; }
-  body.form-green-darken-1 .btn:hover, body.form-green-darken-1 .node__links a:hover, .node__links body.form-green-darken-1 a:hover {
+  body.form-green-darken-1 .btn:hover {
     background-color: #4bb24f; }
 
 body.form-green-darken-1 .btn-floating {
@@ -12544,9 +12544,9 @@ body.secondary-green-darken-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-green-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(56, 142, 60, 0.1); }
 
-body.form-green-darken-2 .btn, body.form-green-darken-2 .node__links a, .node__links body.form-green-darken-2 a {
+body.form-green-darken-2 .btn {
   background-color: #388E3C; }
-  body.form-green-darken-2 .btn:hover, body.form-green-darken-2 .node__links a:hover, .node__links body.form-green-darken-2 a:hover {
+  body.form-green-darken-2 .btn:hover {
     background-color: #3fa044; }
 
 body.form-green-darken-2 .btn-floating {
@@ -12620,9 +12620,9 @@ body.secondary-green-darken-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-green-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(46, 125, 50, 0.1); }
 
-body.form-green-darken-3 .btn, body.form-green-darken-3 .node__links a, .node__links body.form-green-darken-3 a {
+body.form-green-darken-3 .btn {
   background-color: #2E7D32; }
-  body.form-green-darken-3 .btn:hover, body.form-green-darken-3 .node__links a:hover, .node__links body.form-green-darken-3 a:hover {
+  body.form-green-darken-3 .btn:hover {
     background-color: #359039; }
 
 body.form-green-darken-3 .btn-floating {
@@ -12696,9 +12696,9 @@ body.secondary-green-darken-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-green-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(27, 94, 32, 0.1); }
 
-body.form-green-darken-4 .btn, body.form-green-darken-4 .node__links a, .node__links body.form-green-darken-4 a {
+body.form-green-darken-4 .btn {
   background-color: #1B5E20; }
-  body.form-green-darken-4 .btn:hover, body.form-green-darken-4 .node__links a:hover, .node__links body.form-green-darken-4 a:hover {
+  body.form-green-darken-4 .btn:hover {
     background-color: #217227; }
 
 body.form-green-darken-4 .btn-floating {
@@ -12772,9 +12772,9 @@ body.secondary-green-accent-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-green-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(185, 246, 202, 0.1); }
 
-body.form-green-accent-1 .btn, body.form-green-accent-1 .node__links a, .node__links body.form-green-accent-1 a {
+body.form-green-accent-1 .btn {
   background-color: #B9F6CA; }
-  body.form-green-accent-1 .btn:hover, body.form-green-accent-1 .node__links a:hover, .node__links body.form-green-accent-1 a:hover {
+  body.form-green-accent-1 .btn:hover {
     background-color: #d0f9db; }
 
 body.form-green-accent-1 .btn-floating {
@@ -12848,9 +12848,9 @@ body.secondary-green-accent-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-green-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(105, 240, 174, 0.1); }
 
-body.form-green-accent-2 .btn, body.form-green-accent-2 .node__links a, .node__links body.form-green-accent-2 a {
+body.form-green-accent-2 .btn {
   background-color: #69F0AE; }
-  body.form-green-accent-2 .btn:hover, body.form-green-accent-2 .node__links a:hover, .node__links body.form-green-accent-2 a:hover {
+  body.form-green-accent-2 .btn:hover {
     background-color: #80f2bb; }
 
 body.form-green-accent-2 .btn-floating {
@@ -12924,9 +12924,9 @@ body.secondary-green-accent-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-green-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 230, 118, 0.1); }
 
-body.form-green-accent-3 .btn, body.form-green-accent-3 .node__links a, .node__links body.form-green-accent-3 a {
+body.form-green-accent-3 .btn {
   background-color: #00E676; }
-  body.form-green-accent-3 .btn:hover, body.form-green-accent-3 .node__links a:hover, .node__links body.form-green-accent-3 a:hover {
+  body.form-green-accent-3 .btn:hover {
     background-color: #01ff83; }
 
 body.form-green-accent-3 .btn-floating {
@@ -13000,9 +13000,9 @@ body.secondary-green-accent-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-green-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 200, 83, 0.1); }
 
-body.form-green-accent-4 .btn, body.form-green-accent-4 .node__links a, .node__links body.form-green-accent-4 a {
+body.form-green-accent-4 .btn {
   background-color: #00C853; }
-  body.form-green-accent-4 .btn:hover, body.form-green-accent-4 .node__links a:hover, .node__links body.form-green-accent-4 a:hover {
+  body.form-green-accent-4 .btn:hover {
     background-color: #00e25e; }
 
 body.form-green-accent-4 .btn-floating {
@@ -13076,9 +13076,9 @@ body.secondary-light-green-lighten-5 .switch label input[type=checkbox]:checked 
 body.secondary-light-green-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(241, 248, 233, 0.1); }
 
-body.form-light-green-lighten-5 .btn, body.form-light-green-lighten-5 .node__links a, .node__links body.form-light-green-lighten-5 a {
+body.form-light-green-lighten-5 .btn {
   background-color: #f1f8e9; }
-  body.form-light-green-lighten-5 .btn:hover, body.form-light-green-lighten-5 .node__links a:hover, .node__links body.form-light-green-lighten-5 a:hover {
+  body.form-light-green-lighten-5 .btn:hover {
     background-color: #fdfefc; }
 
 body.form-light-green-lighten-5 .btn-floating {
@@ -13152,9 +13152,9 @@ body.secondary-light-green-lighten-4 .switch label input[type=checkbox]:checked 
 body.secondary-light-green-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(220, 237, 200, 0.1); }
 
-body.form-light-green-lighten-4 .btn, body.form-light-green-lighten-4 .node__links a, .node__links body.form-light-green-lighten-4 a {
+body.form-light-green-lighten-4 .btn {
   background-color: #dcedc8; }
-  body.form-light-green-lighten-4 .btn:hover, body.form-light-green-lighten-4 .node__links a:hover, .node__links body.form-light-green-lighten-4 a:hover {
+  body.form-light-green-lighten-4 .btn:hover {
     background-color: #e8f3db; }
 
 body.form-light-green-lighten-4 .btn-floating {
@@ -13228,9 +13228,9 @@ body.secondary-light-green-lighten-3 .switch label input[type=checkbox]:checked 
 body.secondary-light-green-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(197, 225, 165, 0.1); }
 
-body.form-light-green-lighten-3 .btn, body.form-light-green-lighten-3 .node__links a, .node__links body.form-light-green-lighten-3 a {
+body.form-light-green-lighten-3 .btn {
   background-color: #c5e1a5; }
-  body.form-light-green-lighten-3 .btn:hover, body.form-light-green-lighten-3 .node__links a:hover, .node__links body.form-light-green-lighten-3 a:hover {
+  body.form-light-green-lighten-3 .btn:hover {
     background-color: #d1e7b8; }
 
 body.form-light-green-lighten-3 .btn-floating {
@@ -13304,9 +13304,9 @@ body.secondary-light-green-lighten-2 .switch label input[type=checkbox]:checked 
 body.secondary-light-green-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(174, 213, 129, 0.1); }
 
-body.form-light-green-lighten-2 .btn, body.form-light-green-lighten-2 .node__links a, .node__links body.form-light-green-lighten-2 a {
+body.form-light-green-lighten-2 .btn {
   background-color: #aed581; }
-  body.form-light-green-lighten-2 .btn:hover, body.form-light-green-lighten-2 .node__links a:hover, .node__links body.form-light-green-lighten-2 a:hover {
+  body.form-light-green-lighten-2 .btn:hover {
     background-color: #badb94; }
 
 body.form-light-green-lighten-2 .btn-floating {
@@ -13380,9 +13380,9 @@ body.secondary-light-green-lighten-1 .switch label input[type=checkbox]:checked 
 body.secondary-light-green-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(156, 204, 101, 0.1); }
 
-body.form-light-green-lighten-1 .btn, body.form-light-green-lighten-1 .node__links a, .node__links body.form-light-green-lighten-1 a {
+body.form-light-green-lighten-1 .btn {
   background-color: #9ccc65; }
-  body.form-light-green-lighten-1 .btn:hover, body.form-light-green-lighten-1 .node__links a:hover, .node__links body.form-light-green-lighten-1 a:hover {
+  body.form-light-green-lighten-1 .btn:hover {
     background-color: #a8d278; }
 
 body.form-light-green-lighten-1 .btn-floating {
@@ -13456,9 +13456,9 @@ body.secondary-light-green-base .switch label input[type=checkbox]:checked + .le
 body.secondary-light-green-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(139, 195, 74, 0.1); }
 
-body.form-light-green-base .btn, body.form-light-green-base .node__links a, .node__links body.form-light-green-base a {
+body.form-light-green-base .btn {
   background-color: #8bc34a; }
-  body.form-light-green-base .btn:hover, body.form-light-green-base .node__links a:hover, .node__links body.form-light-green-base a:hover {
+  body.form-light-green-base .btn:hover {
     background-color: #97c95d; }
 
 body.form-light-green-base .btn-floating {
@@ -13532,9 +13532,9 @@ body.secondary-light-green-darken-1 .switch label input[type=checkbox]:checked +
 body.secondary-light-green-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(124, 179, 66, 0.1); }
 
-body.form-light-green-darken-1 .btn, body.form-light-green-darken-1 .node__links a, .node__links body.form-light-green-darken-1 a {
+body.form-light-green-darken-1 .btn {
   background-color: #7cb342; }
-  body.form-light-green-darken-1 .btn:hover, body.form-light-green-darken-1 .node__links a:hover, .node__links body.form-light-green-darken-1 a:hover {
+  body.form-light-green-darken-1 .btn:hover {
     background-color: #89be50; }
 
 body.form-light-green-darken-1 .btn-floating {
@@ -13608,9 +13608,9 @@ body.secondary-light-green-darken-2 .switch label input[type=checkbox]:checked +
 body.secondary-light-green-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(104, 159, 56, 0.1); }
 
-body.form-light-green-darken-2 .btn, body.form-light-green-darken-2 .node__links a, .node__links body.form-light-green-darken-2 a {
+body.form-light-green-darken-2 .btn {
   background-color: #689f38; }
-  body.form-light-green-darken-2 .btn:hover, body.form-light-green-darken-2 .node__links a:hover, .node__links body.form-light-green-darken-2 a:hover {
+  body.form-light-green-darken-2 .btn:hover {
     background-color: #74b23f; }
 
 body.form-light-green-darken-2 .btn-floating {
@@ -13684,9 +13684,9 @@ body.secondary-light-green-darken-3 .switch label input[type=checkbox]:checked +
 body.secondary-light-green-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(85, 139, 47, 0.1); }
 
-body.form-light-green-darken-3 .btn, body.form-light-green-darken-3 .node__links a, .node__links body.form-light-green-darken-3 a {
+body.form-light-green-darken-3 .btn {
   background-color: #558b2f; }
-  body.form-light-green-darken-3 .btn:hover, body.form-light-green-darken-3 .node__links a:hover, .node__links body.form-light-green-darken-3 a:hover {
+  body.form-light-green-darken-3 .btn:hover {
     background-color: #619e35; }
 
 body.form-light-green-darken-3 .btn-floating {
@@ -13760,9 +13760,9 @@ body.secondary-light-green-darken-4 .switch label input[type=checkbox]:checked +
 body.secondary-light-green-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(51, 105, 30, 0.1); }
 
-body.form-light-green-darken-4 .btn, body.form-light-green-darken-4 .node__links a, .node__links body.form-light-green-darken-4 a {
+body.form-light-green-darken-4 .btn {
   background-color: #33691e; }
-  body.form-light-green-darken-4 .btn:hover, body.form-light-green-darken-4 .node__links a:hover, .node__links body.form-light-green-darken-4 a:hover {
+  body.form-light-green-darken-4 .btn:hover {
     background-color: #3d7d24; }
 
 body.form-light-green-darken-4 .btn-floating {
@@ -13836,9 +13836,9 @@ body.secondary-light-green-accent-1 .switch label input[type=checkbox]:checked +
 body.secondary-light-green-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(204, 255, 144, 0.1); }
 
-body.form-light-green-accent-1 .btn, body.form-light-green-accent-1 .node__links a, .node__links body.form-light-green-accent-1 a {
+body.form-light-green-accent-1 .btn {
   background-color: #ccff90; }
-  body.form-light-green-accent-1 .btn:hover, body.form-light-green-accent-1 .node__links a:hover, .node__links body.form-light-green-accent-1 a:hover {
+  body.form-light-green-accent-1 .btn:hover {
     background-color: #d8ffaa; }
 
 body.form-light-green-accent-1 .btn-floating {
@@ -13912,9 +13912,9 @@ body.secondary-light-green-accent-2 .switch label input[type=checkbox]:checked +
 body.secondary-light-green-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(178, 255, 89, 0.1); }
 
-body.form-light-green-accent-2 .btn, body.form-light-green-accent-2 .node__links a, .node__links body.form-light-green-accent-2 a {
+body.form-light-green-accent-2 .btn {
   background-color: #b2ff59; }
-  body.form-light-green-accent-2 .btn:hover, body.form-light-green-accent-2 .node__links a:hover, .node__links body.form-light-green-accent-2 a:hover {
+  body.form-light-green-accent-2 .btn:hover {
     background-color: #beff73; }
 
 body.form-light-green-accent-2 .btn-floating {
@@ -13988,9 +13988,9 @@ body.secondary-light-green-accent-3 .switch label input[type=checkbox]:checked +
 body.secondary-light-green-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(118, 255, 3, 0.1); }
 
-body.form-light-green-accent-3 .btn, body.form-light-green-accent-3 .node__links a, .node__links body.form-light-green-accent-3 a {
+body.form-light-green-accent-3 .btn {
   background-color: #76ff03; }
-  body.form-light-green-accent-3 .btn:hover, body.form-light-green-accent-3 .node__links a:hover, .node__links body.form-light-green-accent-3 a:hover {
+  body.form-light-green-accent-3 .btn:hover {
     background-color: #84ff1d; }
 
 body.form-light-green-accent-3 .btn-floating {
@@ -14064,9 +14064,9 @@ body.secondary-light-green-accent-4 .switch label input[type=checkbox]:checked +
 body.secondary-light-green-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(100, 221, 23, 0.1); }
 
-body.form-light-green-accent-4 .btn, body.form-light-green-accent-4 .node__links a, .node__links body.form-light-green-accent-4 a {
+body.form-light-green-accent-4 .btn {
   background-color: #64dd17; }
-  body.form-light-green-accent-4 .btn:hover, body.form-light-green-accent-4 .node__links a:hover, .node__links body.form-light-green-accent-4 a:hover {
+  body.form-light-green-accent-4 .btn:hover {
     background-color: #71e825; }
 
 body.form-light-green-accent-4 .btn-floating {
@@ -14140,9 +14140,9 @@ body.secondary-lime-lighten-5 .switch label input[type=checkbox]:checked + .leve
 body.secondary-lime-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(249, 251, 231, 0.1); }
 
-body.form-lime-lighten-5 .btn, body.form-lime-lighten-5 .node__links a, .node__links body.form-lime-lighten-5 a {
+body.form-lime-lighten-5 .btn {
   background-color: #f9fbe7; }
-  body.form-lime-lighten-5 .btn:hover, body.form-lime-lighten-5 .node__links a:hover, .node__links body.form-lime-lighten-5 a:hover {
+  body.form-lime-lighten-5 .btn:hover {
     background-color: #fefffd; }
 
 body.form-lime-lighten-5 .btn-floating {
@@ -14216,9 +14216,9 @@ body.secondary-lime-lighten-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-lime-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(240, 244, 195, 0.1); }
 
-body.form-lime-lighten-4 .btn, body.form-lime-lighten-4 .node__links a, .node__links body.form-lime-lighten-4 a {
+body.form-lime-lighten-4 .btn {
   background-color: #f0f4c3; }
-  body.form-lime-lighten-4 .btn:hover, body.form-lime-lighten-4 .node__links a:hover, .node__links body.form-lime-lighten-4 a:hover {
+  body.form-lime-lighten-4 .btn:hover {
     background-color: #f5f8d9; }
 
 body.form-lime-lighten-4 .btn-floating {
@@ -14292,9 +14292,9 @@ body.secondary-lime-lighten-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-lime-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(230, 238, 156, 0.1); }
 
-body.form-lime-lighten-3 .btn, body.form-lime-lighten-3 .node__links a, .node__links body.form-lime-lighten-3 a {
+body.form-lime-lighten-3 .btn {
   background-color: #e6ee9c; }
-  body.form-lime-lighten-3 .btn:hover, body.form-lime-lighten-3 .node__links a:hover, .node__links body.form-lime-lighten-3 a:hover {
+  body.form-lime-lighten-3 .btn:hover {
     background-color: #ebf2b2; }
 
 body.form-lime-lighten-3 .btn-floating {
@@ -14368,9 +14368,9 @@ body.secondary-lime-lighten-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-lime-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(220, 231, 117, 0.1); }
 
-body.form-lime-lighten-2 .btn, body.form-lime-lighten-2 .node__links a, .node__links body.form-lime-lighten-2 a {
+body.form-lime-lighten-2 .btn {
   background-color: #dce775; }
-  body.form-lime-lighten-2 .btn:hover, body.form-lime-lighten-2 .node__links a:hover, .node__links body.form-lime-lighten-2 a:hover {
+  body.form-lime-lighten-2 .btn:hover {
     background-color: #e2eb8b; }
 
 body.form-lime-lighten-2 .btn-floating {
@@ -14444,9 +14444,9 @@ body.secondary-lime-lighten-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-lime-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(212, 225, 87, 0.1); }
 
-body.form-lime-lighten-1 .btn, body.form-lime-lighten-1 .node__links a, .node__links body.form-lime-lighten-1 a {
+body.form-lime-lighten-1 .btn {
   background-color: #d4e157; }
-  body.form-lime-lighten-1 .btn:hover, body.form-lime-lighten-1 .node__links a:hover, .node__links body.form-lime-lighten-1 a:hover {
+  body.form-lime-lighten-1 .btn:hover {
     background-color: #dae56d; }
 
 body.form-lime-lighten-1 .btn-floating {
@@ -14520,9 +14520,9 @@ body.secondary-lime-base .switch label input[type=checkbox]:checked + .lever:aft
 body.secondary-lime-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(205, 220, 57, 0.1); }
 
-body.form-lime-base .btn, body.form-lime-base .node__links a, .node__links body.form-lime-base a {
+body.form-lime-base .btn {
   background-color: #cddc39; }
-  body.form-lime-base .btn:hover, body.form-lime-base .node__links a:hover, .node__links body.form-lime-base a:hover {
+  body.form-lime-base .btn:hover {
     background-color: #d2e04f; }
 
 body.form-lime-base .btn-floating {
@@ -14596,9 +14596,9 @@ body.secondary-lime-darken-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-lime-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(192, 202, 51, 0.1); }
 
-body.form-lime-darken-1 .btn, body.form-lime-darken-1 .node__links a, .node__links body.form-lime-darken-1 a {
+body.form-lime-darken-1 .btn {
   background-color: #c0ca33; }
-  body.form-lime-darken-1 .btn:hover, body.form-lime-darken-1 .node__links a:hover, .node__links body.form-lime-darken-1 a:hover {
+  body.form-lime-darken-1 .btn:hover {
     background-color: #c7d046; }
 
 body.form-lime-darken-1 .btn-floating {
@@ -14672,9 +14672,9 @@ body.secondary-lime-darken-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-lime-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(175, 180, 43, 0.1); }
 
-body.form-lime-darken-2 .btn, body.form-lime-darken-2 .node__links a, .node__links body.form-lime-darken-2 a {
+body.form-lime-darken-2 .btn {
   background-color: #afb42b; }
-  body.form-lime-darken-2 .btn:hover, body.form-lime-darken-2 .node__links a:hover, .node__links body.form-lime-darken-2 a:hover {
+  body.form-lime-darken-2 .btn:hover {
     background-color: #c3c930; }
 
 body.form-lime-darken-2 .btn-floating {
@@ -14748,9 +14748,9 @@ body.secondary-lime-darken-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-lime-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(158, 157, 36, 0.1); }
 
-body.form-lime-darken-3 .btn, body.form-lime-darken-3 .node__links a, .node__links body.form-lime-darken-3 a {
+body.form-lime-darken-3 .btn {
   background-color: #9e9d24; }
-  body.form-lime-darken-3 .btn:hover, body.form-lime-darken-3 .node__links a:hover, .node__links body.form-lime-darken-3 a:hover {
+  body.form-lime-darken-3 .btn:hover {
     background-color: #b3b229; }
 
 body.form-lime-darken-3 .btn-floating {
@@ -14824,9 +14824,9 @@ body.secondary-lime-darken-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-lime-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(130, 119, 23, 0.1); }
 
-body.form-lime-darken-4 .btn, body.form-lime-darken-4 .node__links a, .node__links body.form-lime-darken-4 a {
+body.form-lime-darken-4 .btn {
   background-color: #827717; }
-  body.form-lime-darken-4 .btn:hover, body.form-lime-darken-4 .node__links a:hover, .node__links body.form-lime-darken-4 a:hover {
+  body.form-lime-darken-4 .btn:hover {
     background-color: #988b1b; }
 
 body.form-lime-darken-4 .btn-floating {
@@ -14900,9 +14900,9 @@ body.secondary-lime-accent-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-lime-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(244, 255, 129, 0.1); }
 
-body.form-lime-accent-1 .btn, body.form-lime-accent-1 .node__links a, .node__links body.form-lime-accent-1 a {
+body.form-lime-accent-1 .btn {
   background-color: #f4ff81; }
-  body.form-lime-accent-1 .btn:hover, body.form-lime-accent-1 .node__links a:hover, .node__links body.form-lime-accent-1 a:hover {
+  body.form-lime-accent-1 .btn:hover {
     background-color: #f6ff9b; }
 
 body.form-lime-accent-1 .btn-floating {
@@ -14976,9 +14976,9 @@ body.secondary-lime-accent-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-lime-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(238, 255, 65, 0.1); }
 
-body.form-lime-accent-2 .btn, body.form-lime-accent-2 .node__links a, .node__links body.form-lime-accent-2 a {
+body.form-lime-accent-2 .btn {
   background-color: #eeff41; }
-  body.form-lime-accent-2 .btn:hover, body.form-lime-accent-2 .node__links a:hover, .node__links body.form-lime-accent-2 a:hover {
+  body.form-lime-accent-2 .btn:hover {
     background-color: #f0ff5b; }
 
 body.form-lime-accent-2 .btn-floating {
@@ -15052,9 +15052,9 @@ body.secondary-lime-accent-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-lime-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(198, 255, 0, 0.1); }
 
-body.form-lime-accent-3 .btn, body.form-lime-accent-3 .node__links a, .node__links body.form-lime-accent-3 a {
+body.form-lime-accent-3 .btn {
   background-color: #c6ff00; }
-  body.form-lime-accent-3 .btn:hover, body.form-lime-accent-3 .node__links a:hover, .node__links body.form-lime-accent-3 a:hover {
+  body.form-lime-accent-3 .btn:hover {
     background-color: #ccff1a; }
 
 body.form-lime-accent-3 .btn-floating {
@@ -15128,9 +15128,9 @@ body.secondary-lime-accent-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-lime-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(174, 234, 0, 0.1); }
 
-body.form-lime-accent-4 .btn, body.form-lime-accent-4 .node__links a, .node__links body.form-lime-accent-4 a {
+body.form-lime-accent-4 .btn {
   background-color: #aeea00; }
-  body.form-lime-accent-4 .btn:hover, body.form-lime-accent-4 .node__links a:hover, .node__links body.form-lime-accent-4 a:hover {
+  body.form-lime-accent-4 .btn:hover {
     background-color: #bfff05; }
 
 body.form-lime-accent-4 .btn-floating {
@@ -15204,9 +15204,9 @@ body.secondary-yellow-lighten-5 .switch label input[type=checkbox]:checked + .le
 body.secondary-yellow-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 253, 231, 0.1); }
 
-body.form-yellow-lighten-5 .btn, body.form-yellow-lighten-5 .node__links a, .node__links body.form-yellow-lighten-5 a {
+body.form-yellow-lighten-5 .btn {
   background-color: #fffde7; }
-  body.form-yellow-lighten-5 .btn:hover, body.form-yellow-lighten-5 .node__links a:hover, .node__links body.form-yellow-lighten-5 a:hover {
+  body.form-yellow-lighten-5 .btn:hover {
     background-color: white; }
 
 body.form-yellow-lighten-5 .btn-floating {
@@ -15280,9 +15280,9 @@ body.secondary-yellow-lighten-4 .switch label input[type=checkbox]:checked + .le
 body.secondary-yellow-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 249, 196, 0.1); }
 
-body.form-yellow-lighten-4 .btn, body.form-yellow-lighten-4 .node__links a, .node__links body.form-yellow-lighten-4 a {
+body.form-yellow-lighten-4 .btn {
   background-color: #fff9c4; }
-  body.form-yellow-lighten-4 .btn:hover, body.form-yellow-lighten-4 .node__links a:hover, .node__links body.form-yellow-lighten-4 a:hover {
+  body.form-yellow-lighten-4 .btn:hover {
     background-color: #fffcde; }
 
 body.form-yellow-lighten-4 .btn-floating {
@@ -15356,9 +15356,9 @@ body.secondary-yellow-lighten-3 .switch label input[type=checkbox]:checked + .le
 body.secondary-yellow-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 245, 157, 0.1); }
 
-body.form-yellow-lighten-3 .btn, body.form-yellow-lighten-3 .node__links a, .node__links body.form-yellow-lighten-3 a {
+body.form-yellow-lighten-3 .btn {
   background-color: #fff59d; }
-  body.form-yellow-lighten-3 .btn:hover, body.form-yellow-lighten-3 .node__links a:hover, .node__links body.form-yellow-lighten-3 a:hover {
+  body.form-yellow-lighten-3 .btn:hover {
     background-color: #fff8b7; }
 
 body.form-yellow-lighten-3 .btn-floating {
@@ -15432,9 +15432,9 @@ body.secondary-yellow-lighten-2 .switch label input[type=checkbox]:checked + .le
 body.secondary-yellow-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 241, 118, 0.1); }
 
-body.form-yellow-lighten-2 .btn, body.form-yellow-lighten-2 .node__links a, .node__links body.form-yellow-lighten-2 a {
+body.form-yellow-lighten-2 .btn {
   background-color: #fff176; }
-  body.form-yellow-lighten-2 .btn:hover, body.form-yellow-lighten-2 .node__links a:hover, .node__links body.form-yellow-lighten-2 a:hover {
+  body.form-yellow-lighten-2 .btn:hover {
     background-color: #fff490; }
 
 body.form-yellow-lighten-2 .btn-floating {
@@ -15508,9 +15508,9 @@ body.secondary-yellow-lighten-1 .switch label input[type=checkbox]:checked + .le
 body.secondary-yellow-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 238, 88, 0.1); }
 
-body.form-yellow-lighten-1 .btn, body.form-yellow-lighten-1 .node__links a, .node__links body.form-yellow-lighten-1 a {
+body.form-yellow-lighten-1 .btn {
   background-color: #ffee58; }
-  body.form-yellow-lighten-1 .btn:hover, body.form-yellow-lighten-1 .node__links a:hover, .node__links body.form-yellow-lighten-1 a:hover {
+  body.form-yellow-lighten-1 .btn:hover {
     background-color: #fff172; }
 
 body.form-yellow-lighten-1 .btn-floating {
@@ -15584,9 +15584,9 @@ body.secondary-yellow-base .switch label input[type=checkbox]:checked + .lever:a
 body.secondary-yellow-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 235, 59, 0.1); }
 
-body.form-yellow-base .btn, body.form-yellow-base .node__links a, .node__links body.form-yellow-base a {
+body.form-yellow-base .btn {
   background-color: #ffeb3b; }
-  body.form-yellow-base .btn:hover, body.form-yellow-base .node__links a:hover, .node__links body.form-yellow-base a:hover {
+  body.form-yellow-base .btn:hover {
     background-color: #ffee55; }
 
 body.form-yellow-base .btn-floating {
@@ -15660,9 +15660,9 @@ body.secondary-yellow-darken-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-yellow-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(253, 216, 53, 0.1); }
 
-body.form-yellow-darken-1 .btn, body.form-yellow-darken-1 .node__links a, .node__links body.form-yellow-darken-1 a {
+body.form-yellow-darken-1 .btn {
   background-color: #fdd835; }
-  body.form-yellow-darken-1 .btn:hover, body.form-yellow-darken-1 .node__links a:hover, .node__links body.form-yellow-darken-1 a:hover {
+  body.form-yellow-darken-1 .btn:hover {
     background-color: #fddd4e; }
 
 body.form-yellow-darken-1 .btn-floating {
@@ -15736,9 +15736,9 @@ body.secondary-yellow-darken-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-yellow-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(251, 192, 45, 0.1); }
 
-body.form-yellow-darken-2 .btn, body.form-yellow-darken-2 .node__links a, .node__links body.form-yellow-darken-2 a {
+body.form-yellow-darken-2 .btn {
   background-color: #fbc02d; }
-  body.form-yellow-darken-2 .btn:hover, body.form-yellow-darken-2 .node__links a:hover, .node__links body.form-yellow-darken-2 a:hover {
+  body.form-yellow-darken-2 .btn:hover {
     background-color: #fbc846; }
 
 body.form-yellow-darken-2 .btn-floating {
@@ -15812,9 +15812,9 @@ body.secondary-yellow-darken-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-yellow-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(249, 168, 37, 0.1); }
 
-body.form-yellow-darken-3 .btn, body.form-yellow-darken-3 .node__links a, .node__links body.form-yellow-darken-3 a {
+body.form-yellow-darken-3 .btn {
   background-color: #f9a825; }
-  body.form-yellow-darken-3 .btn:hover, body.form-yellow-darken-3 .node__links a:hover, .node__links body.form-yellow-darken-3 a:hover {
+  body.form-yellow-darken-3 .btn:hover {
     background-color: #fab23e; }
 
 body.form-yellow-darken-3 .btn-floating {
@@ -15888,9 +15888,9 @@ body.secondary-yellow-darken-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-yellow-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(245, 127, 23, 0.1); }
 
-body.form-yellow-darken-4 .btn, body.form-yellow-darken-4 .node__links a, .node__links body.form-yellow-darken-4 a {
+body.form-yellow-darken-4 .btn {
   background-color: #f57f17; }
-  body.form-yellow-darken-4 .btn:hover, body.form-yellow-darken-4 .node__links a:hover, .node__links body.form-yellow-darken-4 a:hover {
+  body.form-yellow-darken-4 .btn:hover {
     background-color: #f68c2f; }
 
 body.form-yellow-darken-4 .btn-floating {
@@ -15964,9 +15964,9 @@ body.secondary-yellow-accent-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-yellow-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 255, 141, 0.1); }
 
-body.form-yellow-accent-1 .btn, body.form-yellow-accent-1 .node__links a, .node__links body.form-yellow-accent-1 a {
+body.form-yellow-accent-1 .btn {
   background-color: #ffff8d; }
-  body.form-yellow-accent-1 .btn:hover, body.form-yellow-accent-1 .node__links a:hover, .node__links body.form-yellow-accent-1 a:hover {
+  body.form-yellow-accent-1 .btn:hover {
     background-color: #ffffa7; }
 
 body.form-yellow-accent-1 .btn-floating {
@@ -16040,9 +16040,9 @@ body.secondary-yellow-accent-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-yellow-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 255, 0, 0.1); }
 
-body.form-yellow-accent-2 .btn, body.form-yellow-accent-2 .node__links a, .node__links body.form-yellow-accent-2 a {
+body.form-yellow-accent-2 .btn {
   background-color: #ffff00; }
-  body.form-yellow-accent-2 .btn:hover, body.form-yellow-accent-2 .node__links a:hover, .node__links body.form-yellow-accent-2 a:hover {
+  body.form-yellow-accent-2 .btn:hover {
     background-color: #ffff1a; }
 
 body.form-yellow-accent-2 .btn-floating {
@@ -16116,9 +16116,9 @@ body.secondary-yellow-accent-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-yellow-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 234, 0, 0.1); }
 
-body.form-yellow-accent-3 .btn, body.form-yellow-accent-3 .node__links a, .node__links body.form-yellow-accent-3 a {
+body.form-yellow-accent-3 .btn {
   background-color: #ffea00; }
-  body.form-yellow-accent-3 .btn:hover, body.form-yellow-accent-3 .node__links a:hover, .node__links body.form-yellow-accent-3 a:hover {
+  body.form-yellow-accent-3 .btn:hover {
     background-color: #ffec1a; }
 
 body.form-yellow-accent-3 .btn-floating {
@@ -16192,9 +16192,9 @@ body.secondary-yellow-accent-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-yellow-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 214, 0, 0.1); }
 
-body.form-yellow-accent-4 .btn, body.form-yellow-accent-4 .node__links a, .node__links body.form-yellow-accent-4 a {
+body.form-yellow-accent-4 .btn {
   background-color: #ffd600; }
-  body.form-yellow-accent-4 .btn:hover, body.form-yellow-accent-4 .node__links a:hover, .node__links body.form-yellow-accent-4 a:hover {
+  body.form-yellow-accent-4 .btn:hover {
     background-color: #ffda1a; }
 
 body.form-yellow-accent-4 .btn-floating {
@@ -16268,9 +16268,9 @@ body.secondary-amber-lighten-5 .switch label input[type=checkbox]:checked + .lev
 body.secondary-amber-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 248, 225, 0.1); }
 
-body.form-amber-lighten-5 .btn, body.form-amber-lighten-5 .node__links a, .node__links body.form-amber-lighten-5 a {
+body.form-amber-lighten-5 .btn {
   background-color: #fff8e1; }
-  body.form-amber-lighten-5 .btn:hover, body.form-amber-lighten-5 .node__links a:hover, .node__links body.form-amber-lighten-5 a:hover {
+  body.form-amber-lighten-5 .btn:hover {
     background-color: #fffefb; }
 
 body.form-amber-lighten-5 .btn-floating {
@@ -16344,9 +16344,9 @@ body.secondary-amber-lighten-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-amber-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 236, 179, 0.1); }
 
-body.form-amber-lighten-4 .btn, body.form-amber-lighten-4 .node__links a, .node__links body.form-amber-lighten-4 a {
+body.form-amber-lighten-4 .btn {
   background-color: #ffecb3; }
-  body.form-amber-lighten-4 .btn:hover, body.form-amber-lighten-4 .node__links a:hover, .node__links body.form-amber-lighten-4 a:hover {
+  body.form-amber-lighten-4 .btn:hover {
     background-color: #fff2cd; }
 
 body.form-amber-lighten-4 .btn-floating {
@@ -16420,9 +16420,9 @@ body.secondary-amber-lighten-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-amber-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 224, 130, 0.1); }
 
-body.form-amber-lighten-3 .btn, body.form-amber-lighten-3 .node__links a, .node__links body.form-amber-lighten-3 a {
+body.form-amber-lighten-3 .btn {
   background-color: #ffe082; }
-  body.form-amber-lighten-3 .btn:hover, body.form-amber-lighten-3 .node__links a:hover, .node__links body.form-amber-lighten-3 a:hover {
+  body.form-amber-lighten-3 .btn:hover {
     background-color: #ffe69c; }
 
 body.form-amber-lighten-3 .btn-floating {
@@ -16496,9 +16496,9 @@ body.secondary-amber-lighten-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-amber-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 213, 79, 0.1); }
 
-body.form-amber-lighten-2 .btn, body.form-amber-lighten-2 .node__links a, .node__links body.form-amber-lighten-2 a {
+body.form-amber-lighten-2 .btn {
   background-color: #ffd54f; }
-  body.form-amber-lighten-2 .btn:hover, body.form-amber-lighten-2 .node__links a:hover, .node__links body.form-amber-lighten-2 a:hover {
+  body.form-amber-lighten-2 .btn:hover {
     background-color: #ffdb69; }
 
 body.form-amber-lighten-2 .btn-floating {
@@ -16572,9 +16572,9 @@ body.secondary-amber-lighten-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-amber-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 202, 40, 0.1); }
 
-body.form-amber-lighten-1 .btn, body.form-amber-lighten-1 .node__links a, .node__links body.form-amber-lighten-1 a {
+body.form-amber-lighten-1 .btn {
   background-color: #ffca28; }
-  body.form-amber-lighten-1 .btn:hover, body.form-amber-lighten-1 .node__links a:hover, .node__links body.form-amber-lighten-1 a:hover {
+  body.form-amber-lighten-1 .btn:hover {
     background-color: #ffd042; }
 
 body.form-amber-lighten-1 .btn-floating {
@@ -16648,9 +16648,9 @@ body.secondary-amber-base .switch label input[type=checkbox]:checked + .lever:af
 body.secondary-amber-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 193, 7, 0.1); }
 
-body.form-amber-base .btn, body.form-amber-base .node__links a, .node__links body.form-amber-base a {
+body.form-amber-base .btn {
   background-color: #ffc107; }
-  body.form-amber-base .btn:hover, body.form-amber-base .node__links a:hover, .node__links body.form-amber-base a:hover {
+  body.form-amber-base .btn:hover {
     background-color: #ffc721; }
 
 body.form-amber-base .btn-floating {
@@ -16724,9 +16724,9 @@ body.secondary-amber-darken-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-amber-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 179, 0, 0.1); }
 
-body.form-amber-darken-1 .btn, body.form-amber-darken-1 .node__links a, .node__links body.form-amber-darken-1 a {
+body.form-amber-darken-1 .btn {
   background-color: #ffb300; }
-  body.form-amber-darken-1 .btn:hover, body.form-amber-darken-1 .node__links a:hover, .node__links body.form-amber-darken-1 a:hover {
+  body.form-amber-darken-1 .btn:hover {
     background-color: #ffbb1a; }
 
 body.form-amber-darken-1 .btn-floating {
@@ -16800,9 +16800,9 @@ body.secondary-amber-darken-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-amber-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 160, 0, 0.1); }
 
-body.form-amber-darken-2 .btn, body.form-amber-darken-2 .node__links a, .node__links body.form-amber-darken-2 a {
+body.form-amber-darken-2 .btn {
   background-color: #ffa000; }
-  body.form-amber-darken-2 .btn:hover, body.form-amber-darken-2 .node__links a:hover, .node__links body.form-amber-darken-2 a:hover {
+  body.form-amber-darken-2 .btn:hover {
     background-color: #ffaa1a; }
 
 body.form-amber-darken-2 .btn-floating {
@@ -16876,9 +16876,9 @@ body.secondary-amber-darken-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-amber-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 143, 0, 0.1); }
 
-body.form-amber-darken-3 .btn, body.form-amber-darken-3 .node__links a, .node__links body.form-amber-darken-3 a {
+body.form-amber-darken-3 .btn {
   background-color: #ff8f00; }
-  body.form-amber-darken-3 .btn:hover, body.form-amber-darken-3 .node__links a:hover, .node__links body.form-amber-darken-3 a:hover {
+  body.form-amber-darken-3 .btn:hover {
     background-color: #ff9a1a; }
 
 body.form-amber-darken-3 .btn-floating {
@@ -16952,9 +16952,9 @@ body.secondary-amber-darken-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-amber-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 111, 0, 0.1); }
 
-body.form-amber-darken-4 .btn, body.form-amber-darken-4 .node__links a, .node__links body.form-amber-darken-4 a {
+body.form-amber-darken-4 .btn {
   background-color: #ff6f00; }
-  body.form-amber-darken-4 .btn:hover, body.form-amber-darken-4 .node__links a:hover, .node__links body.form-amber-darken-4 a:hover {
+  body.form-amber-darken-4 .btn:hover {
     background-color: #ff7d1a; }
 
 body.form-amber-darken-4 .btn-floating {
@@ -17028,9 +17028,9 @@ body.secondary-amber-accent-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-amber-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 229, 127, 0.1); }
 
-body.form-amber-accent-1 .btn, body.form-amber-accent-1 .node__links a, .node__links body.form-amber-accent-1 a {
+body.form-amber-accent-1 .btn {
   background-color: #ffe57f; }
-  body.form-amber-accent-1 .btn:hover, body.form-amber-accent-1 .node__links a:hover, .node__links body.form-amber-accent-1 a:hover {
+  body.form-amber-accent-1 .btn:hover {
     background-color: #ffea99; }
 
 body.form-amber-accent-1 .btn-floating {
@@ -17104,9 +17104,9 @@ body.secondary-amber-accent-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-amber-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 215, 64, 0.1); }
 
-body.form-amber-accent-2 .btn, body.form-amber-accent-2 .node__links a, .node__links body.form-amber-accent-2 a {
+body.form-amber-accent-2 .btn {
   background-color: #ffd740; }
-  body.form-amber-accent-2 .btn:hover, body.form-amber-accent-2 .node__links a:hover, .node__links body.form-amber-accent-2 a:hover {
+  body.form-amber-accent-2 .btn:hover {
     background-color: #ffdc5a; }
 
 body.form-amber-accent-2 .btn-floating {
@@ -17180,9 +17180,9 @@ body.secondary-amber-accent-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-amber-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 196, 0, 0.1); }
 
-body.form-amber-accent-3 .btn, body.form-amber-accent-3 .node__links a, .node__links body.form-amber-accent-3 a {
+body.form-amber-accent-3 .btn {
   background-color: #ffc400; }
-  body.form-amber-accent-3 .btn:hover, body.form-amber-accent-3 .node__links a:hover, .node__links body.form-amber-accent-3 a:hover {
+  body.form-amber-accent-3 .btn:hover {
     background-color: #ffca1a; }
 
 body.form-amber-accent-3 .btn-floating {
@@ -17256,9 +17256,9 @@ body.secondary-amber-accent-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-amber-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 171, 0, 0.1); }
 
-body.form-amber-accent-4 .btn, body.form-amber-accent-4 .node__links a, .node__links body.form-amber-accent-4 a {
+body.form-amber-accent-4 .btn {
   background-color: #ffab00; }
-  body.form-amber-accent-4 .btn:hover, body.form-amber-accent-4 .node__links a:hover, .node__links body.form-amber-accent-4 a:hover {
+  body.form-amber-accent-4 .btn:hover {
     background-color: #ffb31a; }
 
 body.form-amber-accent-4 .btn-floating {
@@ -17332,9 +17332,9 @@ body.secondary-orange-lighten-5 .switch label input[type=checkbox]:checked + .le
 body.secondary-orange-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 243, 224, 0.1); }
 
-body.form-orange-lighten-5 .btn, body.form-orange-lighten-5 .node__links a, .node__links body.form-orange-lighten-5 a {
+body.form-orange-lighten-5 .btn {
   background-color: #fff3e0; }
-  body.form-orange-lighten-5 .btn:hover, body.form-orange-lighten-5 .node__links a:hover, .node__links body.form-orange-lighten-5 a:hover {
+  body.form-orange-lighten-5 .btn:hover {
     background-color: #fffdfa; }
 
 body.form-orange-lighten-5 .btn-floating {
@@ -17408,9 +17408,9 @@ body.secondary-orange-lighten-4 .switch label input[type=checkbox]:checked + .le
 body.secondary-orange-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 224, 178, 0.1); }
 
-body.form-orange-lighten-4 .btn, body.form-orange-lighten-4 .node__links a, .node__links body.form-orange-lighten-4 a {
+body.form-orange-lighten-4 .btn {
   background-color: #ffe0b2; }
-  body.form-orange-lighten-4 .btn:hover, body.form-orange-lighten-4 .node__links a:hover, .node__links body.form-orange-lighten-4 a:hover {
+  body.form-orange-lighten-4 .btn:hover {
     background-color: #ffeacc; }
 
 body.form-orange-lighten-4 .btn-floating {
@@ -17484,9 +17484,9 @@ body.secondary-orange-lighten-3 .switch label input[type=checkbox]:checked + .le
 body.secondary-orange-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 204, 128, 0.1); }
 
-body.form-orange-lighten-3 .btn, body.form-orange-lighten-3 .node__links a, .node__links body.form-orange-lighten-3 a {
+body.form-orange-lighten-3 .btn {
   background-color: #ffcc80; }
-  body.form-orange-lighten-3 .btn:hover, body.form-orange-lighten-3 .node__links a:hover, .node__links body.form-orange-lighten-3 a:hover {
+  body.form-orange-lighten-3 .btn:hover {
     background-color: #ffd69a; }
 
 body.form-orange-lighten-3 .btn-floating {
@@ -17560,9 +17560,9 @@ body.secondary-orange-lighten-2 .switch label input[type=checkbox]:checked + .le
 body.secondary-orange-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 183, 77, 0.1); }
 
-body.form-orange-lighten-2 .btn, body.form-orange-lighten-2 .node__links a, .node__links body.form-orange-lighten-2 a {
+body.form-orange-lighten-2 .btn {
   background-color: #ffb74d; }
-  body.form-orange-lighten-2 .btn:hover, body.form-orange-lighten-2 .node__links a:hover, .node__links body.form-orange-lighten-2 a:hover {
+  body.form-orange-lighten-2 .btn:hover {
     background-color: #ffc167; }
 
 body.form-orange-lighten-2 .btn-floating {
@@ -17636,9 +17636,9 @@ body.secondary-orange-lighten-1 .switch label input[type=checkbox]:checked + .le
 body.secondary-orange-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 167, 38, 0.1); }
 
-body.form-orange-lighten-1 .btn, body.form-orange-lighten-1 .node__links a, .node__links body.form-orange-lighten-1 a {
+body.form-orange-lighten-1 .btn {
   background-color: #ffa726; }
-  body.form-orange-lighten-1 .btn:hover, body.form-orange-lighten-1 .node__links a:hover, .node__links body.form-orange-lighten-1 a:hover {
+  body.form-orange-lighten-1 .btn:hover {
     background-color: #ffb140; }
 
 body.form-orange-lighten-1 .btn-floating {
@@ -17712,9 +17712,9 @@ body.secondary-orange-base .switch label input[type=checkbox]:checked + .lever:a
 body.secondary-orange-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 152, 0, 0.1); }
 
-body.form-orange-base .btn, body.form-orange-base .node__links a, .node__links body.form-orange-base a {
+body.form-orange-base .btn {
   background-color: #ff9800; }
-  body.form-orange-base .btn:hover, body.form-orange-base .node__links a:hover, .node__links body.form-orange-base a:hover {
+  body.form-orange-base .btn:hover {
     background-color: #ffa21a; }
 
 body.form-orange-base .btn-floating {
@@ -17788,9 +17788,9 @@ body.secondary-orange-darken-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-orange-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(251, 140, 0, 0.1); }
 
-body.form-orange-darken-1 .btn, body.form-orange-darken-1 .node__links a, .node__links body.form-orange-darken-1 a {
+body.form-orange-darken-1 .btn {
   background-color: #fb8c00; }
-  body.form-orange-darken-1 .btn:hover, body.form-orange-darken-1 .node__links a:hover, .node__links body.form-orange-darken-1 a:hover {
+  body.form-orange-darken-1 .btn:hover {
     background-color: #ff9816; }
 
 body.form-orange-darken-1 .btn-floating {
@@ -17864,9 +17864,9 @@ body.secondary-orange-darken-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-orange-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(245, 124, 0, 0.1); }
 
-body.form-orange-darken-2 .btn, body.form-orange-darken-2 .node__links a, .node__links body.form-orange-darken-2 a {
+body.form-orange-darken-2 .btn {
   background-color: #f57c00; }
-  body.form-orange-darken-2 .btn:hover, body.form-orange-darken-2 .node__links a:hover, .node__links body.form-orange-darken-2 a:hover {
+  body.form-orange-darken-2 .btn:hover {
     background-color: #ff8910; }
 
 body.form-orange-darken-2 .btn-floating {
@@ -17940,9 +17940,9 @@ body.secondary-orange-darken-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-orange-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(239, 108, 0, 0.1); }
 
-body.form-orange-darken-3 .btn, body.form-orange-darken-3 .node__links a, .node__links body.form-orange-darken-3 a {
+body.form-orange-darken-3 .btn {
   background-color: #ef6c00; }
-  body.form-orange-darken-3 .btn:hover, body.form-orange-darken-3 .node__links a:hover, .node__links body.form-orange-darken-3 a:hover {
+  body.form-orange-darken-3 .btn:hover {
     background-color: #ff780a; }
 
 body.form-orange-darken-3 .btn-floating {
@@ -18016,9 +18016,9 @@ body.secondary-orange-darken-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-orange-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(230, 81, 0, 0.1); }
 
-body.form-orange-darken-4 .btn, body.form-orange-darken-4 .node__links a, .node__links body.form-orange-darken-4 a {
+body.form-orange-darken-4 .btn {
   background-color: #e65100; }
-  body.form-orange-darken-4 .btn:hover, body.form-orange-darken-4 .node__links a:hover, .node__links body.form-orange-darken-4 a:hover {
+  body.form-orange-darken-4 .btn:hover {
     background-color: #ff5a01; }
 
 body.form-orange-darken-4 .btn-floating {
@@ -18092,9 +18092,9 @@ body.secondary-orange-accent-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-orange-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 209, 128, 0.1); }
 
-body.form-orange-accent-1 .btn, body.form-orange-accent-1 .node__links a, .node__links body.form-orange-accent-1 a {
+body.form-orange-accent-1 .btn {
   background-color: #ffd180; }
-  body.form-orange-accent-1 .btn:hover, body.form-orange-accent-1 .node__links a:hover, .node__links body.form-orange-accent-1 a:hover {
+  body.form-orange-accent-1 .btn:hover {
     background-color: #ffda9a; }
 
 body.form-orange-accent-1 .btn-floating {
@@ -18168,9 +18168,9 @@ body.secondary-orange-accent-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-orange-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 171, 64, 0.1); }
 
-body.form-orange-accent-2 .btn, body.form-orange-accent-2 .node__links a, .node__links body.form-orange-accent-2 a {
+body.form-orange-accent-2 .btn {
   background-color: #ffab40; }
-  body.form-orange-accent-2 .btn:hover, body.form-orange-accent-2 .node__links a:hover, .node__links body.form-orange-accent-2 a:hover {
+  body.form-orange-accent-2 .btn:hover {
     background-color: #ffb65a; }
 
 body.form-orange-accent-2 .btn-floating {
@@ -18244,9 +18244,9 @@ body.secondary-orange-accent-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-orange-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 145, 0, 0.1); }
 
-body.form-orange-accent-3 .btn, body.form-orange-accent-3 .node__links a, .node__links body.form-orange-accent-3 a {
+body.form-orange-accent-3 .btn {
   background-color: #ff9100; }
-  body.form-orange-accent-3 .btn:hover, body.form-orange-accent-3 .node__links a:hover, .node__links body.form-orange-accent-3 a:hover {
+  body.form-orange-accent-3 .btn:hover {
     background-color: #ff9c1a; }
 
 body.form-orange-accent-3 .btn-floating {
@@ -18320,9 +18320,9 @@ body.secondary-orange-accent-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-orange-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 109, 0, 0.1); }
 
-body.form-orange-accent-4 .btn, body.form-orange-accent-4 .node__links a, .node__links body.form-orange-accent-4 a {
+body.form-orange-accent-4 .btn {
   background-color: #ff6d00; }
-  body.form-orange-accent-4 .btn:hover, body.form-orange-accent-4 .node__links a:hover, .node__links body.form-orange-accent-4 a:hover {
+  body.form-orange-accent-4 .btn:hover {
     background-color: #ff7c1a; }
 
 body.form-orange-accent-4 .btn-floating {
@@ -18396,9 +18396,9 @@ body.secondary-deep-orange-lighten-5 .switch label input[type=checkbox]:checked 
 body.secondary-deep-orange-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(251, 233, 231, 0.1); }
 
-body.form-deep-orange-lighten-5 .btn, body.form-deep-orange-lighten-5 .node__links a, .node__links body.form-deep-orange-lighten-5 a {
+body.form-deep-orange-lighten-5 .btn {
   background-color: #fbe9e7; }
-  body.form-deep-orange-lighten-5 .btn:hover, body.form-deep-orange-lighten-5 .node__links a:hover, .node__links body.form-deep-orange-lighten-5 a:hover {
+  body.form-deep-orange-lighten-5 .btn:hover {
     background-color: #fffdfd; }
 
 body.form-deep-orange-lighten-5 .btn-floating {
@@ -18472,9 +18472,9 @@ body.secondary-deep-orange-lighten-4 .switch label input[type=checkbox]:checked 
 body.secondary-deep-orange-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 204, 188, 0.1); }
 
-body.form-deep-orange-lighten-4 .btn, body.form-deep-orange-lighten-4 .node__links a, .node__links body.form-deep-orange-lighten-4 a {
+body.form-deep-orange-lighten-4 .btn {
   background-color: #ffccbc; }
-  body.form-deep-orange-lighten-4 .btn:hover, body.form-deep-orange-lighten-4 .node__links a:hover, .node__links body.form-deep-orange-lighten-4 a:hover {
+  body.form-deep-orange-lighten-4 .btn:hover {
     background-color: #ffdfd6; }
 
 body.form-deep-orange-lighten-4 .btn-floating {
@@ -18548,9 +18548,9 @@ body.secondary-deep-orange-lighten-3 .switch label input[type=checkbox]:checked 
 body.secondary-deep-orange-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 171, 145, 0.1); }
 
-body.form-deep-orange-lighten-3 .btn, body.form-deep-orange-lighten-3 .node__links a, .node__links body.form-deep-orange-lighten-3 a {
+body.form-deep-orange-lighten-3 .btn {
   background-color: #ffab91; }
-  body.form-deep-orange-lighten-3 .btn:hover, body.form-deep-orange-lighten-3 .node__links a:hover, .node__links body.form-deep-orange-lighten-3 a:hover {
+  body.form-deep-orange-lighten-3 .btn:hover {
     background-color: #ffbeab; }
 
 body.form-deep-orange-lighten-3 .btn-floating {
@@ -18624,9 +18624,9 @@ body.secondary-deep-orange-lighten-2 .switch label input[type=checkbox]:checked 
 body.secondary-deep-orange-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 138, 101, 0.1); }
 
-body.form-deep-orange-lighten-2 .btn, body.form-deep-orange-lighten-2 .node__links a, .node__links body.form-deep-orange-lighten-2 a {
+body.form-deep-orange-lighten-2 .btn {
   background-color: #ff8a65; }
-  body.form-deep-orange-lighten-2 .btn:hover, body.form-deep-orange-lighten-2 .node__links a:hover, .node__links body.form-deep-orange-lighten-2 a:hover {
+  body.form-deep-orange-lighten-2 .btn:hover {
     background-color: #ff9d7f; }
 
 body.form-deep-orange-lighten-2 .btn-floating {
@@ -18700,9 +18700,9 @@ body.secondary-deep-orange-lighten-1 .switch label input[type=checkbox]:checked 
 body.secondary-deep-orange-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 112, 67, 0.1); }
 
-body.form-deep-orange-lighten-1 .btn, body.form-deep-orange-lighten-1 .node__links a, .node__links body.form-deep-orange-lighten-1 a {
+body.form-deep-orange-lighten-1 .btn {
   background-color: #ff7043; }
-  body.form-deep-orange-lighten-1 .btn:hover, body.form-deep-orange-lighten-1 .node__links a:hover, .node__links body.form-deep-orange-lighten-1 a:hover {
+  body.form-deep-orange-lighten-1 .btn:hover {
     background-color: #ff835d; }
 
 body.form-deep-orange-lighten-1 .btn-floating {
@@ -18776,9 +18776,9 @@ body.secondary-deep-orange-base .switch label input[type=checkbox]:checked + .le
 body.secondary-deep-orange-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 87, 34, 0.1); }
 
-body.form-deep-orange-base .btn, body.form-deep-orange-base .node__links a, .node__links body.form-deep-orange-base a {
+body.form-deep-orange-base .btn {
   background-color: #ff5722; }
-  body.form-deep-orange-base .btn:hover, body.form-deep-orange-base .node__links a:hover, .node__links body.form-deep-orange-base a:hover {
+  body.form-deep-orange-base .btn:hover {
     background-color: #ff6a3c; }
 
 body.form-deep-orange-base .btn-floating {
@@ -18852,9 +18852,9 @@ body.secondary-deep-orange-darken-1 .switch label input[type=checkbox]:checked +
 body.secondary-deep-orange-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(244, 81, 30, 0.1); }
 
-body.form-deep-orange-darken-1 .btn, body.form-deep-orange-darken-1 .node__links a, .node__links body.form-deep-orange-darken-1 a {
+body.form-deep-orange-darken-1 .btn {
   background-color: #f4511e; }
-  body.form-deep-orange-darken-1 .btn:hover, body.form-deep-orange-darken-1 .node__links a:hover, .node__links body.form-deep-orange-darken-1 a:hover {
+  body.form-deep-orange-darken-1 .btn:hover {
     background-color: #f56436; }
 
 body.form-deep-orange-darken-1 .btn-floating {
@@ -18928,9 +18928,9 @@ body.secondary-deep-orange-darken-2 .switch label input[type=checkbox]:checked +
 body.secondary-deep-orange-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(230, 74, 25, 0.1); }
 
-body.form-deep-orange-darken-2 .btn, body.form-deep-orange-darken-2 .node__links a, .node__links body.form-deep-orange-darken-2 a {
+body.form-deep-orange-darken-2 .btn {
   background-color: #e64a19; }
-  body.form-deep-orange-darken-2 .btn:hover, body.form-deep-orange-darken-2 .node__links a:hover, .node__links body.form-deep-orange-darken-2 a:hover {
+  body.form-deep-orange-darken-2 .btn:hover {
     background-color: #e95c30; }
 
 body.form-deep-orange-darken-2 .btn-floating {
@@ -19004,9 +19004,9 @@ body.secondary-deep-orange-darken-3 .switch label input[type=checkbox]:checked +
 body.secondary-deep-orange-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(216, 67, 21, 0.1); }
 
-body.form-deep-orange-darken-3 .btn, body.form-deep-orange-darken-3 .node__links a, .node__links body.form-deep-orange-darken-3 a {
+body.form-deep-orange-darken-3 .btn {
   background-color: #d84315; }
-  body.form-deep-orange-darken-3 .btn:hover, body.form-deep-orange-darken-3 .node__links a:hover, .node__links body.form-deep-orange-darken-3 a:hover {
+  body.form-deep-orange-darken-3 .btn:hover {
     background-color: #e94d1d; }
 
 body.form-deep-orange-darken-3 .btn-floating {
@@ -19080,9 +19080,9 @@ body.secondary-deep-orange-darken-4 .switch label input[type=checkbox]:checked +
 body.secondary-deep-orange-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(191, 54, 12, 0.1); }
 
-body.form-deep-orange-darken-4 .btn, body.form-deep-orange-darken-4 .node__links a, .node__links body.form-deep-orange-darken-4 a {
+body.form-deep-orange-darken-4 .btn {
   background-color: #bf360c; }
-  body.form-deep-orange-darken-4 .btn:hover, body.form-deep-orange-darken-4 .node__links a:hover, .node__links body.form-deep-orange-darken-4 a:hover {
+  body.form-deep-orange-darken-4 .btn:hover {
     background-color: #d73d0e; }
 
 body.form-deep-orange-darken-4 .btn-floating {
@@ -19156,9 +19156,9 @@ body.secondary-deep-orange-accent-1 .switch label input[type=checkbox]:checked +
 body.secondary-deep-orange-accent-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 158, 128, 0.1); }
 
-body.form-deep-orange-accent-1 .btn, body.form-deep-orange-accent-1 .node__links a, .node__links body.form-deep-orange-accent-1 a {
+body.form-deep-orange-accent-1 .btn {
   background-color: #ff9e80; }
-  body.form-deep-orange-accent-1 .btn:hover, body.form-deep-orange-accent-1 .node__links a:hover, .node__links body.form-deep-orange-accent-1 a:hover {
+  body.form-deep-orange-accent-1 .btn:hover {
     background-color: #ffb19a; }
 
 body.form-deep-orange-accent-1 .btn-floating {
@@ -19232,9 +19232,9 @@ body.secondary-deep-orange-accent-2 .switch label input[type=checkbox]:checked +
 body.secondary-deep-orange-accent-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 110, 64, 0.1); }
 
-body.form-deep-orange-accent-2 .btn, body.form-deep-orange-accent-2 .node__links a, .node__links body.form-deep-orange-accent-2 a {
+body.form-deep-orange-accent-2 .btn {
   background-color: #ff6e40; }
-  body.form-deep-orange-accent-2 .btn:hover, body.form-deep-orange-accent-2 .node__links a:hover, .node__links body.form-deep-orange-accent-2 a:hover {
+  body.form-deep-orange-accent-2 .btn:hover {
     background-color: #ff815a; }
 
 body.form-deep-orange-accent-2 .btn-floating {
@@ -19308,9 +19308,9 @@ body.secondary-deep-orange-accent-3 .switch label input[type=checkbox]:checked +
 body.secondary-deep-orange-accent-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 61, 0, 0.1); }
 
-body.form-deep-orange-accent-3 .btn, body.form-deep-orange-accent-3 .node__links a, .node__links body.form-deep-orange-accent-3 a {
+body.form-deep-orange-accent-3 .btn {
   background-color: #ff3d00; }
-  body.form-deep-orange-accent-3 .btn:hover, body.form-deep-orange-accent-3 .node__links a:hover, .node__links body.form-deep-orange-accent-3 a:hover {
+  body.form-deep-orange-accent-3 .btn:hover {
     background-color: #ff501a; }
 
 body.form-deep-orange-accent-3 .btn-floating {
@@ -19384,9 +19384,9 @@ body.secondary-deep-orange-accent-4 .switch label input[type=checkbox]:checked +
 body.secondary-deep-orange-accent-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(221, 44, 0, 0.1); }
 
-body.form-deep-orange-accent-4 .btn, body.form-deep-orange-accent-4 .node__links a, .node__links body.form-deep-orange-accent-4 a {
+body.form-deep-orange-accent-4 .btn {
   background-color: #dd2c00; }
-  body.form-deep-orange-accent-4 .btn:hover, body.form-deep-orange-accent-4 .node__links a:hover, .node__links body.form-deep-orange-accent-4 a:hover {
+  body.form-deep-orange-accent-4 .btn:hover {
     background-color: #f73100; }
 
 body.form-deep-orange-accent-4 .btn-floating {
@@ -19460,9 +19460,9 @@ body.secondary-brown-lighten-5 .switch label input[type=checkbox]:checked + .lev
 body.secondary-brown-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(239, 235, 233, 0.1); }
 
-body.form-brown-lighten-5 .btn, body.form-brown-lighten-5 .node__links a, .node__links body.form-brown-lighten-5 a {
+body.form-brown-lighten-5 .btn {
   background-color: #efebe9; }
-  body.form-brown-lighten-5 .btn:hover, body.form-brown-lighten-5 .node__links a:hover, .node__links body.form-brown-lighten-5 a:hover {
+  body.form-brown-lighten-5 .btn:hover {
     background-color: #faf8f8; }
 
 body.form-brown-lighten-5 .btn-floating {
@@ -19536,9 +19536,9 @@ body.secondary-brown-lighten-4 .switch label input[type=checkbox]:checked + .lev
 body.secondary-brown-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(215, 204, 200, 0.1); }
 
-body.form-brown-lighten-4 .btn, body.form-brown-lighten-4 .node__links a, .node__links body.form-brown-lighten-4 a {
+body.form-brown-lighten-4 .btn {
   background-color: #d7ccc8; }
-  body.form-brown-lighten-4 .btn:hover, body.form-brown-lighten-4 .node__links a:hover, .node__links body.form-brown-lighten-4 a:hover {
+  body.form-brown-lighten-4 .btn:hover {
     background-color: #e2dad7; }
 
 body.form-brown-lighten-4 .btn-floating {
@@ -19612,9 +19612,9 @@ body.secondary-brown-lighten-3 .switch label input[type=checkbox]:checked + .lev
 body.secondary-brown-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(188, 170, 164, 0.1); }
 
-body.form-brown-lighten-3 .btn, body.form-brown-lighten-3 .node__links a, .node__links body.form-brown-lighten-3 a {
+body.form-brown-lighten-3 .btn {
   background-color: #bcaaa4; }
-  body.form-brown-lighten-3 .btn:hover, body.form-brown-lighten-3 .node__links a:hover, .node__links body.form-brown-lighten-3 a:hover {
+  body.form-brown-lighten-3 .btn:hover {
     background-color: #c7b8b3; }
 
 body.form-brown-lighten-3 .btn-floating {
@@ -19688,9 +19688,9 @@ body.secondary-brown-lighten-2 .switch label input[type=checkbox]:checked + .lev
 body.secondary-brown-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(161, 136, 127, 0.1); }
 
-body.form-brown-lighten-2 .btn, body.form-brown-lighten-2 .node__links a, .node__links body.form-brown-lighten-2 a {
+body.form-brown-lighten-2 .btn {
   background-color: #a1887f; }
-  body.form-brown-lighten-2 .btn:hover, body.form-brown-lighten-2 .node__links a:hover, .node__links body.form-brown-lighten-2 a:hover {
+  body.form-brown-lighten-2 .btn:hover {
     background-color: #ac968e; }
 
 body.form-brown-lighten-2 .btn-floating {
@@ -19764,9 +19764,9 @@ body.secondary-brown-lighten-1 .switch label input[type=checkbox]:checked + .lev
 body.secondary-brown-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(141, 110, 99, 0.1); }
 
-body.form-brown-lighten-1 .btn, body.form-brown-lighten-1 .node__links a, .node__links body.form-brown-lighten-1 a {
+body.form-brown-lighten-1 .btn {
   background-color: #8d6e63; }
-  body.form-brown-lighten-1 .btn:hover, body.form-brown-lighten-1 .node__links a:hover, .node__links body.form-brown-lighten-1 a:hover {
+  body.form-brown-lighten-1 .btn:hover {
     background-color: #9a7b6f; }
 
 body.form-brown-lighten-1 .btn-floating {
@@ -19840,9 +19840,9 @@ body.secondary-brown-base .switch label input[type=checkbox]:checked + .lever:af
 body.secondary-brown-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(121, 85, 72, 0.1); }
 
-body.form-brown-base .btn, body.form-brown-base .node__links a, .node__links body.form-brown-base a {
+body.form-brown-base .btn {
   background-color: #795548; }
-  body.form-brown-base .btn:hover, body.form-brown-base .node__links a:hover, .node__links body.form-brown-base a:hover {
+  body.form-brown-base .btn:hover {
     background-color: #896052; }
 
 body.form-brown-base .btn-floating {
@@ -19916,9 +19916,9 @@ body.secondary-brown-darken-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-brown-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(109, 76, 65, 0.1); }
 
-body.form-brown-darken-1 .btn, body.form-brown-darken-1 .node__links a, .node__links body.form-brown-darken-1 a {
+body.form-brown-darken-1 .btn {
   background-color: #6d4c41; }
-  body.form-brown-darken-1 .btn:hover, body.form-brown-darken-1 .node__links a:hover, .node__links body.form-brown-darken-1 a:hover {
+  body.form-brown-darken-1 .btn:hover {
     background-color: #7d574b; }
 
 body.form-brown-darken-1 .btn-floating {
@@ -19992,9 +19992,9 @@ body.secondary-brown-darken-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-brown-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(93, 64, 55, 0.1); }
 
-body.form-brown-darken-2 .btn, body.form-brown-darken-2 .node__links a, .node__links body.form-brown-darken-2 a {
+body.form-brown-darken-2 .btn {
   background-color: #5d4037; }
-  body.form-brown-darken-2 .btn:hover, body.form-brown-darken-2 .node__links a:hover, .node__links body.form-brown-darken-2 a:hover {
+  body.form-brown-darken-2 .btn:hover {
     background-color: #6d4b40; }
 
 body.form-brown-darken-2 .btn-floating {
@@ -20068,9 +20068,9 @@ body.secondary-brown-darken-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-brown-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(78, 52, 46, 0.1); }
 
-body.form-brown-darken-3 .btn, body.form-brown-darken-3 .node__links a, .node__links body.form-brown-darken-3 a {
+body.form-brown-darken-3 .btn {
   background-color: #4e342e; }
-  body.form-brown-darken-3 .btn:hover, body.form-brown-darken-3 .node__links a:hover, .node__links body.form-brown-darken-3 a:hover {
+  body.form-brown-darken-3 .btn:hover {
     background-color: #5e3f37; }
 
 body.form-brown-darken-3 .btn-floating {
@@ -20144,9 +20144,9 @@ body.secondary-brown-darken-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-brown-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(62, 39, 35, 0.1); }
 
-body.form-brown-darken-4 .btn, body.form-brown-darken-4 .node__links a, .node__links body.form-brown-darken-4 a {
+body.form-brown-darken-4 .btn {
   background-color: #3e2723; }
-  body.form-brown-darken-4 .btn:hover, body.form-brown-darken-4 .node__links a:hover, .node__links body.form-brown-darken-4 a:hover {
+  body.form-brown-darken-4 .btn:hover {
     background-color: #4e312c; }
 
 body.form-brown-darken-4 .btn-floating {
@@ -20220,9 +20220,9 @@ body.secondary-blue-grey-lighten-5 .switch label input[type=checkbox]:checked + 
 body.secondary-blue-grey-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(236, 239, 241, 0.1); }
 
-body.form-blue-grey-lighten-5 .btn, body.form-blue-grey-lighten-5 .node__links a, .node__links body.form-blue-grey-lighten-5 a {
+body.form-blue-grey-lighten-5 .btn {
   background-color: #eceff1; }
-  body.form-blue-grey-lighten-5 .btn:hover, body.form-blue-grey-lighten-5 .node__links a:hover, .node__links body.form-blue-grey-lighten-5 a:hover {
+  body.form-blue-grey-lighten-5 .btn:hover {
     background-color: #fbfbfc; }
 
 body.form-blue-grey-lighten-5 .btn-floating {
@@ -20296,9 +20296,9 @@ body.secondary-blue-grey-lighten-4 .switch label input[type=checkbox]:checked + 
 body.secondary-blue-grey-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(207, 216, 220, 0.1); }
 
-body.form-blue-grey-lighten-4 .btn, body.form-blue-grey-lighten-4 .node__links a, .node__links body.form-blue-grey-lighten-4 a {
+body.form-blue-grey-lighten-4 .btn {
   background-color: #cfd8dc; }
-  body.form-blue-grey-lighten-4 .btn:hover, body.form-blue-grey-lighten-4 .node__links a:hover, .node__links body.form-blue-grey-lighten-4 a:hover {
+  body.form-blue-grey-lighten-4 .btn:hover {
     background-color: #dee4e7; }
 
 body.form-blue-grey-lighten-4 .btn-floating {
@@ -20372,9 +20372,9 @@ body.secondary-blue-grey-lighten-3 .switch label input[type=checkbox]:checked + 
 body.secondary-blue-grey-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(176, 190, 197, 0.1); }
 
-body.form-blue-grey-lighten-3 .btn, body.form-blue-grey-lighten-3 .node__links a, .node__links body.form-blue-grey-lighten-3 a {
+body.form-blue-grey-lighten-3 .btn {
   background-color: #b0bec5; }
-  body.form-blue-grey-lighten-3 .btn:hover, body.form-blue-grey-lighten-3 .node__links a:hover, .node__links body.form-blue-grey-lighten-3 a:hover {
+  body.form-blue-grey-lighten-3 .btn:hover {
     background-color: #bfcad0; }
 
 body.form-blue-grey-lighten-3 .btn-floating {
@@ -20448,9 +20448,9 @@ body.secondary-blue-grey-lighten-2 .switch label input[type=checkbox]:checked + 
 body.secondary-blue-grey-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(144, 164, 174, 0.1); }
 
-body.form-blue-grey-lighten-2 .btn, body.form-blue-grey-lighten-2 .node__links a, .node__links body.form-blue-grey-lighten-2 a {
+body.form-blue-grey-lighten-2 .btn {
   background-color: #90a4ae; }
-  body.form-blue-grey-lighten-2 .btn:hover, body.form-blue-grey-lighten-2 .node__links a:hover, .node__links body.form-blue-grey-lighten-2 a:hover {
+  body.form-blue-grey-lighten-2 .btn:hover {
     background-color: #9fb0b9; }
 
 body.form-blue-grey-lighten-2 .btn-floating {
@@ -20524,9 +20524,9 @@ body.secondary-blue-grey-lighten-1 .switch label input[type=checkbox]:checked + 
 body.secondary-blue-grey-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(120, 144, 156, 0.1); }
 
-body.form-blue-grey-lighten-1 .btn, body.form-blue-grey-lighten-1 .node__links a, .node__links body.form-blue-grey-lighten-1 a {
+body.form-blue-grey-lighten-1 .btn {
   background-color: #78909c; }
-  body.form-blue-grey-lighten-1 .btn:hover, body.form-blue-grey-lighten-1 .node__links a:hover, .node__links body.form-blue-grey-lighten-1 a:hover {
+  body.form-blue-grey-lighten-1 .btn:hover {
     background-color: #879ca7; }
 
 body.form-blue-grey-lighten-1 .btn-floating {
@@ -20600,9 +20600,9 @@ body.secondary-blue-grey-base .switch label input[type=checkbox]:checked + .leve
 body.secondary-blue-grey-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(96, 125, 139, 0.1); }
 
-body.form-blue-grey-base .btn, body.form-blue-grey-base .node__links a, .node__links body.form-blue-grey-base a {
+body.form-blue-grey-base .btn {
   background-color: #607d8b; }
-  body.form-blue-grey-base .btn:hover, body.form-blue-grey-base .node__links a:hover, .node__links body.form-blue-grey-base a:hover {
+  body.form-blue-grey-base .btn:hover {
     background-color: #6b8a99; }
 
 body.form-blue-grey-base .btn-floating {
@@ -20676,9 +20676,9 @@ body.secondary-blue-grey-darken-1 .switch label input[type=checkbox]:checked + .
 body.secondary-blue-grey-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(84, 110, 122, 0.1); }
 
-body.form-blue-grey-darken-1 .btn, body.form-blue-grey-darken-1 .node__links a, .node__links body.form-blue-grey-darken-1 a {
+body.form-blue-grey-darken-1 .btn {
   background-color: #546e7a; }
-  body.form-blue-grey-darken-1 .btn:hover, body.form-blue-grey-darken-1 .node__links a:hover, .node__links body.form-blue-grey-darken-1 a:hover {
+  body.form-blue-grey-darken-1 .btn:hover {
     background-color: #5e7c89; }
 
 body.form-blue-grey-darken-1 .btn-floating {
@@ -20752,9 +20752,9 @@ body.secondary-blue-grey-darken-2 .switch label input[type=checkbox]:checked + .
 body.secondary-blue-grey-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(69, 90, 100, 0.1); }
 
-body.form-blue-grey-darken-2 .btn, body.form-blue-grey-darken-2 .node__links a, .node__links body.form-blue-grey-darken-2 a {
+body.form-blue-grey-darken-2 .btn {
   background-color: #455a64; }
-  body.form-blue-grey-darken-2 .btn:hover, body.form-blue-grey-darken-2 .node__links a:hover, .node__links body.form-blue-grey-darken-2 a:hover {
+  body.form-blue-grey-darken-2 .btn:hover {
     background-color: #4f6873; }
 
 body.form-blue-grey-darken-2 .btn-floating {
@@ -20828,9 +20828,9 @@ body.secondary-blue-grey-darken-3 .switch label input[type=checkbox]:checked + .
 body.secondary-blue-grey-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(55, 71, 79, 0.1); }
 
-body.form-blue-grey-darken-3 .btn, body.form-blue-grey-darken-3 .node__links a, .node__links body.form-blue-grey-darken-3 a {
+body.form-blue-grey-darken-3 .btn {
   background-color: #37474f; }
-  body.form-blue-grey-darken-3 .btn:hover, body.form-blue-grey-darken-3 .node__links a:hover, .node__links body.form-blue-grey-darken-3 a:hover {
+  body.form-blue-grey-darken-3 .btn:hover {
     background-color: #41555e; }
 
 body.form-blue-grey-darken-3 .btn-floating {
@@ -20904,9 +20904,9 @@ body.secondary-blue-grey-darken-4 .switch label input[type=checkbox]:checked + .
 body.secondary-blue-grey-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(38, 50, 56, 0.1); }
 
-body.form-blue-grey-darken-4 .btn, body.form-blue-grey-darken-4 .node__links a, .node__links body.form-blue-grey-darken-4 a {
+body.form-blue-grey-darken-4 .btn {
   background-color: #263238; }
-  body.form-blue-grey-darken-4 .btn:hover, body.form-blue-grey-darken-4 .node__links a:hover, .node__links body.form-blue-grey-darken-4 a:hover {
+  body.form-blue-grey-darken-4 .btn:hover {
     background-color: #304047; }
 
 body.form-blue-grey-darken-4 .btn-floating {
@@ -20980,9 +20980,9 @@ body.secondary-grey-lighten-5 .switch label input[type=checkbox]:checked + .leve
 body.secondary-grey-lighten-5 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(250, 250, 250, 0.1); }
 
-body.form-grey-lighten-5 .btn, body.form-grey-lighten-5 .node__links a, .node__links body.form-grey-lighten-5 a {
+body.form-grey-lighten-5 .btn {
   background-color: #fafafa; }
-  body.form-grey-lighten-5 .btn:hover, body.form-grey-lighten-5 .node__links a:hover, .node__links body.form-grey-lighten-5 a:hover {
+  body.form-grey-lighten-5 .btn:hover {
     background-color: white; }
 
 body.form-grey-lighten-5 .btn-floating {
@@ -21056,9 +21056,9 @@ body.secondary-grey-lighten-4 .switch label input[type=checkbox]:checked + .leve
 body.secondary-grey-lighten-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(245, 245, 245, 0.1); }
 
-body.form-grey-lighten-4 .btn, body.form-grey-lighten-4 .node__links a, .node__links body.form-grey-lighten-4 a {
+body.form-grey-lighten-4 .btn {
   background-color: #f5f5f5; }
-  body.form-grey-lighten-4 .btn:hover, body.form-grey-lighten-4 .node__links a:hover, .node__links body.form-grey-lighten-4 a:hover {
+  body.form-grey-lighten-4 .btn:hover {
     background-color: white; }
 
 body.form-grey-lighten-4 .btn-floating {
@@ -21132,9 +21132,9 @@ body.secondary-grey-lighten-3 .switch label input[type=checkbox]:checked + .leve
 body.secondary-grey-lighten-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(238, 238, 238, 0.1); }
 
-body.form-grey-lighten-3 .btn, body.form-grey-lighten-3 .node__links a, .node__links body.form-grey-lighten-3 a {
+body.form-grey-lighten-3 .btn {
   background-color: #eeeeee; }
-  body.form-grey-lighten-3 .btn:hover, body.form-grey-lighten-3 .node__links a:hover, .node__links body.form-grey-lighten-3 a:hover {
+  body.form-grey-lighten-3 .btn:hover {
     background-color: #fbfbfb; }
 
 body.form-grey-lighten-3 .btn-floating {
@@ -21208,9 +21208,9 @@ body.secondary-grey-lighten-2 .switch label input[type=checkbox]:checked + .leve
 body.secondary-grey-lighten-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(224, 224, 224, 0.1); }
 
-body.form-grey-lighten-2 .btn, body.form-grey-lighten-2 .node__links a, .node__links body.form-grey-lighten-2 a {
+body.form-grey-lighten-2 .btn {
   background-color: #e0e0e0; }
-  body.form-grey-lighten-2 .btn:hover, body.form-grey-lighten-2 .node__links a:hover, .node__links body.form-grey-lighten-2 a:hover {
+  body.form-grey-lighten-2 .btn:hover {
     background-color: #ededed; }
 
 body.form-grey-lighten-2 .btn-floating {
@@ -21284,9 +21284,9 @@ body.secondary-grey-lighten-1 .switch label input[type=checkbox]:checked + .leve
 body.secondary-grey-lighten-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(189, 189, 189, 0.1); }
 
-body.form-grey-lighten-1 .btn, body.form-grey-lighten-1 .node__links a, .node__links body.form-grey-lighten-1 a {
+body.form-grey-lighten-1 .btn {
   background-color: #bdbdbd; }
-  body.form-grey-lighten-1 .btn:hover, body.form-grey-lighten-1 .node__links a:hover, .node__links body.form-grey-lighten-1 a:hover {
+  body.form-grey-lighten-1 .btn:hover {
     background-color: #cacaca; }
 
 body.form-grey-lighten-1 .btn-floating {
@@ -21360,9 +21360,9 @@ body.secondary-grey-base .switch label input[type=checkbox]:checked + .lever:aft
 body.secondary-grey-base input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(158, 158, 158, 0.1); }
 
-body.form-grey-base .btn, body.form-grey-base .node__links a, .node__links body.form-grey-base a {
+body.form-grey-base .btn {
   background-color: #9e9e9e; }
-  body.form-grey-base .btn:hover, body.form-grey-base .node__links a:hover, .node__links body.form-grey-base a:hover {
+  body.form-grey-base .btn:hover {
     background-color: #ababab; }
 
 body.form-grey-base .btn-floating {
@@ -21436,9 +21436,9 @@ body.secondary-grey-darken-1 .switch label input[type=checkbox]:checked + .lever
 body.secondary-grey-darken-1 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(117, 117, 117, 0.1); }
 
-body.form-grey-darken-1 .btn, body.form-grey-darken-1 .node__links a, .node__links body.form-grey-darken-1 a {
+body.form-grey-darken-1 .btn {
   background-color: #757575; }
-  body.form-grey-darken-1 .btn:hover, body.form-grey-darken-1 .node__links a:hover, .node__links body.form-grey-darken-1 a:hover {
+  body.form-grey-darken-1 .btn:hover {
     background-color: #828282; }
 
 body.form-grey-darken-1 .btn-floating {
@@ -21512,9 +21512,9 @@ body.secondary-grey-darken-2 .switch label input[type=checkbox]:checked + .lever
 body.secondary-grey-darken-2 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(97, 97, 97, 0.1); }
 
-body.form-grey-darken-2 .btn, body.form-grey-darken-2 .node__links a, .node__links body.form-grey-darken-2 a {
+body.form-grey-darken-2 .btn {
   background-color: #616161; }
-  body.form-grey-darken-2 .btn:hover, body.form-grey-darken-2 .node__links a:hover, .node__links body.form-grey-darken-2 a:hover {
+  body.form-grey-darken-2 .btn:hover {
     background-color: #6e6e6e; }
 
 body.form-grey-darken-2 .btn-floating {
@@ -21588,9 +21588,9 @@ body.secondary-grey-darken-3 .switch label input[type=checkbox]:checked + .lever
 body.secondary-grey-darken-3 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(66, 66, 66, 0.1); }
 
-body.form-grey-darken-3 .btn, body.form-grey-darken-3 .node__links a, .node__links body.form-grey-darken-3 a {
+body.form-grey-darken-3 .btn {
   background-color: #424242; }
-  body.form-grey-darken-3 .btn:hover, body.form-grey-darken-3 .node__links a:hover, .node__links body.form-grey-darken-3 a:hover {
+  body.form-grey-darken-3 .btn:hover {
     background-color: #4f4f4f; }
 
 body.form-grey-darken-3 .btn-floating {
@@ -21664,9 +21664,9 @@ body.secondary-grey-darken-4 .switch label input[type=checkbox]:checked + .lever
 body.secondary-grey-darken-4 input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(33, 33, 33, 0.1); }
 
-body.form-grey-darken-4 .btn, body.form-grey-darken-4 .node__links a, .node__links body.form-grey-darken-4 a {
+body.form-grey-darken-4 .btn {
   background-color: #212121; }
-  body.form-grey-darken-4 .btn:hover, body.form-grey-darken-4 .node__links a:hover, .node__links body.form-grey-darken-4 a:hover {
+  body.form-grey-darken-4 .btn:hover {
     background-color: #2e2e2e; }
 
 body.form-grey-darken-4 .btn-floating {
@@ -21740,9 +21740,9 @@ body.secondary-shades-black .switch label input[type=checkbox]:checked + .lever:
 body.secondary-shades-black input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.1); }
 
-body.form-shades-black .btn, body.form-shades-black .node__links a, .node__links body.form-shades-black a {
+body.form-shades-black .btn {
   background-color: #000000; }
-  body.form-shades-black .btn:hover, body.form-shades-black .node__links a:hover, .node__links body.form-shades-black a:hover {
+  body.form-shades-black .btn:hover {
     background-color: #0d0d0d; }
 
 body.form-shades-black .btn-floating {
@@ -21816,9 +21816,9 @@ body.secondary-shades-white .switch label input[type=checkbox]:checked + .lever:
 body.secondary-shades-white input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(255, 255, 255, 0.1); }
 
-body.form-shades-white .btn, body.form-shades-white .node__links a, .node__links body.form-shades-white a {
+body.form-shades-white .btn {
   background-color: #FFFFFF; }
-  body.form-shades-white .btn:hover, body.form-shades-white .node__links a:hover, .node__links body.form-shades-white a:hover {
+  body.form-shades-white .btn:hover {
     background-color: white; }
 
 body.form-shades-white .btn-floating {
@@ -21892,9 +21892,9 @@ body.secondary-shades-transparent .switch label input[type=checkbox]:checked + .
 body.secondary-shades-transparent input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px transparent; }
 
-body.form-shades-transparent .btn, body.form-shades-transparent .node__links a, .node__links body.form-shades-transparent a {
+body.form-shades-transparent .btn {
   background-color: transparent; }
-  body.form-shades-transparent .btn:hover, body.form-shades-transparent .node__links a:hover, .node__links body.form-shades-transparent a:hover {
+  body.form-shades-transparent .btn:hover {
     background-color: rgba(13, 13, 13, 0); }
 
 body.form-shades-transparent .btn-floating {
@@ -21913,9 +21913,9 @@ body {
   flex: 1; }
 
 @media only screen and (max-width: 600px) {
-  .btn.dropdown-button, .node__links a.dropdown-button {
+  .btn.dropdown-button {
     padding: 0 1rem; }
-    .btn.dropdown-button i.right, .node__links a.dropdown-button i.right {
+    .btn.dropdown-button i.right {
       margin-left: 0; } }
 
 .image-widget {
@@ -21927,9 +21927,6 @@ details.form-wrapper .input-field {
 details.form-wrapper label {
   margin-bottom: 30px;
   margin-top: 15px; }
-
-.main-content {
-  background: #f3f3f3; }
 
 #search-block-form {
   margin-top: 1.5em; }
@@ -22015,7 +22012,7 @@ li.menu-item.level-1 {
 
 footer.page-footer {
   margin-top: 0;
-  padding-top: 0; }
+  padding-top: 15px; }
   footer.page-footer .menu--footer a {
     color: #FFF; }
 
@@ -22049,11 +22046,12 @@ footer.page-footer {
   .views-row h2 {
     margin-top: 0; }
 
-.region-content {
-  margin-bottom: 3em;
-  margin-top: 2em;
-  padding: 3em;
-  padding-top: 0; }
+.node__links .btn {
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer; }
 
 .field__label {
   margin: 1em 0; }

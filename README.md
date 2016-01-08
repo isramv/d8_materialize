@@ -6,3 +6,5 @@ Implementation of materializecss.com into Drupal 8
 
 Once enabled configure blocks to the new regions.
 
+## Compatible with materializecss version: 0.97.5
+

@@ -40,10 +40,6 @@ details.form-wrapper {
   }
 }
 
-.main-content {
-  background: $color-main-content;
-}
-
 // Search form.
 #search-block-form {
   margin-top: 1.5em;
@@ -153,7 +149,7 @@ li.menu-item.level-1 {
 // Footer
 footer.page-footer {
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 15px;
   .menu--footer {
     a {
       color: #FFF;
@@ -201,17 +197,19 @@ footer.page-footer {
     margin-top: 0;
   }
 }
-.region-content {
-  margin-bottom: 3em;
-  margin-top: 2em;
-  padding: 3em;
-  padding-top: 0;
-  @extend .card;
-}
 
 .node__links {
-  a {
-    @extend .btn;
+  .btn {
+    text-decoration:none;
+    text-align: center;
+    letter-spacing: .5px;
+    @extend .z-depth-1;
+    transition: .2s ease-out;
+    cursor: pointer;
+
+    &:hover {
+      @extend .z-depth-1-half;
+    }
   }
 }
 
