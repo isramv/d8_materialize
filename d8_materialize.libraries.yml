@@ -3,25 +3,21 @@ materialize:
   header: true
   css:
     theme:
-      stylesheets/materialize.css: { scope: Footer }
+      vendor/materialize/css/materialize.min.css: {}
   js:
-    js/bin/materialize.js: {}
+    vendor/materialize/js/materialize.js: {}
   dependencies:
     - core/jquery
 
 d8_materialize_custom:
   version: 1.0
   header: true
+  css:
+    theme:
+      stylesheets/d8_materialize.css: {}
   js:
     js/d8_materialize/custom.js: { scope: Footer }
   dependencies:
     - core/jquery
     - core/jquery.once
     - core/drupal
-    - d8_materialize/velocity
-
-velocity:
-  version: 1.0
-  header: true
-  js:
-    js/velocity.min.js: { scope: Footer }

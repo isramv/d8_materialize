@@ -1,4 +1,7 @@
+@import "d8_materialize_variables";
+
 $color-main-content: #f3f3f3;
+
 $custom-color: color("teal", "lighten-2");
 
 // Sticky footer.
@@ -37,10 +40,6 @@ details.form-wrapper {
   }
 }
 
-.main-content {
-  background: $color-main-content;
-}
-
 // Search form.
 #search-block-form {
   margin-top: 1.5em;
@@ -48,6 +47,11 @@ details.form-wrapper {
     margin-top: 1em;
   }
 }
+
+.input-field input[type=search] {
+  padding-left: 0;
+}
+
 .search-form,
 .search-block-form {
   overflow: hidden;
@@ -68,6 +72,9 @@ details.form-wrapper {
   float: left;
   height: 30px;
   clear: both;
+}
+.form-type-textarea {
+  top: -2.2em;
 }
 
 // Account menu styles.
@@ -130,7 +137,7 @@ li.menu-item.level-1 {
 
 // Row l-header
 .row.l-header {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 // Branding Block
@@ -141,6 +148,8 @@ li.menu-item.level-1 {
 
 // Footer
 footer.page-footer {
+  margin-top: 0;
+  padding-top: 15px;
   .menu--footer {
     a {
       color: #FFF;
@@ -151,7 +160,6 @@ footer.page-footer {
 // Forms
 .description {
   margin-bottom: 30px;
-  color: $primary-color-light;
 }
 .input-field {
   margin-top: 3rem;
@@ -189,17 +197,19 @@ footer.page-footer {
     margin-top: 0;
   }
 }
-.region-content {
-  margin-bottom: 3em;
-  margin-top: 2em;
-  padding: 3em;
-  padding-top: 0;
-  @extend .card;
-}
 
 .node__links {
-  a {
-    @extend .btn;
+  .btn {
+    text-decoration:none;
+    text-align: center;
+    letter-spacing: .5px;
+    @extend .z-depth-1;
+    transition: .2s ease-out;
+    cursor: pointer;
+
+    &:hover {
+      @extend .z-depth-1-half;
+    }
   }
 }
 
@@ -209,4 +219,11 @@ footer.page-footer {
 }
 .field__items {
   margin: 1em 0;
+}
+
+//Ckeditor comments fix.
+.form-type-textarea.input-field {
+  label {
+    top: -2.2rem;
+  }
 }

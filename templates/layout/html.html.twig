@@ -19,29 +19,31 @@
  * - db_offline: A flag indicating if the database is offline.
  * - placeholder_token: The token for generating head, css, js and js-bottom
  *   placeholders.
+ * - primary_color: Will add the primary color class to the body if exists.
+ * - secondary_color: Will add the primary color class to the body if exists.
+ * - form_color: Will add the form color class to the body if exists.
+ * - d8_tempalte: Will add the class to the body if variable exists.
  *
  * @see template_preprocess_html()
  */
 #}
-{%
-set body_classes = [
+{% set body_classes = [
 logged_in ? 'user-logged-in',
 not root_path ? 'path-frontpage' : 'path-' ~ root_path|clean_class,
 node_type ? 'page-node-type-' ~ node_type|clean_class,
 db_offline ? 'db-offline',
-]
-%}
+] %}
 <!DOCTYPE html>
 <html{{ html_attributes }}>
 <head>
-    <head-placeholder token="{{ placeholder_token|raw }}">
-        <title>{{ head_title|safe_join(' | ') }}</title>
-        <css-placeholder token="{{ placeholder_token|raw }}">
-            <js-placeholder token="{{ placeholder_token|raw }}">
+  <head-placeholder token="{{ placeholder_token|raw }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token|raw }}">
+      <js-placeholder token="{{ placeholder_token|raw }}">
 </head>
-<body{{ attributes.addClass(body_classes).addClass(primary_color) }}>
+<body{{ attributes.addClass(body_classes).addClass(primary_color).addClass(secondary_color).addClass(form_color).addClass(d8_template) }}>
 <a href="#main-content" class="visually-hidden focusable skip-link">
-    {{ 'Skip to main content'|t }}
+  {{ 'Skip to main content'|t }}
 </a>
 {{ page_top }}
 {{ page }}

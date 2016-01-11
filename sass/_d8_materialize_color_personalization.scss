@@ -1,9 +1,4 @@
-
 // Utility Color Classes
-
-//.success {
-//
-//}
 
 // Google Color Palette defined: http://www.google.com/design/spec/style/color.html
 
@@ -387,7 +382,6 @@ $colors: (
 }
 
 @each $color_name, $color_array in $colors {
-
   @each $color_intensity, $color_code in $color_array {
     // Primary colors.
     body.#{"primary-"+$color_name+"-"+$color_intensity} {
@@ -419,6 +413,71 @@ $colors: (
       }
       .secondary-content {
         color: $color_code;
+      }
+      .dropdown-content {
+        li & > a, & > span {
+          color: $color_code;
+        }
+      }
+      //Radio fill color $radio-fill-color.
+      [type="radio"]:checked + label:after {
+        border: 2px solid $color_code;
+        background-color: $color_code;
+      }
+      [type="radio"].with-gap:checked + label:before {
+        border: 2px solid $color_code;
+      }
+      [type="radio"].with-gap:checked + label:after {
+        border: 2px solid $color_code;
+        background-color: $color_code;
+      }
+      [type="checkbox"]:checked {
+        + label:before {
+          border-right: 2px solid $color_code;
+          border-bottom: 2px solid $color_code;
+        }
+      }
+      [type="checkbox"]:indeterminate {
+        +label:before {
+          border-right: 2px solid $color_code;
+        }
+      }
+      input[type=range] + .thumb {
+        background-color: $color_code;
+        .value {
+          color: $color_code;
+        }
+      }
+      input[type=range]::-webkit-slider-thumb {
+        background-color: $color_code;
+      }
+      input[type=range]::-moz-range-thumb {
+        background: $color_code;
+      }
+      input[type=range]::-ms-thumb {
+        background: $color_code;
+      }
+      //Switches.
+      .switch label input[type=checkbox]:checked + .lever:after {
+        background-color: $color_code;
+      }
+      input[type=checkbox]:checked:not(:disabled) ~ .lever:active:after {
+        box-shadow: 0 1px 3px 1px rgba(0,0,0,.4), 0 0 0 15px transparentize($color_code, .9);
+      }
+    }
+    // Form colors.
+    body.#{"form-"+$color_name+"-"+$color_intensity} {
+      .btn {
+        background-color: $color_code;
+        &:hover {
+          background-color: lighten($color_code, 5%);
+        }
+      }
+      .btn-floating {
+        background-color: $color_code;
+      }
+      button:focus {
+        background-color: lighten($color_code, 4%);
       }
     }
 }}

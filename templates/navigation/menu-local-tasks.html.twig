@@ -14,13 +14,14 @@
  */
 #}
 {% if primary %}
-    <div class="row">
-        <h2 class="visually-hidden">{{ 'Primary tabs'|t }}</h2>
-        <div class="col s12">
-            <ul id="local-tasks" class="dropdown-content">
-                {{ primary }}
-            </ul>
-            <a class="btn dropdown-button" href="#!" data-activates="local-tasks">{{ "Actions" |t }}<i class="mdi-navigation-arrow-drop-down right"></i></a>
-        </div>
+  <div class="row">
+    <h2 class="visually-hidden">{{ 'Primary tabs'|t }}</h2>
+    <div class="col s12">
+      <ul id="local-tasks" class="dropdown-content">
+        {{ primary }}
+      </ul>
+      <a class="btn dropdown-button" href="#!" data-activates="local-tasks">{{ "Actions" |t }}<i
+          class="mdi-navigation-arrow-drop-down right"></i></a>
     </div>
+  </div>
 {% endif %}
