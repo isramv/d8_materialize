@@ -14,4 +14,23 @@ function d8_materialize_preprocess_html(&$variables)
     . "-" . theme_get_setting('secondary_color_intensity');
   $variables['form_color'] = "form-" . theme_get_setting('form_color')
     . "-" . theme_get_setting('form_color_intensity');
+
+  $template = theme_get_setting('d8_template');
+  if($template != 'default') {
+    $variables['d8_template'] = 'd8_' . $template;
+  }
+}
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function d8_materialize_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  $path_matcher = Drupal::service('path.matcher'); // Using core services.
+  $suggestion_theme_settings = theme_get_setting('d8_template');
+  if($suggestion_theme_settings != 'default') {
+    if($path_matcher->isFrontPage()) {
+      $suggestions[] = $variables['theme_hook_original'] . '__front__d8__' . $suggestion_theme_settings;
+    }
+    $suggestions[] = $variables['theme_hook_original'] . '__d8__' . $suggestion_theme_settings;
+  }
+  return $suggestions;
 }

@@ -1,0 +1,56 @@
+<nav class="top-nav">
+  <div class="container">
+    <div class="row l-header">
+      {% if page.header_left %}
+        <div class="col s6">
+          {{ page.header_left }}
+        </div>
+      {% endif %}
+      {% if page.header_right %}
+        <div class="col s6">
+          {{ page.header_right }}
+        </div>
+      {% endif %}
+    </div>
+    {% if page.navigation %}
+      <div class="row l-navigation">
+        <div class="col s12">
+          {{ page.navigation }}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</nav>
+{# Removed all the markups for rendering content directly #}
+<div class="main-content">
+    {% if page.content %}
+          {{ page.content }}
+    {% endif %}
+</div>
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        {% if page.footer_left %}
+          {{ page.footer_left }}
+        {% endif %}
+      </div>
+      <div class="col l6 s12">
+        {% if page.footer_right %}
+          {{ page.footer_right }}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      {% if page.footer_bottom %}
+        <div class="row l-footer">
+          <div class="col s12">
+            {{ page.footer_bottom }}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</footer>

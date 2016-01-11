@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+// Templates
+
+// Blog
+@import "d8_materialize_blog_template";
+
 // Variables.
 @import "d8_materialize_variables";
 
@@ -11,3 +16,4 @@
 
 // Custom Styling.
 @import "d8_materialize_custom_styles";
+

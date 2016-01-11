@@ -109,5 +109,25 @@ function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $f
     '#options' => $intensity,
     '#weight' => -10,
   );
+  // Template settings test.
+  $template_options = array(
+    'default' => 'default',
+    'single_page' => 'single_page', // This template will remove all the container from the page template.
+    'blog' => 'blog' // This is going to create a page post template and add padding and shadow to the page container.
+  );
+  $form['page_twig_template'] = array(
+    '#type' => 'details',
+    '#title' => \Drupal::translation()->translate('Chose template'),
+    '#wight' => -9,
+    '#open' => TRUE,
+  );
+  $form['page_twig_template']['d8_template'] = array(
+    '#type' => 'select',
+    '#title' => \Drupal::translation()->translate('Form color selector'),
+    '#default_value' => theme_get_setting('d8_template'),
+    '#description' => \Drupal::translation()->translate('Please select the form elements color'),
+    '#options' => $template_options,
+  );
+
 }
 
