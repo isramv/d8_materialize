@@ -41,8 +41,7 @@
       left: 15px; }
   .d8_blog.page-node-type-article article,
   .d8_blog.page-node-type-article .contextual-region {
-    padding: 0 2em;
-    padding-bottom: 2em; }
+    padding: 0 2em; }
   .d8_blog .block-page-title-block {
     background-size: cover;
     background-position-y: 30%; }
@@ -1133,6 +1132,10 @@
     .d8_blog img {
       width: 100%;
       height: auto; } }
+  .d8_blog article.profile {
+    padding: 0; }
+  .d8_blog article.node.node--type-article {
+    padding-bottom: 2em; }
 
 /*** Global ***/
 .toolbar nav {

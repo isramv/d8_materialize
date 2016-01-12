@@ -16,7 +16,6 @@
     -moz-box-shadow: 0 0 13px 1px rgba(166,166,166,1);
     box-shadow: 0 0 13px 1px rgba(166,166,166,1);
   }
-
   &.page-node-type-article {
     .region-content {
       padding: 0;
@@ -29,14 +28,11 @@
         left: 15px;
       }
     }
-    
     article,
     .contextual-region {
       padding: 0 2em;
-      padding-bottom: 2em;
     }
   }
-
   .block-page-title-block {
     background-size: cover;
     background-position-y: 30%;
@@ -57,7 +53,15 @@
       height: auto;
     }
   }
-
+  // Article styles.
+  article {
+    &.profile {
+      padding: 0;
+    }
+    &.node.node--type-article {
+        padding-bottom: 2em;
+    }
+  }
 }
 
 
