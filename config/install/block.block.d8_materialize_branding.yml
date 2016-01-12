@@ -9,7 +9,7 @@ dependencies:
 id: d8_materialize_branding
 theme: d8_materialize
 region: header_left
-weight: -7
+weight: -8
 provider: null
 plugin: system_branding_block
 settings:
