@@ -1,3 +1,9 @@
+.path-frontpage.d8_blog {
+  .region-content {
+    padding-top: 0;
+  }
+}
+
 .d8_blog {
   .main-content {
     background: #f2f2f2;
@@ -10,4 +16,50 @@
     -moz-box-shadow: 0 0 13px 1px rgba(166,166,166,1);
     box-shadow: 0 0 13px 1px rgba(166,166,166,1);
   }
+
+  &.page-node-type-article {
+    .region-content {
+      padding: 0;
+    }
+
+    h1 {
+      height: 200px;
+      span {
+        bottom: 15px;
+        left: 15px;
+      }
+    }
+    
+    article,
+    .contextual-region {
+      padding: 0 2em;
+    }
+  }
+
+  .block-page-title-block {
+    background: #f3f3f3;
+  }
+  .block-page-title-block {
+    background-size: cover;
+    background-position-y: 30%;
+
+    h1 {
+      span.field--name-title {
+        color: #ffffff;
+        text-shadow: 0 3px 10px #000000;
+      }
+    }
+  }
+  // Img.
+  @import "../vendor/source/materialize-src/sass/components/color";
+  @import "../vendor/source/materialize-src/sass/components/variables";
+  @media #{$small-and-down} {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
 }
+
+
