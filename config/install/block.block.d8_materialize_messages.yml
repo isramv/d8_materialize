@@ -8,8 +8,8 @@ dependencies:
     - d8_materialize
 id: d8_materialize_messages
 theme: d8_materialize
-region: header_left
-weight: -6
+region: content
+weight: -7
 provider: null
 plugin: system_messages_block
 settings:
