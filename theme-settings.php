@@ -1,14 +1,14 @@
 <?php
+
 /**
- * @param $form
- * @param $form_state
- * @param null $form_id
- *
- * Sets the configuration for the color schema.
- *
+ * @file
+ * Provides specific settings for the d8_materialize theme.
  */
-function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $form_id = NULL)
-{
+
+/**
+ * Implements hook_form_system_theme_settings_alter().
+ */
+function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $form_id = NULL) {
   $colors = array(
     'materialize-red' => 'materialize-red',
     'red' => 'red',
@@ -109,11 +109,10 @@ function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $f
     '#options' => $intensity,
     '#weight' => -10,
   );
-  // Template settings test.
   $template_options = array(
     'default' => 'default',
-    'single_page' => 'single_page', // This template will remove all the container from the page template.
-    'blog' => 'blog' // This is going to create a page post template and add padding and shadow to the page container.
+    'single_page' => 'single_page',
+    'blog' => 'blog',
   );
   $form['page_twig_template'] = array(
     '#type' => 'details',
@@ -128,6 +127,4 @@ function d8_materialize_form_system_theme_settings_alter(&$form, $form_state, $f
     '#description' => \Drupal::translation()->translate('Please select the form elements color'),
     '#options' => $template_options,
   );
-
 }
-

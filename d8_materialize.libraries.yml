@@ -14,7 +14,7 @@ d8_materialize_custom:
   header: true
   css:
     theme:
-      stylesheets/d8_materialize.css: {}
+        stylesheets/d8_materialize.css: {}
   js:
     js/d8_materialize/custom.js: { scope: Footer }
   dependencies:

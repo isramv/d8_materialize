@@ -8,8 +8,7 @@ use Drupal\node\Entity\NodeType;
  * Adds classes to the body element to change the color schema of the page.
  *
  */
-function d8_materialize_preprocess_html(&$variables)
-{
+function d8_materialize_preprocess_html(&$variables) {
   $variables['primary_color'] = "primary-" . theme_get_setting('primary_color')
     . "-" . theme_get_setting('primary_color_intensity');
   $variables['secondary_color'] = "secondary-" . theme_get_setting('secondary_color')
@@ -30,6 +29,7 @@ function d8_materialize_preprocess_html(&$variables)
 function d8_materialize_preprocess(&$variables, $hook, $info) {
   // Page title.
   if($hook == 'block') {
+    $block_config = Drupal::config('block.block');
     $node = \Drupal::request()->attributes->get('node');
     if(isset($node->field_image)) {
       if(theme_get_setting('d8_template') == 'blog') {
