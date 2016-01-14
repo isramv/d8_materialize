@@ -1,3 +1,8 @@
+/**
+ * @file
+ * Gulp file to compile the SASS files into CSS.
+ */
+
 'use strict';
 
 var gulp = require('gulp');
