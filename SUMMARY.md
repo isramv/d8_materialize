@@ -1,4 +1,4 @@
 # Summary
 
-* Getting started
+* [Getting started](getting_started.md)
 
