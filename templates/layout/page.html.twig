@@ -2,19 +2,19 @@
   <div class="container">
     <div class="row l-header">
       {% if page.header_left %}
-        <div class="col s6">
+        <div class="col s12 m6 l6">
           {{ page.header_left }}
         </div>
       {% endif %}
       {% if page.header_right %}
-        <div class="col s6">
+        <div class="col s12 m6 l6">
           {{ page.header_right }}
         </div>
       {% endif %}
     </div>
     {% if page.navigation %}
       <div class="row l-navigation">
-        <div class="col s12">
+        <div class="col s12 m12 l12">
           {{ page.navigation }}
         </div>
       </div>
@@ -23,7 +23,17 @@
 </nav>
 <div class="main-content">
   <div class="container">
-    {% if page.content %}
+    {% if page.sidebar and page.content %}
+      <div class="row l-content-full">
+        <div class="col s12 m3 l3">
+          {{ page.sidebar }}
+        </div>
+        <div class="col s12 m9 l9">
+          {{ page.content }}
+        </div>
+      </div>
+    {% endif %}
+    {% if page.content and page.sidebar|length == 0 %}
       <div class="row l-content-full">
         <div class="col s12">
           {{ page.content }}

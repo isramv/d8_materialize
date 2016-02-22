@@ -2,7 +2,7 @@ name: d8_materialize
 type: theme
 description: Drupal 8 Materialize
 package: Custom
-base theme: classy
+base theme: false
 core: 8.x
 version: 1.0
 
@@ -12,16 +12,17 @@ libraries:
   - d8_materialize/d8_materialize_custom
 
 stylesheets-remove:
-  - core/assets/vendor/jquery.ui/themes/base/core.css
-  - core/assets/vendor/jquery.ui/themes/base/button.css
-  - core/assets/vendor/jquery.ui/themes/base/resizable.css
-  - core/assets/vendor/jquery.ui/themes/base/dialog.css
-  - core/assets/vendor/normalize-css/normalize.css
-  - core/modules/system/css/components/container-inline.module.css
-  - core/modules/editor/css/editor.css
-  - '@classy/css/components/tabs.css'
-  - '@classy/css/components/form.css'
-  - '@classy/css/components/details.css'
+#  - '@stable/*'
+#  - core/assets/vendor/jquery.ui/themes/base/core.css
+#  - core/assets/vendor/jquery.ui/themes/base/button.css
+#  - core/assets/vendor/jquery.ui/themes/base/resizable.css
+#  - core/assets/vendor/jquery.ui/themes/base/dialog.css
+#  - core/assets/vendor/normalize-css/normalize.css
+#  - core/modules/system/css/components/container-inline.module.css
+#  - core/modules/editor/css/editor.css
+#  - '@classy/css/components/tabs.css'
+#  - '@classy/css/components/form.css'
+#  - '@classy/css/components/details.css'
 
 regions:
   header_left: 'Header Left'

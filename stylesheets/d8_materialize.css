@@ -1,3 +1,6 @@
+.branding-block {
+  padding-top: 10px; }
+
 .path-frontpage.d8_blog .region-content {
   padding-top: 0; }
 
@@ -25,6 +28,8 @@
   /* Progress Bar */ }
   .d8_blog .main-content {
     background: #f2f2f2; }
+    .d8_blog .main-content .views-row {
+      padding-bottom: 4rem; }
   .d8_blog .region-content {
     background: #ffffff;
     padding: 2em;
@@ -40,7 +45,7 @@
       bottom: 15px;
       left: 15px; }
   .d8_blog.page-node-type-article article,
-  .d8_blog.page-node-type-article .contextual-region {
+  .d8_blog.page-node-type-article .main-content .contextual-region {
     padding: 0 2em; }
   .d8_blog .block-page-title-block {
     background-size: cover;
@@ -1128,10 +1133,6 @@
     background-color: transparent !important; }
   .d8_blog .transparent-text {
     color: transparent !important; }
-  @media only screen and (max-width: 600px) {
-    .d8_blog img {
-      width: 100%;
-      height: auto; } }
   .d8_blog article.profile {
     padding: 0; }
   .d8_blog article.node.node--type-article {
@@ -23180,10 +23181,8 @@ footer.page-footer {
   line-height: initial;
   font-size: 2em; }
 
-.views-row {
-  padding-bottom: 4em; }
-  .views-row h2 {
-    margin-top: 0; }
+.views-row h2 {
+  margin-top: 0; }
 
 .node__links .btn {
   text-decoration: none;

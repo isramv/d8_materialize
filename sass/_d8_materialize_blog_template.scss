@@ -7,6 +7,9 @@
 .d8_blog {
   .main-content {
     background: #f2f2f2;
+    .views-row {
+      padding-bottom: 4rem;
+    }
   }
   .region-content {
     background: #ffffff;
@@ -29,7 +32,7 @@
       }
     }
     article,
-    .contextual-region {
+    .main-content .contextual-region {
       padding: 0 2em;
     }
   }
@@ -47,12 +50,6 @@
   // Img.
   @import "../vendor/source/materialize-src/sass/components/color";
   @import "../vendor/source/materialize-src/sass/components/variables";
-  @media #{$small-and-down} {
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
   // Article styles.
   article {
     &.profile {

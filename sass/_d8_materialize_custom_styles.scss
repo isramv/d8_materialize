@@ -1,7 +1,6 @@
 @import "d8_materialize_variables";
 
 $color-main-content: #f3f3f3;
-
 $custom-color: color("teal", "lighten-2");
 
 // Sticky footer.
@@ -192,7 +191,6 @@ footer.page-footer {
 }
 //Views row default
 .views-row {
-  padding-bottom: 4em;
   h2 {
     margin-top: 0;
   }
